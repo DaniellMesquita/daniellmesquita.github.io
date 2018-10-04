@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/daniell
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://daniell.keybase.pub
+  * I am daniell (https://keybase.io/daniell) on keybase.
+  * I have a public key ASAH3CnaHHVFDpui4ROE_t0aTt6HHKVfCxZkNhkKqRB4wAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101ed840854a38aa36624bb666b0581df8569b7b5b6145aee7f4c2629bdd60a11b60a",
+      "host": "keybase.io",
+      "kid": "012007dc29da1c75450e9ba2e11384fedd1a4ede871ca55f0b166436190aa91078c00a",
+      "uid": "0fa1c2f956485293a3d02402be77ad19",
+      "username": "daniell"
+    },
+    "merkle_root": {
+      "ctime": 1538619522,
+      "hash": "dfcbdc355ae98341ad476f66e3ecade5d9fc6be158d299959d0aad5d82b01e3d8f5ad20fdc09b6779f52d8fb92cbf979bdef6825c25b018d43d29103fe1fd6f9",
+      "hash_meta": "485053ebcdaa7f7fc0d38f31f4c427e9faabffafbf1fc7d8b2ef2e5640720cb0",
+      "seqno": 3740992
+    },
+    "service": {
+      "entropy": "4PAkNFYVXuc4Gt7TkkXb2xVl",
+      "hostname": "daniell.keybase.pub",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.6.2"
+  },
+  "ctime": 1538619584,
+  "expire_in": 504576000,
+  "prev": "b2b05e54cfdc0d1b82038214cae62066478574135a2dd9fac34a02cb7208d35c",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgB9wp2hx1RQ6bouEThP7dGk7ehxylXwsWZDYZCqkQeMAKp3BheWxvYWTESpcCFMQgsrBeVM/cDRuCA4IUyuYgZkeFdBNaLdn6w0oCy3II01zEIEKSwLuAXo/NOdTStTnx/Escr/dAGd11c0RKQSDFXPSbAgHCo3NpZ8RA+nMlt+Unrpz3M/5A6r5QOzxvEJ+eVn9D6HwUdASvLlz1OXMovoVjPQ29O7fB8ExVpLLE6SknpyXwl7JH8lrGBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMRY+qbCKqX1W7448FL6B8J8hYdQh5s4pFCNEXidiNEto3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/daniell
+
+==================================================================
