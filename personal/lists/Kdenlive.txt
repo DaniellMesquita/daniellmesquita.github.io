@@ -1,0 +1,6 @@
+Kdenlive is the best open-source video editor, that also supports proxy editting
+https://kdenlive.org/
+(ZeroNet mirror not available yet)
+
+Maybe, for size reasons, Kdenlive is not built-in with Floflis OS, but Pitivi editor is
+But users will have incentives to download 

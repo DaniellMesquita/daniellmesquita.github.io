@@ -1,0 +1,7 @@
+I support the open-source computing kernel, Linux:
+https://www.linux.org/
+(ZeroNet mirror not available yet)
+
+I support the open-source operating system based on Debian/Linux, Floflis:
+ZeroNet: floflis.bit
+Clearnet: floflis.github.io

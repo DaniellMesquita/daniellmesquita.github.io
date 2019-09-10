@@ -1,0 +1,12 @@
+NodeJS enables JavaScript to have advanced code for web servers (could replace PHP) and even operating system, with shell power of native apps
+https://nodejs.org/en/ (ZeroNet mirror not available yet)
+
+With Electron, you can program apps with JavaScript (based on NodeJS, also supporting its modules) to work on Windows, Linux, MacOS and others
+https://electronjs.org/ (ZeroNet mirror not available yet)
+
+Like Electron, with Cordova you can program apps With JavaScript to work on Android, iOS, and others
+https://cordova.apache.org/ (ZeroNet mirror not available yet)
+Service to build Cordova apps:
+https://monaca.io/ (ZeroNet equivalent is not available yet)
+
+Both NodeJS, Electron and Cordova are already built-in with Floflis OS

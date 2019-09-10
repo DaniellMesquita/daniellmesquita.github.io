@@ -1,0 +1,7 @@
+CJDNS (better when using with ZeroNet, for a true decentralized Internet) enables people to be their own ISP (Internet Service Provider)
+https://github.com/cjdelisle/cjdns
+(ZeroNet mirror not available yet)
+
+Currently there is Yggdrasil, that is a more scalable alternative to CJDNS
+
+CJDNS is already built-in with Floflis OS

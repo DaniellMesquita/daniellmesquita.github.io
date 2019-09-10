@@ -1,0 +1,8 @@
+OpenPGP enables you to have a digital signature to proof that is you that did a thing
+https://www.openpgp.org/ (ZeroNet mirror not available yet)
+
+Keybase is a site containing your social networks/profiles, with PGP signature proofing that it is yours
+https://keybase.io/ (ZeroNet mirror not available yet)
+
+Problem of Keybase: centralized and manipulated
+Problem of OpenPGP: its crypto is not quantum resistant

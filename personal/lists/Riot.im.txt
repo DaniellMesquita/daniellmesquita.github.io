@@ -1,0 +1,7 @@
+Riot.im is a open-source federated chat, using JavaScript instead of PHP, and thanks to it Riot can be ported to ZeroNet, to be from federated to a true distributed/decentralized instant messenger
+It supports chat groups and uses bridges, which enables integration/communication with other platforms
+
+http://riot.im
+(ZeroNet mirror not available yet)
+
+Riot.im is already built-in with Floflis OS

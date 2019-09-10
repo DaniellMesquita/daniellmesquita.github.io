@@ -1,0 +1,5 @@
+Firefox is a open-source web browser
+https://www.mozilla.org/firefox/new/
+(ZeroNet equivalent, that is Internet Boat, not available yet)
+
+Firefox is already built-in with Floflis OS

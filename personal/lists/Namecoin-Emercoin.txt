@@ -1,0 +1,11 @@
+Namecoin is based on Namecoin, and supports decentralized DNS with .bit domains, that can contain data registered on transactions
+https://namecoin.org/
+(ZeroNet mirror not available yet)
+
+Emercoin is based on Namecoin, but supports more domain extensions (and doesn't supports .bit domains) and haves lots of decentralized services, such as torrent trackers, VoIp, etc)
+https://emercoin.com/
+(ZeroNet mirror not available yet)
+
+Note: an Emercoin member seemed to be open to contribute to ZeroNet, but ZN users did lots of hates. The weird thing is that most ZeroNet users seems to hate cryptocurrencies, but they approves Namecoin, that already had centralization polemics
+
+Namecoin (lightweight version without big blockchain) is already built-in with Floflis OS, and soon Emercoin will also be pre-installed
