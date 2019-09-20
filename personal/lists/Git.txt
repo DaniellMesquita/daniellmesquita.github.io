@@ -1,0 +1,7 @@
+Git is a version management system, used for teams to tag modifications/changes in a project.
+https://git-scm.com/ (ZeroNet mirror not available yet)
+
+Git LFS makes your repo lightweight even when you have compressed files (DOCX/PPTX) or media files, and other binaries
+https://git-lfs.github.com/ (ZeroNet mirror not available yet)
+
+Both Git and LFS are already built-in with Floflis OS

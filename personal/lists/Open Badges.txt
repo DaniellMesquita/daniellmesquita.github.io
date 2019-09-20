@@ -1,0 +1,8 @@
+Open Badges are digital verifiable badges, useful for trustworthy digital achievements, diplomas, etc.
+Clearnet: https://openbadges.org/
+ZeroNet: http://127.0.0.1:43110/openbadges.bit or http://127.0.0.1:43110/1BADG9qxQBGDgiDuHzeFMiwLNVcVoZi7c1
+
+todo:
+awesome list
+
+Floflis OS gives open badges according to user progress on the OS and their built-in computing courses!

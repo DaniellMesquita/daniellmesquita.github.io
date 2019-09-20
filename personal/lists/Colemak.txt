@@ -1,0 +1,7 @@
+I support the best computing keyboard layout, Colemak:
+
+https://colemak.com/
+(ZeroNet mirror not available yet)
+
+Soon I'll create a video teaching about Colemak and my adventures trying it, and help the colemak_pt-br layout
+Also, I need to help users to use it on my OS Floflis, and let them earn open-badges by learning it

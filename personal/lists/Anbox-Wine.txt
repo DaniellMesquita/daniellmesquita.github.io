@@ -1,0 +1,9 @@
+Android app loader for Linux, Anbox:
+https://anbox.io/
+(ZeroNet mirror not available yet)
+
+Windows program loader for Linux, Wine:
+https://www.winehq.org/
+(ZeroNet mirror not available yet)
+
+Both Anbox and Wine are already built-in on Floflis OS

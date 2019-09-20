@@ -1,0 +1,5 @@
+OBS Studio is the best opens-source screen recorder and live streamming coder/manager
+https://obsproject.com/download
+(ZeroNet mirror not available yet)
+
+OBS Studio is already built-in with Floflis OS
