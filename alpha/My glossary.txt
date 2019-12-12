@@ -1,0 +1,2 @@
+.nostalgit
+Git repositories which only serves for nostalgy/archiving.
