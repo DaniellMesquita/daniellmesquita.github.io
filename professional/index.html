@@ -206,9 +206,9 @@ Same content, linked in any place, also integrated with Plugzle. Same post/issue
 <p>- Burn USDT, TUSD, and USDC for draw new nDai</p>
 <p>- Swap DAI and draw new nDai (needs good algorithm for liquidity pool, maybe use UniSwap)</p>
 <hr/>
-<li><b>jsGB</b> - fork from the best GameBoy emulator (even being in JS, passes in tests where native emulators don't) with support for web (PWA), desktop (Electron), mobile (Cordova) and even old phones with KaiOS. Could also be ported to C++/Rust using Eventoj app.</li>
+<li><b>jsGB</b> - fork from the best GameBoy emulator (even being in JS, passes in tests where native emulators don't) with support for web (PWA), desktop (Electron/Ultralight Muon), mobile (Cordova) and even old phones with KaiOS. Could also be ported to C++/Rust using Eventoj app.</li>
 <hr/>
-<li><b>Universav</b> - JS multi-platform and full-featured game save editors for a wide variety of console games. Initiated by Universav Poké, a already working GB save reader for Pokémon original titles.</li>
+<li><b>Universav</b> - JS multi-platform and full-featured game save editors for a wide variety of console games. Initiated by Universav Poké, a already working GB save reader for Pokémon original GB titles.</li>
 <li>Smart-contract for app/game/media ownership. For example, buy a game DVD and have it proven as a NFT in your Ethereum address.</li>
 <li><b><a href="https://ipfs.io/ipfs/QmNgoio3XRjpyACjTrW3CJX6qLgZubt9dMX1Yv8VVisn5n/" target="blank"></a>USV</b> - future-proof video container for the decentralized web. Support smart/interactive videos. Unlike MKV, it is specified for getting sources from external hash files in decentralized networks.</li>
 <li><b>IPinFS</b> IPFS client for Pinata. First, add API keys, then they are saved in webstorage. Pin a file, and it gets listed also in browser's local storage. Should also support other pin services, and have a Electron/Cordova app for local pinning.</li>
@@ -223,8 +223,8 @@ Same content, linked in any place, also integrated with Plugzle. Same post/issue
 <p>Use classical DVDs and make them self-upgradeable using git. A video can be played by doing git checkout, and can be updated using UDF sequential writing for syncing with git. Make optical discs great again (honestly great, unlike what Trump did against America).</p>
 <li><b>Notepad++ replacement</b> written in JS, can be easily ported to native language. With true session management. Instead of storing lots of file copies for backup, version each in git.</li>
 <li><b>Decentralized map of crypto ATMs</b> - use LeafLeetJS for maps and OrbitDB/pubsub (with antiSPAM/WoT) for adding new locations</li>
-<li><b>Full Windows Backuper app</b> - backup from stickynotes to user's own fonts. Use Ultralight/Muon instead of Electron. As app or bootable OS.</li>
-<li><b>UDF 3.0</b> - based in ZFS.</li>
+<li><b>Full Windows Backuper app</b> - backup from stickynotes to user's own fonts. Use Ultralight/Muon instead of Electron. As app or bootable OS. Useful for migrating to Linux.</li>
+<li><b>UDF 3.0</b> - based in ZFS. Use git/pijul/ipfs/common bytes for deduplication. Support full-disc compression and encryption (use pointers to not conflict between encryption and deduplication).</li>
 <li><b>Soundless cars</b> - when a vending car is in a street, send alerts to nearby phones. User can disable all notifications or only specific ones.</li>
 <li><b>Freedows (<a href="https://ipfs.io/ipfs/QmUUp9LpEtwtVch792L7Yjxz6kCDWc7vZfQkN8aMveEy6S" target="blank">commit a377f0f4ea163f3974db452a5cbf1cd1308ea384</a>)</b> - they will keep using Windows while saying f&ck Linux. Make Windows free and lib.</li>
 <li><b>Duniter spec</b> - QRL <> Dun <> ETH snapshots</li>
@@ -234,6 +234,7 @@ Same content, linked in any place, also integrated with Plugzle. Same post/issue
 <p>- prebuilt bins</p>
 <p>- Windows installer</p>
 <p>- DAO</p>
+<p>Supports YouNet, for interoperability with Yggdrasil</p>
 <li><b>SHAQ</b> - evolution of SHAKE256, but slower to compute</li>
 <p>- webapp for generating full hash</p>
 <p>- CLI for verify</p>
@@ -241,10 +242,12 @@ Same content, linked in any place, also integrated with Plugzle. Same post/issue
 <p>- small display, and it not only gets first and last characters, but also others in specific positions</p>
 <li><b>GFS</b> - next-gen filesystem.</li>
 <p>- deduplication using git/pijul/ipfs/common bytes</p>
+<p>- full-disk compression and encryption (use pointers to not conflict between encryption and deduplication)</p>
 <p>- features of F2FS</p>
 <p>- support HDD flash assistant</p>
 <p>- support UDF</p>
 <p>- prevent data corruption</p>
+<li><b>omniTorrent</b> - simply called oTorrent in its desktop/start icons. Based on WebTorrent. Works on any platform: web, browser extension, desktop, mobile, KaiOS. Use IPLD for download/seed from both Bitorrent and IPFS, even from web. IPFS links can include peers, like .torrent/magnet haves.</li>
 </ul>
 <h2>Jobs</h2>
 <h3>Bounty campaigns</h3>
