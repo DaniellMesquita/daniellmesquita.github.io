@@ -1,5 +1,0 @@
-QRL (Quantum Resistant Ledger) is the first and currently ONLY cryptocurrency that is resistant to quantum computing, and also supports other tokens inside the platform
-https://theqrl.org/
-(ZeroNet mirror not available yet)
-
-QRL is already built-in with Floflis OS
