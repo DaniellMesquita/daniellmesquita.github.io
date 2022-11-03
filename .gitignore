@@ -1,0 +1,6 @@
+*.pptx@git/
+*.pptx
+node_modules
+*.log
+**/.DS_Store
+Thumbs.db
