@@ -1,0 +1,35 @@
+commit Qmbaru6V4gNQnxqbXDMUrk3MAT6xbhGknd6u4Pf9vRE91r
+Branch: main
+Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
+Signature: f3b620ddfa485dca0ffa7004044d6a557c4af4d489a0901139de02fd9ba5b0726d50c8fa52bffec1cda48cda77241bcb2ec117cca486e0930e62ea0892636e5401
+
+------------------------------
+
+Commit CID if including git's SHA1: QmQx2SFdkCiuEZ4zF6vSkrUSbBGh2G8Q5zKKotkVkiZE3v
+Commit CID if containing only file hashes: QmeXxfWbvgG6jQcJivPdjkTp7vHr6eVDsayuEZKKaAmjrL
+
+------------------------------
+
+.gitmeta version: r8
+Local folder: /media/daniella/Windows 10 main/Users/Daniell/Desktop/CrossOSTasks/Windows/at Seagate rmv the original bc the up-to-date will be this/Seagate Expansion Drive-1-personal-site
+Remote Name: 6tb-bkp
+Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/daniella/SeagateExpansionDrive/1/personal/site
+
+------------------------------
+
+chown -h 1000:1000 'home/.folderstamp1'
+chmod 0664 'home/.folderstamp1'
+/usr/bin/touch -hcmd "2024-05-04 12:47:04.6930176000 -0300" 'home/.folderstamp1'
+/usr/bin/touch -hcad "2024-05-04 15:11:12.8086352000 -0300" 'home/.folderstamp1'
+chown -h 1000:1000 'home/index-fmwk.html'
+chmod 0755 'home/index-fmwk.html'
+/usr/bin/touch -hcmd "2024-05-04 02:02:50.4835574000 -0300" 'home/index-fmwk.html'
+/usr/bin/touch -hcad "2024-05-04 02:02:54.3755763000 -0300" 'home/index-fmwk.html'
+chown -h 1000:1000 'home/index.html'
+chmod 0755 'home/index.html'
+/usr/bin/touch -hcmd "2024-05-04 14:10:59.7960415000 -0300" 'home/index.html'
+/usr/bin/touch -hcad "2024-05-04 14:11:01.2049583000 -0300" 'home/index.html'
+chown -h 1000:1000 'home/status.json'
+chmod 0664 'home/status.json'
+/usr/bin/touch -hcmd "2024-05-04 13:13:27.1721682000 -0300" 'home/status.json'
+/usr/bin/touch -hcad "2024-05-04 15:11:12.8146357000 -0300" 'home/status.json'

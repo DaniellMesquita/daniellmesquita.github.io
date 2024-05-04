@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en-us">
+ <head>
+  <title color="">Floflis OS</title>
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta content="width=device-width,initial-scale=1,minimal-ui,shrink-to-fit=no,user-scalable=no" name="viewport">
+<base href="../">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+<link rel="logo" href="flag.svg" border="true" />
+<script type="text/javascript" src="plugins/jQuery/jquery.min.js"></script>
+<script type="text/javascript" src="plugins/Popper.js/popper.min.js"></script>
+<script type="text/javascript" src="plugins/Bootstrap/js/bootstrap.min.js"></script>
+<script src="plugins/Bootstrap/themes/material/js/material.min.js"></script>
+<script type="text/javascript" src="js/page-common.js"></script>
+<link href="plugins/Bootstrap/themes/material/css/material.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/page-common.css">
+<link rel="stylesheet" type="text/css" href="css/app-common.css">
+<link rel="stylesheet" type="text/css" href="css/page-custom.css">
+<link rel="stylesheet" type="text/css" href="css/app-custom.css">
+<link href="fonts/Cabin/font.css" rel="stylesheet">
+<link href="fonts/Roboto/font.css" rel="stylesheet">
+<link href="fonts/Material Icons/font.css" rel="stylesheet">
+<meta name="pehtml" content="true">
+<meta name="directory" content="css, js, img, snd">
+<meta name="description" content="The edge of modern computing. Rust everywhere: Rust from the shell to the prompt; from the prompt to the programs. Floflis is an ecosystem which can be a standalone OS (Linux or any other open kernel) or run as a platform inside any other OS/distro.">
+  <meta name="keywords" content="linux, distro, ubuntu, rust, cinnamon, web3, ethereum, nfts, daos">
+ </head>
+<body id="body">
+
+<style>
+.header, header {
+    background: #3eb7e5 !important;
+}
+
+.logo,logo {
+    width: 315px!important;
+    background: url(./os/logotype_white.svg) no-repeat no-repeat 1px 4px !important;
+    background-size: 120px !important;
+    padding: 0 0px 9px 120px !important;
+    line-height: 41px !important;
+    top: 1px !important;
+}
+
+header nav ul li{color:#fff!important}
+header nav ul li p{color:#fff!important}
+</style>
+
+<div id="app">
+<header><logo title="Floflis OS"></logo>
+<a title="Login with your Plasmmer account" href="https://accounts.plasmmer.com/login?redirectto=floflis.com" class="btn btn-light btn-sm" style="float: right;"><div style="background: url(https://web.archive.org/web/20230405192028/https://orgut.co/PF.Site/flavors/bootstrap/assets/logos/logo_default.png) no-repeat no-repeat 0px 0px;width: 32px;height: 32px;background-size: 168px;padding: 0 0px 0px 0px;/*! line-height: -7px; */vertical-align: middle;display: inline-block;"></div> Sign-in</a>
+<nav>
+<ul style="
+    overflow: hidden!important;
+">
+<a href="././"><li><div><i class="material-icons">home</i></div><p>Home (Flo-Platform)</p></li></a>
+<a href="./os/download"><li><!--<div><i class="material-icons">book</i></div>--><p>Download</p></li></a>
+<!--<a href=""><li><div><i class="material-icons">widgets</i></div><p>Elements</p></li></a>-->
+<a href="./press"><li><!--<div><i class="material-icons">book</i></div>--><p>Press</p></li></a>
+<a href="https://floflis.github.io/blog" target="_blank"><li><!--<div><i class="material-icons">book</i></div>--><p>Blog</p></li></a>
+<!--<a href="" target="_blank"><li><div><i class="material-icons">comment</i></div><p>Forum</p></li></a>-->
+<a href="https://floflis.github.io/docs" target="_blank"><li><!--<div><i class="material-icons">book</i></div>--><p>Documentation</p></li></a>
+</ul>
+</nav></header>
+
+<div class="content">
+<article>
+<center><img class="img-fluid" width="500px" src="./os/banner.png"/><br/><br/><img width="420px" class="img-fluid" src="./press/press-kit/img/OSlogotype.svg" title="Floflis 19" alt="Floflis 19"/><br/><h1>AI-first, Web3-first, Rust-first: THE FUTURE-FIRST OS.</h1><h3></h3><h2>Its to the Web 3.0 what Windows 98 was to the Web 1.0.</h2><h3>What would happen if nowadays OSes had Web3/PlayToEarn/tokens/NFTs integrated? See it on Floflis 🏐</h3>
+
+<h0>But wait!</h0>
+<h1>BLA BLA BLA NFTS, BLA BLA BLA TOKENS...</h1>
+<h1>...NO! Floflis isn't limited to a specific niche; delete NFTs + bla bla tokens/Ethereum and Floflis still is a new, first-of-its-kind distro/ecosystem:</h1>
+
+<h2>Rust everywhere 🦀</h2>
+<h3>Rust from the shell to the prompt; from the prompt to the programs.</h3>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+<h2><img width="32px" src="https://avatars.githubusercontent.com/u/50749515?s=200&v=4"> <b>Shell</b></h2>
+<p>Floflis have replaced Bash by a modern and faster shell: <a href="https://github.com/nushell/nushell" target="_blank">nu</a>.</p>
+<p>But <b>don't worry</b>: your loved bash scripts will still work!</p>
+<img width="440px" src="https://raw.githubusercontent.com/nushell/nushell/main/assets/nushell-autocomplete6.gif">
+    </div>
+    <div class="col">
+<h2><img width="32px" src="https://avatars.githubusercontent.com/u/49654870?s=200&v=4"> <b>Prompt 👩‍🚀</b></h2>
+<p>Floflis uses a beauty/infinitely customizable, modern and blazing-fast prompt: <a href="https://github.com/starship/starship" target="_blank">Starship 🚀</a></p>
+<img width="440px" src="https://raw.githubusercontent.com/starship/starship/master/media/demo.gif">
+    </div>
+  </div>
+</div>
+
+<hr/>
+
+<h1>Firedoge?</h1>
+<img width="150px" src="https://github.com/zilldao/firedoge/raw/main/icon.png">
+<h2>Yes, it exist!</h2>
+<p>Very soon.</p>
+<hr/>
+
+<h1>Desktop backgrounds as NFTs? U're covered!</h1>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Are your friend okay abt you 🎯 your phone at their screen?<br><br>If true and you see an monitor with this QR code: SCAN IT!<br><br>And you&#39;ll verify they have an NFT desktop background! <a href="https://t.co/3s4YsCsTZd">pic.twitter.com/3s4YsCsTZd</a></p>&mdash; Floflis.eth (@FloflisOS) <a href="https://twitter.com/FloflisOS/status/1456870807460880384?ref_src=twsrc%5Etfw">November 6, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<p>NFT backgrounds are being worked on; soon.</p>
+<hr/>
+
+<h1>Your Web3 and OS dashboard</h1>
+<p>Meet <a href="https://github.com/Floflis/Floflis-Central" target="_blank">Floflis Central</a>.</p>
+<div class="caption"><img height="601px" class="caption" style="height:601px!important" title="Understand your balance of FLOF tokens, get aware of your updates on the first page and personalize your photo/name" src="https://github.com/Floflis/Floflis-Central/raw/main/screenshot.png"><span>Understand your balance of FLOF tokens, get aware of your updates on the first page and personalize your photo/name</span></div>
+<br/>
+<br/>
+<div class="caption"><img height="601px" class="caption" style="height:601px!important" title="Personalize your PC in a beauty, intuitive screen" src="https://github.com/Floflis/Floflis-Central/raw/main/screenshot2.png"><span>Personalize your PC in a beauty, intuitive screen</span></div>
+<hr/>
+
+<img class="rounded float-left" src="img/web3.png" width="350px"><h1 class="wowpaper selectink web3">Its for Web 3.0...</h1>
+<h1>...what Windows 98 was for the Web 1.0.</h1>
+<hr/>
+<h3>Also, you will be able to have desktop apps and OS functions directly interacting with Ethereum, using <a href="https://frame.sh" target="_blank">Frame</a> and hardware wallets (optional), for a deep OS-level web3 experience.</h3>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+</center>
+<hr/>
+<style>
+h1.wowpaper {
+margin-bottom: 24px;
+font-size: 5rem;
+line-height: 5rem;
+color: rgb(0, 0, 0)!important;
+line-height: 2.5rem;
+letter-spacing: -0.5px;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 2.5rem;
+font-family: "AvertaStd-Black", "Arial", "Helvetica", sans-serif;
+margin-bottom: 12px;
+}
+h1.wowpaper.selectink:before {
+content: "";
+position: absolute;
+height: 5%;
+left: -5px;
+z-index: -1;
+}
+h1.wowpaper.selectink.web3:before {
+width: 38%;
+    background-color: #ff8aff;
+}
+h1.wowpaper.selectink.defi:before {
+width: 62%;
+    background-color: #8cffde;
+}
+h1.wowpaper.selectink.floflisnew:before {
+width: 62%;
+    background-color: #fefe69;
+}
+h1.wowpaper.selectink.syst-os:before {
+width: 82%;
+    background-color: #444;
+	color: #fff;
+}
+</style>
+
+<hr/>
+<div class="container">
+  <div class="row">
+    <div class="col">
+<img width="300px" src="img/undraw/subscriber.svg"/>
+<h1>Receive updates from Floflis</h1>
+<p>Subscribe to our <a href="https://floflis.github.io/blog/index.json" target="blank">JsonFeed</a> or <a href="https://floflis.github.io/blog/index.xml" target="blank">RSS feed</a>. You can also follow us on <a href="https://twitter.com/intent/follow?ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Efollow%7Ctwgr%5EFloflisOS&region=follow_link&screen_name=FloflisOS" target="_blank">Twitter</a> or other of <a href="./about/socialnetworks">our social networks</a>.</p>
+    </div>
+    <div class="col">
+<img width="300px" src="img/undraw/learning.svg"/> <img width="300px" src="img/undraw/candidate.svg"/>
+<h1>Your voice matters</h1>
+<p>Found bugs or wants to suggest a thing? Or to discuss anything?</p>
+<p>Submit a <a href="https://github.com/Floflis/meta/issues/new/choose" target="_blank">GitHub issue here</a> or send an email to: <a href="mailto:floflis@protonmail.com">floflis@protonmail.com</a>.</p>
+<p>There's also our <a href="" target="_blank">Discord</a> and <a href="" target="_blank">Reddit</a>!</p>
+    </div>
+  </div>
+</div>
+<hr/>
+<h1>To do:</h1>
+<ul>
+<li>Email newsletters</li>
+<li>Website in Hugo</li>
+</ul>
+
+<hr/>
+
+<div class="row">
+  <div class="col-sm-6">
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://ipfs.io/ipfs/QmPvZ7k88Qd9qRxvYPYoA9bnVLEWhNwRMQT2y2GdrhdMt6/img/aragon.svg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Our DAO</h5>
+    <p class="card-text">Join Floflis Platform's decentralized governance.</p>
+    <a href="https://aragon.plasmmer.com/#/floflis/" target="blank" class="btn btn-primary">Access</a>
+  </div>
+ <div class="card-footer text-muted">
+    (available in Polygon and XDai)
+  </div>
+</div>
+
+  </div>
+
+</div>
+
+<hr/>
+
+</article>
+<footer><div class="footer-shadow"></div>
+<center>Last update in Mon Dec 11 18:24 2023 -0300. <a href="http://status.floflis.com/" target="_blank">Status</a>.</center><a href="https://framework.js.org/" target="blank"><img src="https://img.shields.io/badge/built%20with-Framework.js%20(r1)-00A185.svg"></a><!--<a href="https://plasnerd.github.io/PEHTML/" target="blank"><img src="https://plasnerd.github.io/PEHTML/img/seal-2.png" width="167px" height="94px" style="-webkit-user-drag:element"></a>-->
+<div class="social-icons">
+<a href="https://twitter.com/FloflisOS" target="blank"><img src="img/social/twitter.svg" width="40px" height="40px" title="Follow us and receive latest news feed about Floflis progress and other development tools" alt="Twitter"></a>
+<a href="https://tiktok.com/@floflisos" target="blank"><img src="img/social/tiktok.svg" width="40px" height="40px" title="Watch our videos with news/tutorials" alt="Youtube" class="round"></a>
+<a href="https://www.youtube.com/channel/UCqboYZIRwremiHzqcvBdlYg" target="blank"><img src="img/social/youtube.svg" width="40px" height="40px" title="Watch our videos with news/tutorials" alt="Youtube" class="round"></a>
+<a href="https://discord.gg/kcnYFqp" target="blank"><img src="img/social/discord.svg" width="40px" height="40px" title="Chat with us or get support" alt="Discord" class="round"></a>
+<a href="https://www.reddit.com/r/floflis/" target="blank"><img src="img/social/reddit.svg" width="40px" height="40px" title="Yes, we have a base in the Reddit planet" alt="Reddit" class="round"></a>
+<!--<a rel="me" href="https://mastodon.social/@floflis" target="blank"><img src="img/social/mastodon.svg" width="40px" height="40px" title="Follow us on Mastodon and receive latest news feed about Floflis and other useful projects" alt="Mastodon" class="round"></a>-->
+<!--<a href="https://riot.im/app/#/+floflis:matrix.org" target="blank"><img src="img/social/riot.svg" width="40px" height="40px" title="Chat with us or get support" alt="Riot.im" class="round"></a>-->
+<!--<a href="https://matrix.to/#/#openplanetnews:matrix.org" target="blank"><img src="img/social/riot.svg" width="40px" height="40px" title="Enable notifications for our updates" alt="Riot.im" class="round"></a>-->
+<a href="https://github.com/Floflis" target="blank"><img src="img/social/github.svg" width="40px" height="40px" title="See first the news and improve Floflis in GitHub" alt="GitHub"></a>
+<a href="https://gitlab.com/floflis" target="blank"><img src="img/social/gitlab.svg" title="See first the news and improve Floflis in GitLab" alt="GitLab" class="round" width="40px" height="40px"></a><!-- <a href="https://facebook.com/" target="blank"><img src="img/social/facebook.svg" width="40px" height="40px" title="Like us and receive latest news feed about FrameworkJS progress and other development tools" alt="Facebook"></a>--><a href="https://opencollective.com/floflis" target="blank"><img src="img/social/opencollective.svg" width="40px" height="40px" title="Contribute to Floflis in Open Collective" alt="Twitter"></a><!--<a href="https://.deviantart.com" target="blank"><img src="img/social/deviantart.svg" width="40px" height="40px" title="Follow us and receive latest backgrounds, designs and apps" alt="Deviantart"></a>--></div>
+<div class="social-buttons"></div>
+<copyright><center><center><a href="https://aragon.plasmmer.com/#/floflis/" target="_blank"><img width="350px" src="img/5d30129fbe8118efde2a8a25_Badge Dark.svg"/></a><br/>(c) 2017-2023 Floflis Platform <a href="https://aragon.plasmmer.com/#/floflis/" target="_blank">DAO</a> by <!--<a href="https://plasmmer.com" target="blank">Plasmmer DAO</a>--><a href="https://plasmmer.com/" style="opacity: unset;"><img height="16px" alt="Plasmmer DAO" src="https://plasmmer.com/press/press-kit/img/logotype-plain_black.svg" title="Plasmmer DAO"></a></a>. Illustrations from <a href="https://undraw.co/" target="blank">UnDraw</a>.</center></copyright>
+</footer>
+</div>
+</div>
+</body>
+</html>

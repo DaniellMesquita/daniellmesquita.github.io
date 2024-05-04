@@ -1,0 +1,35 @@
+This folder: /media/daniella/Windows 10 main/Users/Daniell/Desktop/CrossOSTasks/Windows/at Seagate rmv the original bc the up-to-date will be this/Seagate Expansion Drive-1-personal-site/home
+
+folderstamp version: r5
+Method: Non-recursive
+
+  File: ./index-fmwk.html
+  Size: 14553     	Blocks: 32         IO Block: 4096   regular file
+Device: 8,67	Inode: 1088240     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-05-04 02:02:54.375576300 -0300
+Modify: 2024-05-04 02:02:50.483557400 -0300
+Change: 2024-05-04 02:02:50.486557400 -0300
+ Birth: 2024-05-04 02:02:50.476557400 -0300
+IPFS hash: QmRXZxVZP5mFTwN2JpVNAkvDJ5bybUxPwcwjwQQEn8UNDF
+------------------------------
+  File: ./index.html
+  Size: 1511      	Blocks: 8          IO Block: 4096   regular file
+Device: 8,67	Inode: 1088261     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-05-04 12:13:31.304699700 -0300
+Modify: 2024-05-04 12:13:28.367045900 -0300
+Change: 2024-05-04 12:13:28.398042200 -0300
+ Birth: 2024-05-04 12:13:28.359046800 -0300
+IPFS hash: QmTBHAG6yjFNUjcmaeLotYwYqjCGcBCdHzzo4DV9zTRiba
+------------------------------
+  File: ./status.json
+  Size: 0         	Blocks: 0          IO Block: 4096   regular empty file
+Device: 8,67	Inode: 1088266     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-05-04 12:44:19.047519000 -0300
+Modify: 2024-05-04 12:44:19.047519000 -0300
+Change: 2024-05-04 12:44:22.868652700 -0300
+ Birth: 2024-05-04 12:44:19.047519000 -0300
+IPFS hash: QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH
+------------------------------
