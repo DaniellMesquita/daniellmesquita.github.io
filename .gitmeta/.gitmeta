@@ -1,12 +1,12 @@
-commit QmS74WcvE36PEP6WWUeEhYhJ8E7rn3Qv2Z9np4syieo7hc
+commit QmX4JrHSvAomvtZev5Dqunit3sQRUkZWesZcMMZ6SrVRV5
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 17d7a3967ab0bfd072dcb96aa56f4b262ad6de2c2dbb5b04908f6b6b35e341a90f53bd27e6e3a5d74bcc0085de913fb3155394f10575855e62fc91b5918a98c801
+Signature: 7a13234fde03d597ff6e6a0174a7e77b1c704bae829ed445ebab3a12e0d28eb0093a0ba501e9ad2a774c247ece65839bc641103836faee72c8279dca8d77156101
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmdRNv156t17PW2P3bBCKZwV65GVZmmcNBKF8hrFqJA4Uu
-Commit CID if containing only file hashes: QmWdQF1sa7AKKn7SQqp3n7YbXuVyA8yimBnt4k7jNsN4yN
+Commit CID if including git's SHA1: QmcLC23qNetgtYr4FwbnmPXduUZKSWA5vJWPkazcCV2t1P
+Commit CID if containing only file hashes: 
 
 ------------------------------
 
@@ -17,15 +17,3 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'home/index-0.html'
-chmod 0755 'home/index-0.html'
-/usr/bin/touch -hcmd "2024-05-05 16:15:58.6872095000 -0300" 'home/index-0.html'
-/usr/bin/touch -hcad "2024-05-05 16:18:48.2738717000 -0300" 'home/index-0.html'
-chown -h 1000:1000 'home/index.html'
-chmod 0755 'home/index.html'
-/usr/bin/touch -hcmd "2024-05-05 16:14:52.1201111000 -0300" 'home/index.html'
-/usr/bin/touch -hcad "2024-05-05 16:14:54.6960764000 -0300" 'home/index.html'
-chown -h 1000:1000 'home/status.json'
-chmod 0664 'home/status.json'
-/usr/bin/touch -hcmd "2024-05-05 16:14:52.0711117000 -0300" 'home/status.json'
-/usr/bin/touch -hcad "2024-05-05 16:14:52.0791116000 -0300" 'home/status.json'
