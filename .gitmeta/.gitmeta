@@ -1,12 +1,12 @@
-commit Qme9P9Uj5W4fNxjbbbgAdBLef3kTVwwFASVhv21VXG7TZ7
+commit QmWbmAy6B7gZr8os7hzznCQ9VwoxR3MSB7FhHVPmqF5naH
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 365c11d9a1f926910c1a39b8e9815874f024af167af5906af5cf3420f1cbe0fa54697daa4c20ad7176a20a8095ec8a8a4773d881c8ce1ae77d1d2bd8435095b700
+Signature: 461c3d3f38e1a48cf79d600de203bd4d173f11ab9f82f9a301f5bf98428acd086bbd43b24dcf96a16a0f0b3330819c7e7bc365ee68585ab1dc6932f8b703a84101
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmZApgJyZTyPyRQyRAWJPGRKgAzSUWPyAuqYpEvsHG7YDy
-Commit CID if containing only file hashes: QmNy9DYGao2UarYFd615YfT2CFuRiDGL7VXnKFBiZrqwwV
+Commit CID if including git's SHA1: QmNnQ8J8YPAeBjvyMYVDxujcn58GSWu1qKrEYALFniNNTZ
+Commit CID if containing only file hashes: QmeHGaGxqeH91ZXrEkjNwpsLG5taweYQFtQdwpL9nuTFqa
 
 ------------------------------
 
@@ -17,23 +17,7 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'home/.folderstamp2'
-chmod 0664 'home/.folderstamp2'
-/usr/bin/touch -hcmd "2024-05-06 13:02:48.3034549000 -0300" 'home/.folderstamp2'
-/usr/bin/touch -hcad "2024-05-06 18:06:13.3536170000 -0300" 'home/.folderstamp2'
-chown -h 1000:1000 'home/WorkMap-0.txt'
-chmod 0664 'home/WorkMap-0.txt'
-/usr/bin/touch -hcmd "2024-05-06 13:09:58.4011621000 -0300" 'home/WorkMap-0.txt'
-/usr/bin/touch -hcad "2024-05-06 18:06:13.6406153000 -0300" 'home/WorkMap-0.txt'
-chown -h 1000:1000 'home/WorkMap-1.txt'
-chmod 0664 'home/WorkMap-1.txt'
-/usr/bin/touch -hcmd "2024-05-06 13:16:06.1894865000 -0300" 'home/WorkMap-1.txt'
-/usr/bin/touch -hcad "2024-05-06 18:06:13.7146149000 -0300" 'home/WorkMap-1.txt'
-chown -h 1000:1000 'home/WorkMap-2.txt'
-chmod 0664 'home/WorkMap-2.txt'
-/usr/bin/touch -hcmd "2024-05-06 13:27:43.5874147000 -0300" 'home/WorkMap-2.txt'
-/usr/bin/touch -hcad "2024-05-06 18:06:13.8006144000 -0300" 'home/WorkMap-2.txt'
 chown -h 1000:1000 'home/WorkMap.txt'
 chmod 0664 'home/WorkMap.txt'
-/usr/bin/touch -hcmd "2024-05-06 13:27:43.5874147000 -0300" 'home/WorkMap.txt'
-/usr/bin/touch -hcad "2024-05-06 18:06:13.8716140000 -0300" 'home/WorkMap.txt'
+/usr/bin/touch -hcmd "2024-05-06 18:10:42.4570426000 -0300" 'home/WorkMap.txt'
+/usr/bin/touch -hcad "2024-05-06 18:11:02.7019247000 -0300" 'home/WorkMap.txt'

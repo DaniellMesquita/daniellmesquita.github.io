@@ -1,4 +1,5 @@
 - Plasmmer Health CLI: support+move-past v1 through FUNCTIONS
+- HomeServer danimesq.com: 
 - DaniMesq Home: tell the ~30 min auto-update isn't finished yet
 - 
 
