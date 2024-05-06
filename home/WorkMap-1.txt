@@ -1,0 +1,7 @@
+- Plasmmer Health CLI: support+move-past v1 through FUNCTIONS
+- DaniMesq Home: tell the ~30 min auto-update isn't finished yet
+- 
+
+- re-instate status.floflis.com, now closely based in auto-publisher's serve.sh
+
+- Floflis Update issue: MLQ install now closely following status.floflis.com source
