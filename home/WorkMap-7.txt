@@ -1,5 +1,0 @@
-- HomeServer danimesq.com: put the latest commit cid (and detailed cids) from healthlog
-- push
-- HomeServer danimesq.com: migrate to FMWK
-- Main Linux: store g, test automatic up
-- run auto-publisher/danimesq.com/serve.sh directly from HomeServer's main serve.sh
