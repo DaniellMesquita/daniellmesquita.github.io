@@ -1,12 +1,12 @@
-commit QmZmtn75nKyoByTjF8TmAEWYXiRpMay3zW5u5AXsqvuZZY
+commit QmcQXS4qi7mejePJvhyUPgVtHD7HsavEdzhMQfniHWTA3z
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: bfdf96310c1c875dfd3c6b8a8c9b4b0e7168271e09d5e732748f7b78894fd56a244e06937616fca37ba89784463cd4a7e698e70a75e2a0c9e6a1d8605065658d00
+Signature: f592f20e680bf87fa38120491275d6a9156bb60e114ec544d46dff560604bba15435cee37d908a4c27646566d76031272dc3d2a1963649b7963f146837debe9300
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmUVquwmGBugy5jtGr7kwaPNZ9zUJm2YtRnZAFY1yVF47w
-Commit CID if containing only file hashes: QmbSRhc8GD8RhdakLR17FuRxzjpbnV5Ya8x3gP9Po6Ftud
+Commit CID if including git's SHA1: QmcZvMqbUXNREoAL2FzrUb1zj9MRMyeGiTVSXjTX8WTbJk
+Commit CID if containing only file hashes: QmUk8cEpPngKhqf4PDBHef8143tK9zhXhyUd4uWRVwtDo4
 
 ------------------------------
 
@@ -17,11 +17,11 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'home/index.html'
-chmod 0755 'home/index.html'
-/usr/bin/touch -hcmd "2024-05-07 13:59:19.5528268000 -0300" 'home/index.html'
-/usr/bin/touch -hcad "2024-05-07 13:59:19.5548268000 -0300" 'home/index.html'
-chown -h 1000:1000 'home/status.json'
-chmod 0664 'home/status.json'
-/usr/bin/touch -hcmd "2024-05-07 13:59:18.8018318000 -0300" 'home/status.json'
-/usr/bin/touch -hcad "2024-05-07 13:59:18.8058317000 -0300" 'home/status.json'
+chown -h 1000:1000 'home/recordings/copies/root.folderstamp'
+chmod 0664 'home/recordings/copies/root.folderstamp'
+/usr/bin/touch -hcmd "2024-05-07 00:50:26.9141317000 -0300" 'home/recordings/copies/root.folderstamp'
+/usr/bin/touch -hcad "2024-05-07 14:10:18.5014571000 -0300" 'home/recordings/copies/root.folderstamp'
+chown -h 1000:1000 'home/recordings/copies/root.folderstamp.log.html5'
+chmod 0664 'home/recordings/copies/root.folderstamp.log.html5'
+/usr/bin/touch -hcmd "2024-05-07 00:51:02.2407893000 -0300" 'home/recordings/copies/root.folderstamp.log.html5'
+/usr/bin/touch -hcad "2024-05-07 14:10:18.5014571000 -0300" 'home/recordings/copies/root.folderstamp.log.html5'
