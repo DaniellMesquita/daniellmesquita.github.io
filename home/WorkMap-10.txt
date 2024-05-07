@@ -1,0 +1,5 @@
+- HomeServer danimesq.com: migrate to FMWK
+- HomeServer danimesq.com: "Recordings" card: add latest CID of the latest folderstamp root, that file's contents as well, so as for its blockchain regist (tell it's not automatic, yet), and add explanation about how the folderstamp root guarantees the hash of all the recordings files
+-
+- Main Linux: store g, test automatic up
+- run auto-publisher/danimesq.com/serve.sh directly from HomeServer's main serve.sh

@@ -1,0 +1,12 @@
+- go back to v1 drafting: "hour" now'll be an array containing timezone ; all .json files should be like the 2+ entries, even the 1
+
+- Plasmmer Health CLI: support+move-past v1 through FUNCTIONS
+- HomeServer danimesq.com: 
+- DaniMesq Home: tell the ~30 min auto-update isn't finished yet
+- 
+
+- HomeServer: m branch get updated (s timing fixed and other updates from upstream)
+
+- re-instate status.floflis.com, now closely based in auto-publisher's serve.sh
+
+- Floflis Update issue: MLQ install now closely following status.floflis.com source

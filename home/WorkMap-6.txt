@@ -1,0 +1,3 @@
+- HomeServer danimesq.com: read healthlog values+dates ; put the latest commit cid from healthlog
+- Main Linux: store g, test automatic up
+- run auto-publisher/danimesq.com/serve.sh directly from HomeServer's main serve.sh

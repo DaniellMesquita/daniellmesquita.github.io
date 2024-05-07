@@ -1,0 +1,6 @@
+- HomeServer danimesq.com: "Health" card: Glucose add fasting data bc it's important
+- push
+- HomeServer danimesq.com: migrate to FMWK
+- HomeServer danimesq.com: "Recordings" card: add latest CID of the latest folderstamp root, and its contents as well, so as for its blockchain regist (tell it's not automatic, yet)
+- Main Linux: store g, test automatic up
+- run auto-publisher/danimesq.com/serve.sh directly from HomeServer's main serve.sh

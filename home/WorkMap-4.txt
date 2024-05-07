@@ -1,0 +1,8 @@
+- HomeServer danimesq.com: read healthlog values+dates, put the latest commit cid from healthlog
+- 
+
+- HomeServer: m branch get updated (s timing fixed and other updates from upstream)
+
+- re-instate status.floflis.com, now closely based in auto-publisher's serve.sh
+
+- Floflis Update issue: MLQ install now closely following status.floflis.com source
