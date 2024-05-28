@@ -9,23 +9,17 @@ Our <font color="#42E66C">Documentation</font> is located at <font color="#42E66
 <font color="#75D7EC">Tweet</font> us at <font color="#8BE9FD"><b>@nu_shell</b></font>
 
 It&apos;s been this long since <font color="#42E66C">Nushell</font>&apos;s first commit:
-5yr 2wk 5day 10hr 11min 7sec 477ms 803µs 835ns
+5yr 2wk 5day 10hr 42min 49sec 930ms 881µs 222ns
 
-Startup Time: 72ms 857µs 980ns
+Startup Time: 69ms 262µs 344ns
 
-<font color="#8BE9FD"><b>press/press-kit/img</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[✘!?]</b></font> 
-<font color="#50FA7B"><b>❯</b></font> <font color="#75D7EC">inkscape</font> <font color="#50FA7B"><b>logotype-plain_black.svg</b></font>
+<font color="#8BE9FD"><b>press-kit/img/future</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[✘!?⇡]</b></font> 
+<font color="#50FA7B"><b>❯</b></font> <font color="#75D7EC">inkscape</font> <font color="#50FA7B"><b>signature-plain_black.svg</b></font> <font color="#50FA7B"><b>-o</b></font> <font color="#50FA7B"><b>signature-plain_black.png</b></font>
 
-(org.inkscape.Inkscape:3309225): Gtk-<font color="#FF5555"><b>CRITICAL</b></font> **: <font color="#9B6BDF">00:11:19.509</font>: gtk_box_gadget_distribute: assertion &apos;size &gt;= 0&apos; failed in gtkmm__GtkNotebook
-
-(org.inkscape.Inkscape:3309225): Gtk-<font color="#FF5555"><b>CRITICAL</b></font> **: <font color="#9B6BDF">00:11:19.509</font>: gtk_box_gadget_distribute: assertion &apos;size &gt;= 0&apos; failed in gtkmm__GtkNotebook
-
-<font color="#8BE9FD"><b>press/press-kit/img</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[✘!?]</b></font> took <font color="#F1FA8C"><b>4m38s</b></font> 
-<font color="#50FA7B"><b>❯</b></font> <font color="#75D7EC">inkscape</font> <font color="#50FA7B"><b>logotype-plain_black.svg</b></font> <font color="#50FA7B"><b>-o</b></font> <font color="#50FA7B"><b>logotype-plain_black.png</b></font>
-
-<font color="#8BE9FD"><b>press/press-kit/img</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[✘!?]</b></font> 
-<font color="#50FA7B"><b>❯</b></font> <font color="#75D7EC">inkscape</font> <font color="#50FA7B"><b>logotype-plain_white.svg</b></font> <font color="#50FA7B"><b>-o</b></font> <font color="#50FA7B"><b>logotype-plain_white.png</b></font>
-
-<font color="#8BE9FD"><b>press/press-kit/img</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[✘!?]</b></font> 
+<font color="#8BE9FD"><b>press-kit/img/future</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[✘!?⇡]</b></font> 
 <font color="#50FA7B"><b>❯</b></font> 
+
+
+
+
 </pre>
