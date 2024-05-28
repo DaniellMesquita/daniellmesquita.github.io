@@ -1,12 +1,12 @@
-commit QmWkfgZ2GmmcdYyT4cQLZ6AHPywj5KMxYUnw59eDk18YUD
+commit QmQufFWxWWwTeNpbZ6Sdq3vXpdtD9GKFttV7hM1pGgSWxX
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: a6dd4eba4d594c4895968a82a73dda2a3482158c691e18fd0db463305cb60b2523312c66594d97440e579b02ff7eb2a414a3e68cc955e6382ec1e02ec4c859fe01
+Signature: 62ea24e9d309cb734d300399bf930abf392aaed220e6afb64f9a348902da148f2f39813699c21b3ebd773e9fae46c8b98a078df44f1ed6bca8ed8395f2fd32e400
 
 ------------------------------
 
-Commit CID if including git's SHA1: Qme5AdLqEwC2XNNABVQ5nfSHYGNhmYnYT9hy1cE1cgsfVA
-Commit CID if containing only file hashes: QmQEpzPyY9EKfBSgfc3HVb34NjxYcCHmopMuk2ayW69wR4
+Commit CID if including git's SHA1: QmW6SHgnWhDd5B3qvPabvrbutWhPMf6UEFpJqhbLQ4xhe9
+Commit CID if containing only file hashes: QmXH7fdNXbMzj2denQkHib5HScwQ9LEsFmMUTg5fKx9tw3
 
 ------------------------------
 
@@ -17,35 +17,7 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'press/press-kit/img/inkscape.log.html5'
-chmod 0664 'press/press-kit/img/inkscape.log.html5'
-/usr/bin/touch -hcmd "2024-05-28 00:42:57.8338359000 -0300" 'press/press-kit/img/inkscape.log.html5'
-/usr/bin/touch -hcad "2024-05-28 00:48:19.3789494000 -0300" 'press/press-kit/img/inkscape.log.html5'
-chown -h 1000:1000 'press/press-kit/img/signature-plain_black.png'
-chmod 0664 'press/press-kit/img/signature-plain_black.png'
-/usr/bin/touch -hcmd "2024-05-28 00:42:11.5473901000 -0300" 'press/press-kit/img/signature-plain_black.png'
-/usr/bin/touch -hcad "2024-05-28 00:42:18.9244641000 -0300" 'press/press-kit/img/signature-plain_black.png'
-chown -h 1000:1000 'press/press-kit/img/signature-plain_black.svg'
-chmod 0644 'press/press-kit/img/signature-plain_black.svg'
-/usr/bin/touch -hcmd "2024-05-28 00:41:41.8610802000 -0300" 'press/press-kit/img/signature-plain_black.svg'
-/usr/bin/touch -hcad "2024-05-28 00:42:18.9064640000 -0300" 'press/press-kit/img/signature-plain_black.svg'
-chown -h 1000:1000 'press/press-kit/img/signature-plain_white.png'
-chmod 0664 'press/press-kit/img/signature-plain_white.png'
-/usr/bin/touch -hcmd "2024-05-28 00:08:05.2352660000 -0300" 'press/press-kit/img/signature-plain_white.png'
-/usr/bin/touch -hcad "2024-05-28 00:42:18.9054639000 -0300" 'press/press-kit/img/signature-plain_white.png'
-chown -h 1000:1000 'press/press-kit/img/signature-plain_white.svg'
-chmod 0644 'press/press-kit/img/signature-plain_white.svg'
-/usr/bin/touch -hcmd "2024-05-28 00:07:39.9174347000 -0300" 'press/press-kit/img/signature-plain_white.svg'
-/usr/bin/touch -hcad "2024-05-28 00:42:18.8904638000 -0300" 'press/press-kit/img/signature-plain_white.svg'
-chown -h 1000:1000 'press/press-kit/img/signature.png'
-chmod 0664 'press/press-kit/img/signature.png'
-/usr/bin/touch -hcmd "2024-05-28 00:30:51.5422625000 -0300" 'press/press-kit/img/signature.png'
-/usr/bin/touch -hcad "2024-05-28 00:42:18.8564635000 -0300" 'press/press-kit/img/signature.png'
-chown -h 1000:1000 'press/press-kit/img/signature.svg'
-chmod 0644 'press/press-kit/img/signature.svg'
-/usr/bin/touch -hcmd "2024-05-28 00:30:42.1983359000 -0300" 'press/press-kit/img/signature.svg'
-/usr/bin/touch -hcad "2024-05-28 00:44:13.2474736000 -0300" 'press/press-kit/img/signature.svg'
 chown -h 1000:1000 'press/press-kit/index.html'
 chmod 0755 'press/press-kit/index.html'
-/usr/bin/touch -hcmd "2024-05-28 00:47:42.1677756000 -0300" 'press/press-kit/index.html'
-/usr/bin/touch -hcad "2024-05-28 00:47:43.4827820000 -0300" 'press/press-kit/index.html'
+/usr/bin/touch -hcmd "2024-05-28 01:13:12.7188774000 -0300" 'press/press-kit/index.html'
+/usr/bin/touch -hcad "2024-05-28 01:13:14.7648311000 -0300" 'press/press-kit/index.html'
