@@ -1,12 +1,12 @@
-commit QmashFXmEXGBcHiTfBLiLw5wMrdGKotnz95SuKnZais7jn
+commit QmekqTztTssqXxonc3a87jAhjx2eLtHiwzrzkM3Bmm6XWw
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 7a2e52c2fe6d418cddaefade8d6e986c338637acac3932c0141fc3517e8a70e467402f79d32f564a3289b8dd10c97321d66552bcfa44e6959d5e3583752a065c01
+Signature: a8872ea6ebcf67cf75c88f8fa3a67d7b86ab714b55da1fd1ee6fdf11f1e18ffe7c7ceaba5400a7333f2d51f2884a79175607be50278efae05178c8748540219e00
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmdZm7iscakeyciwksWQu5q6bnS4n2pzprNyrrtkX7oio8
-Commit CID if containing only file hashes: 
+Commit CID if including git's SHA1: QmUPato45ccakKvErWLdDpJ8UVxU7J3aRvFbqFWo8pnnFb
+Commit CID if containing only file hashes: QmeC97sWPBne5xo4JXT4895iZvZjNVRHh2dwdhFzEHNzUo
 
 ------------------------------
 
@@ -17,3 +17,7 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
+chown -h 1000:1000 'press/index.html'
+chmod 0755 'press/index.html'
+/usr/bin/touch -hcmd "2021-12-01 18:03:15.4196280000 -0300" 'press/index.html'
+/usr/bin/touch -hcad "2024-05-28 01:26:09.0581714000 -0300" 'press/index.html'
