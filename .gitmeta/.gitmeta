@@ -1,12 +1,12 @@
-commit QmaP9ruHaCF9su5KdbGFBUYcEbcHNrnjNoaDZiRNShGx2j
+commit QmdA3mTfc9PGREsGb29qribiu5E71m7ZKY4VdUdv9DYwrL
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 0ef0246f7fc8a253dedfd4c113c9a3d359bd7e1bb3c368eed237b2b4be39bf224683b95005728b97b5c8284154e7ddb186bc74a2f93e2de1674846175aa60fbb00
+Signature: 7bdf05facb50ce383fa648a70d901c993a3b352bd886d1354ffa424ecbf0c17c231c06315fd7d59b825fdb8b55038c469c06cb156cbdd1df292087bfaeff3ea501
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmXsD6ZtCuyhTa2QBWScHrNEbuTip4YjhLXbT93Rpjsjpu
-Commit CID if containing only file hashes: QmWhNfUyst7RJc7tNzyLgEEcDmARYvP489WosJBL4qFQ8g
+Commit CID if including git's SHA1: QmeG143VmvM18TYViVASwXaC1AkJFRLezrSZszZUP9m3Dy
+Commit CID if containing only file hashes: QmYWd6CUoYnqy6atVMSuvS5wdjKkYLHFmjGxXHHkSPaRUF
 
 ------------------------------
 
@@ -17,7 +17,7 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'home/status.json'
-chmod 0664 'home/status.json'
-/usr/bin/touch -hcmd "2024-05-27 23:35:50.1028555000 -0300" 'home/status.json'
-/usr/bin/touch -hcad "2024-05-27 23:35:50.1078557000 -0300" 'home/status.json'
+chown -h 1000:1000 'home/index.html'
+chmod 0755 'home/index.html'
+/usr/bin/touch -hcmd "2024-05-27 23:38:48.3562274000 -0300" 'home/index.html'
+/usr/bin/touch -hcad "2024-05-27 23:38:59.8745881000 -0300" 'home/index.html'
