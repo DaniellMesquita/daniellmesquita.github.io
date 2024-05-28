@@ -1,0 +1,55 @@
+This folder: /media/daniella/Windows 10 main/Users/Daniell/Desktop/CrossOSTasks/Windows/at Seagate rmv the original bc the up-to-date will be this/Seagate Expansion Drive-1-personal-site/press/press-kit/img
+
+folderstamp version: r5
+Method: Non-recursive
+
+  File: ./logotype-plain_black.png
+  Size: 28783     	Blocks: 64         IO Block: 4096   regular file
+Device: 8,51	Inode: 1090634     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-05-28 00:02:23.782464400 -0300
+Modify: 2023-10-20 19:55:47.322889800 -0300
+Change: 2024-05-27 19:42:40.712245900 -0300
+ Birth: 2024-05-27 19:42:40.691245400 -0300
+IPFS hash: QmXqCmQJHd7tHizNpnNfbj4Z4G6gTngkKoycPkCL1Wi87b
+------------------------------
+  File: ./logotype-plain_black.svg
+  Size: 20383     	Blocks: 40         IO Block: 4096   regular file
+Device: 8,51	Inode: 470779      Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-05-27 23:56:21.971505600 -0300
+Modify: 2023-10-20 19:56:03.981433700 -0300
+Change: 2024-05-27 19:42:40.746246600 -0300
+ Birth: 2024-05-27 19:42:40.713245900 -0300
+IPFS hash: QmZCwUM1wKdPBFX6PaV4W4wqGiDERgL6zTNaMpfj7PVTiq
+------------------------------
+  File: ./logotype-plain_white.png
+  Size: 28783     	Blocks: 64         IO Block: 4096   regular file
+Device: 8,51	Inode: 1068530     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-05-28 00:02:23.799463000 -0300
+Modify: 2023-10-20 19:56:42.271945900 -0300
+Change: 2024-05-27 19:42:40.773247200 -0300
+ Birth: 2024-05-27 19:42:40.747246700 -0300
+IPFS hash: QmaivS2wxZPYGfSf7kXSN5RPMwQDEoi4mZxtEoGU4aSsU4
+------------------------------
+  File: ./logotype-plain_white.svg
+  Size: 20533     	Blocks: 48         IO Block: 4096   regular file
+Device: 8,51	Inode: 1090635     Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-05-27 23:56:21.981505700 -0300
+Modify: 2023-10-20 19:56:49.679573900 -0300
+Change: 2024-05-27 19:42:40.826248400 -0300
+ Birth: 2024-05-27 19:42:40.774247200 -0300
+IPFS hash: QmfVXHgyBBfRqhUVKFkL2RncK8YzniP9yMzofEM49Sy9B2
+------------------------------
+  File: ./sign.svg
+  Size: 799644    	Blocks: 1568       IO Block: 4096   regular file
+Device: 8,51	Inode: 1090704     Links: 1
+Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2024-05-28 00:03:20.780960300 -0300
+Modify: 2024-05-28 00:02:05.930974700 -0300
+Change: 2024-05-28 00:03:20.529979200 -0300
+ Birth: 2024-05-28 00:02:05.799985900 -0300
+IPFS hash: QmYJ3CxYBFF5vwt8boKu2Dw5TwnZfVLyXQUchf9Kv2DABp
+------------------------------

@@ -8,17 +8,19 @@ background:#e3e2e2!important
 }
 
 .logo,logo {
-    width: 140px !important;
-    height: 38px !important;
-    background: url(../logotype.png) no-repeat no-repeat 1px 4px !important;
-    background-size: auto !important;
-    /*background-size: 120px !important;*/
-    padding: 0 0px 9px 120px !important;
-    line-height: 41px !important;
-    top: 5px !important;
-    color:#333!important;
-    display: inline-block;
-    border-radius: 0px !important
+width: 140px !important;
+  height: 38px !important;
+  background: url(../logotype.png) no-repeat no-repeat 1px 4px !important;
+    background-size: auto;
+  background-size: auto !important;
+  background-size: 120px !important;
+  background-size: 79px !important;
+  padding: 0 0px 9px 120px !important;
+  line-height: 41px !important;
+  top: 5px !important;
+  color: #333 !important;
+  display: inline-block;
+  border-radius: 0px !important;
 }
 
 header nav ul li p{color:#fff!important}
