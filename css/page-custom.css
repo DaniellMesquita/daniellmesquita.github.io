@@ -4,7 +4,7 @@ background:#e3e2e2!important
 }
 
 .header, header {
-    background: #603a98!important;
+    background: #f6f!important;
 }
 
 .logo,logo {
@@ -24,12 +24,12 @@ background:#e3e2e2!important
 header nav ul li p{color:#fff!important}
 
 ::selection {
-    background: #603a98!important;
+    background: #f6f!important;
     color: #fff!important;
 }
 
 .h1, h1 {
-    color: #603a98!important;
+    color: #f6f!important;
 }
 
 .navmenu {
@@ -50,7 +50,7 @@ button.color:hover{background:#fff;color:#00964a}
     background-color:#00964a!important;
 }
 
-.footer,footer{background:#603a98;color:#fff}
+.footer,footer{background:#f6f;color:#fff}
 
 @media(max-width:8in){
 .logo, logo {
@@ -68,7 +68,7 @@ button.color:hover{background:#fff;color:#00964a}
     margin-right: 10px;
     display: inline-block;
 }.badge {
-    background: #603a98;
+    background: #f6f;
     color: #fff;
     padding: 4px 4px 4px 4px;
     border-radius: 2px;

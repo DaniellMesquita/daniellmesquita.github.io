@@ -1,12 +1,12 @@
-commit Qmbcu86epxMQn85ZPZPnafrcprVphxSYqjAZWH7etU2iVA
+commit QmWqCrjVuNhTcHKF9Ky4akTTDhY4S8KrCGZdporkcL9B2F
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: bae32c3c37736ef0f5f6d63f3f3e16afab9857d66f3805f1c1ea27d95aa4eb1c7c1088e77c5d662d5f8847c30ded336d92cce68b68b652d9d54840b38281c1e900
+Signature: 5c4cb508ca047d93ed1a161d44d5ed561eee713c87b24639557fc6bbbfbd257e4a20636a67299c073647d6b40686429ff16abd03f96bbf5855f325d0f8a501f101
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmbPpqpGThB8G3hSCfKrX2vkwKvBJXj7VhqbUMyXmqhnx5
-Commit CID if containing only file hashes: QmRtUP5ma2LGysp675H53HP8oaSDpw9mbt3o6x4h56KwNB
+Commit CID if including git's SHA1: Qmcv7UDcVvJBFxkUaHEgyiHqbaAFoLZCorGrJdzYfXMEHV
+Commit CID if containing only file hashes: QmT1GL6bwUJyAsZvsfKdyUzkonS2x3QqQoqNZqfcxDsZkq
 
 ------------------------------
 
@@ -17,11 +17,83 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'home/index.html'
-chmod 0755 'home/index.html'
-/usr/bin/touch -hcmd "2024-05-27 23:31:54.1073757000 -0300" 'home/index.html'
-/usr/bin/touch -hcad "2024-05-27 23:31:54.1163762000 -0300" 'home/index.html'
-chown -h 1000:1000 'home/status.json'
-chmod 0664 'home/status.json'
-/usr/bin/touch -hcmd "2024-05-27 23:31:53.2783274000 -0300" 'home/status.json'
-/usr/bin/touch -hcad "2024-05-27 23:31:53.2853278000 -0300" 'home/status.json'
+chown -h 1000:1000 'css/page-custom.css'
+chmod 0755 'css/page-custom.css'
+/usr/bin/touch -hcmd "2024-05-27 20:06:42.6327068000 -0300" 'css/page-custom.css'
+/usr/bin/touch -hcad "2024-05-27 20:07:02.0037566000 -0300" 'css/page-custom.css'
+chown -h 1000:1000 'img/5d30129fbe8118efde2a8a25_Badge Dark.svg'
+chmod 0664 'img/5d30129fbe8118efde2a8a25_Badge Dark.svg'
+/usr/bin/touch -hcmd "2024-05-27 20:07:31.1073840000 -0300" 'img/5d30129fbe8118efde2a8a25_Badge Dark.svg'
+/usr/bin/touch -hcad "2024-05-27 20:07:33.8282590000 -0300" 'img/5d30129fbe8118efde2a8a25_Badge Dark.svg'
+chown -h 1000:1000 'img/social/ask.svg'
+chmod 0664 'img/social/ask.svg'
+/usr/bin/touch -hcmd "2024-05-27 20:09:45.4058123000 -0300" 'img/social/ask.svg'
+/usr/bin/touch -hcad "2024-05-27 20:09:47.8367218000 -0300" 'img/social/ask.svg'
+chown -h 1000:1000 'img/social/deviantart.svg'
+chmod 0664 'img/social/deviantart.svg'
+/usr/bin/touch -hcmd "2024-05-27 20:09:31.3913407000 -0300" 'img/social/deviantart.svg'
+/usr/bin/touch -hcad "2024-05-27 20:09:33.8262481000 -0300" 'img/social/deviantart.svg'
+chown -h 1000:1000 'img/social/discord.svg'
+chmod 0664 'img/social/discord.svg'
+/usr/bin/touch -hcmd "2024-05-27 20:09:51.9255704000 -0300" 'img/social/discord.svg'
+/usr/bin/touch -hcad "2024-05-27 20:09:54.6494700000 -0300" 'img/social/discord.svg'
+chown -h 1000:1000 'img/social/facebook.svg'
+chmod 0664 'img/social/facebook.svg'
+/usr/bin/touch -hcmd "2024-05-27 20:09:58.8303167000 -0300" 'img/social/facebook.svg'
+/usr/bin/touch -hcad "2024-05-27 20:10:01.8292074000 -0300" 'img/social/facebook.svg'
+chown -h 1000:1000 'img/social/farcaster.svg'
+chmod 0664 'img/social/farcaster.svg'
+/usr/bin/touch -hcmd "2024-05-27 19:59:53.6191638000 -0300" 'img/social/farcaster.svg'
+/usr/bin/touch -hcad "2024-05-27 19:59:56.8158421000 -0300" 'img/social/farcaster.svg'
+chown -h 1000:1000 'img/social/gallery.co.svg'
+chmod 0664 'img/social/gallery.co.svg'
+/usr/bin/touch -hcmd "2024-05-27 20:00:05.7729503000 -0300" 'img/social/gallery.co.svg'
+/usr/bin/touch -hcad "2024-05-27 20:00:08.8206501000 -0300" 'img/social/gallery.co.svg'
+chown -h 1000:1000 'img/social/github.svg'
+chmod 0664 'img/social/github.svg'
+/usr/bin/touch -hcmd "2024-05-27 20:10:09.4569316000 -0300" 'img/social/github.svg'
+/usr/bin/touch -hcad "2024-05-27 20:10:11.8248466000 -0300" 'img/social/github.svg'
+chown -h 1000:1000 'img/social/gitlab.svg'
+chmod 0664 'img/social/gitlab.svg'
+/usr/bin/touch -hcmd "2024-05-27 20:10:15.8817017000 -0300" 'img/social/gitlab.svg'
+/usr/bin/touch -hcad "2024-05-27 20:10:18.8265970000 -0300" 'img/social/gitlab.svg'
+chown -h 1000:1000 'img/social/google-play.svg'
+chmod 0664 'img/social/google-play.svg'
+/usr/bin/touch -hcmd "2024-05-27 20:10:32.3341230000 -0300" 'img/social/google-play.svg'
+/usr/bin/touch -hcad "2024-05-27 20:10:34.8490358000 -0300" 'img/social/google-play.svg'
+chown -h 1000:1000 'img/social/instagram.svg'
+chmod 0664 'img/social/instagram.svg'
+/usr/bin/touch -hcmd "2024-05-27 20:10:39.5828726000 -0300" 'img/social/instagram.svg'
+/usr/bin/touch -hcad "2024-05-27 20:10:41.8237957000 -0300" 'img/social/instagram.svg'
+chown -h 1000:1000 'img/social/lens.svg'
+chmod 0664 'img/social/lens.svg'
+/usr/bin/touch -hcmd "2024-05-27 19:48:29.4600599000 -0300" 'img/social/lens.svg'
+/usr/bin/touch -hcad "2024-05-27 19:48:32.7291017000 -0300" 'img/social/lens.svg'
+chown -h 1000:1000 'img/social/mastodon.svg'
+chmod 0664 'img/social/mastodon.svg'
+/usr/bin/touch -hcmd "2024-05-27 20:11:20.9204948000 -0300" 'img/social/mastodon.svg'
+/usr/bin/touch -hcad "2024-05-27 20:11:23.8224012000 -0300" 'img/social/mastodon.svg'
+chown -h 1000:1000 'img/social/opencollective.svg'
+chmod 0755 'img/social/opencollective.svg'
+/usr/bin/touch -hcmd "2023-04-08 22:19:09.7438514000 -0300" 'img/social/opencollective.svg'
+/usr/bin/touch -hcad "2024-05-27 19:47:12.9210261000 -0300" 'img/social/opencollective.svg'
+chown -h 1000:1000 'img/social/reddit.svg'
+chmod 0664 'img/social/reddit.svg'
+/usr/bin/touch -hcmd "2024-05-27 20:10:51.0864807000 -0300" 'img/social/reddit.svg'
+/usr/bin/touch -hcad "2024-05-27 20:10:53.8263883000 -0300" 'img/social/reddit.svg'
+chown -h 1000:1000 'img/social/riot.svg'
+chmod 0755 'img/social/riot.svg'
+/usr/bin/touch -hcmd "2020-01-24 10:22:30.0000000000 -0300" 'img/social/riot.svg'
+/usr/bin/touch -hcad "2024-05-27 19:47:12.8590252000 -0300" 'img/social/riot.svg'
+chown -h 1000:1000 'img/social/tiktok.svg'
+chmod 0664 'img/social/tiktok.svg'
+/usr/bin/touch -hcmd "2024-05-27 20:11:20.0285237000 -0300" 'img/social/tiktok.svg'
+/usr/bin/touch -hcad "2024-05-27 20:11:23.2284203000 -0300" 'img/social/tiktok.svg'
+chown -h 1000:1000 'img/social/twitter.svg'
+chmod 0664 'img/social/twitter.svg'
+/usr/bin/touch -hcmd "2024-05-27 20:11:38.1019464000 -0300" 'img/social/twitter.svg'
+/usr/bin/touch -hcad "2024-05-27 20:11:40.8268606000 -0300" 'img/social/twitter.svg'
+chown -h 1000:1000 'img/social/youtube.svg'
+chmod 0664 'img/social/youtube.svg'
+/usr/bin/touch -hcmd "2024-05-27 20:11:07.3069393000 -0300" 'img/social/youtube.svg'
+/usr/bin/touch -hcad "2024-05-27 20:11:09.8678550000 -0300" 'img/social/youtube.svg'
