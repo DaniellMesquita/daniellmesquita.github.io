@@ -1,0 +1,651 @@
+<pre><font color="#42E66C">     __  ,</font>
+<font color="#42E66C"> .--()°&apos;.&apos; </font>Welcome to <font color="#42E66C">Nushell</font>,
+<font color="#42E66C">&apos;|, . ,&apos;   </font>based on the <font color="#42E66C">nu</font> language,
+<font color="#42E66C"> !_-(_\    </font>where all data is structured!
+
+Please join our <font color="#E64747">Discord</font> community at <font color="#E64747">https://discord.gg/NtAbbGn</font>
+Our <font color="#50FA7B"><b>GitHub</b></font> repository is at <font color="#50FA7B"><b>https://github.com/nushell/nushell</b></font>
+Our <font color="#42E66C">Documentation</font> is located at <font color="#42E66C">http://nushell.sh</font>
+<font color="#75D7EC">Tweet</font> us at <font color="#8BE9FD"><b>@nu_shell</b></font>
+
+It&apos;s been this long since <font color="#42E66C">Nushell</font>&apos;s first commit:
+5yr 1month 11hr 4min 50sec 448ms 408µs 783ns
+
+gStartup Time: 373ms 970µs 925ns
+
+<font color="#8BE9FD"><b>Seagate Expansion Drive-1-personal-site</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[✘»!+?⇡]</b></font> 
+<font color="#50FA7B"><b>❯</b></font> <font color="#75D7EC">git</font> <font color="#50FA7B"><b>status</b></font>
+On branch main
+Your branch is ahead of &apos;6tb-bkp/main&apos; by 7 commits.
+  (use &quot;git push&quot; to publish your local commits)
+
+Changes to be committed:
+  (use &quot;git restore --staged &lt;file&gt;...&quot; to unstage)
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/[Content_Types].xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/_rels/.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/docProps/app.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/docProps/core.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/docProps/thumbnail.jpeg</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/_rels/presentation.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/hdphoto1.wdp</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/hdphoto2.wdp</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/hdphoto3.wdp</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/hdphoto4.wdp</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/hdphoto5.wdp</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/hdphoto6.wdp</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/hdphoto7.wdp</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image1.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image10.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image11.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image12.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image13.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image14.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image15.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image16.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image17.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image18.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image19.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image2.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image20.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image21.jpg</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image22.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image23.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image24.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image25.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image26.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image27.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image28.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image29.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image3.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image30.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image31.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image32.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image33.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image34.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image35.svg</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image36.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image37.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image38.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image39.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image4.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image40.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image41.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image42.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image43.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image44.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image45.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image46.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image47.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image48.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image49.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image5.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image50.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image51.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image52.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image6.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image7.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image8.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/media/image9.png</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/presProps.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/presentation.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout1.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout10.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout11.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout12.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout13.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout14.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout15.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout16.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout17.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout18.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout19.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout2.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout20.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout21.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout22.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout23.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout24.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout25.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout26.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout27.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout28.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout29.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout3.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout30.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout31.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout32.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout33.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout4.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout5.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout6.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout7.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout8.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout9.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout1.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout10.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout11.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout12.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout13.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout14.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout15.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout16.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout17.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout18.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout19.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout2.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout20.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout21.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout22.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout23.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout24.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout25.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout26.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout27.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout28.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout29.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout3.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout30.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout31.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout32.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout33.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout4.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout5.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout6.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout7.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout8.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideLayouts/slideLayout9.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideMasters/_rels/slideMaster1.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideMasters/_rels/slideMaster2.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideMasters/_rels/slideMaster3.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideMasters/slideMaster1.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideMasters/slideMaster2.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slideMasters/slideMaster3.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/_rels/slide1.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/_rels/slide10.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/_rels/slide11.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/_rels/slide12.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/_rels/slide13.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/_rels/slide2.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/_rels/slide3.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/_rels/slide4.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/_rels/slide5.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/_rels/slide6.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/_rels/slide7.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/_rels/slide8.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/_rels/slide9.xml.rels</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/slide1.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/slide10.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/slide11.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/slide12.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/slide13.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/slide2.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/slide3.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/slide4.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/slide5.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/slide6.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/slide7.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/slide8.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/slides/slide9.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/tableStyles.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/theme/theme1.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/theme/theme2.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/theme/theme3.xml</font>
+	<font color="#42E66C">new file:   Presentation.pptx_FILES/ppt/viewProps.xml</font>
+	<font color="#42E66C">modified:   css/main.css</font>
+	<font color="#42E66C">modified:   img/header.png</font>
+	<font color="#42E66C">new file:   img/header.png.log.html5</font>
+	<font color="#42E66C">modified:   img/photo.png</font>
+	<font color="#42E66C">modified:   index.html</font>
+	<font color="#42E66C">new file:   tokens/dani/images/.etherscan.svg.weborigin</font>
+	<font color="#42E66C">new file:   tokens/dani/images/.uniswap.png.weborigin</font>
+	<font color="#42E66C">modified:   tokens/dani/images/coin.ico</font>
+	<font color="#42E66C">new file:   tokens/dani/images/coin.ico.log.html5</font>
+	<font color="#42E66C">modified:   tokens/dani/images/coin.png</font>
+	<font color="#42E66C">deleted:    tokens/dani/images/etherscan.png</font>
+	<font color="#42E66C">new file:   tokens/dani/images/etherscan.svg</font>
+	<font color="#42E66C">modified:   tokens/dani/images/logo.png</font>
+	<font color="#42E66C">modified:   tokens/dani/images/presentation.png</font>
+	<font color="#42E66C">modified:   tokens/dani/images/uniswap.png</font>
+	<font color="#42E66C">new file:   tokens/danimesq/images/.etherscan.svg.weborigin</font>
+	<font color="#42E66C">new file:   tokens/danimesq/images/.uniswap.png.weborigin</font>
+	<font color="#42E66C">modified:   tokens/danimesq/images/coin.png</font>
+	<font color="#42E66C">deleted:    tokens/danimesq/images/etherscan.png</font>
+	<font color="#42E66C">new file:   tokens/danimesq/images/etherscan.svg</font>
+	<font color="#42E66C">modified:   tokens/danimesq/images/logo.png</font>
+	<font color="#42E66C">modified:   tokens/danimesq/images/presentation.png</font>
+	<font color="#42E66C">modified:   tokens/danimesq/images/uniswap.png</font>
+	<font color="#42E66C">new file:   tokens/images/.etherscan.svg.weborigin</font>
+	<font color="#42E66C">new file:   tokens/images/.uniswap.png.weborigin</font>
+	<font color="#42E66C">modified:   tokens/images/coin.png</font>
+	<font color="#42E66C">renamed:    tokens/images/daniell-mesquitas-arts.png -&gt; tokens/images/daniella-mesquitas-arts.png</font>
+	<font color="#42E66C">deleted:    tokens/images/etherscan.png</font>
+	<font color="#42E66C">new file:   tokens/images/etherscan.svg</font>
+	<font color="#42E66C">modified:   tokens/images/logo.png</font>
+	<font color="#42E66C">modified:   tokens/images/presentation.png</font>
+	<font color="#42E66C">modified:   tokens/images/uniswap.png</font>
+
+Changes not staged for commit:
+  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+  (use &quot;git restore &lt;file&gt;...&quot; to discard changes in working directory)
+	<font color="#E356A7">modified:   index.html</font>
+	<font color="#E356A7">modified:   lists/moneycrypto/index.html</font>
+	<font color="#E356A7">modified:   personal/index.html</font>
+	<font color="#E356A7">modified:   professional/index.html</font>
+
+Untracked files:
+  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
+	<font color="#E356A7">card/</font>
+	<font color="#E356A7">git/</font>
+
+
+<font color="#8BE9FD"><b>Seagate Expansion Drive-1-personal-site</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[✘»!+?⇡]</b></font> 
+<font color="#50FA7B"><b>❯</b></font> <font color="#75D7EC">git</font> <font color="#50FA7B"><b>add</b></font> <font color="#50FA7B"><b>lists/moneycrypto/index.html</b></font> <font color="#50FA7B"><b>personal/index.html</b></font> <font color="#50FA7B"><b>professional/index.html</b></font>
+warning: in the working copy of &apos;personal/index.html&apos;, CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of &apos;professional/index.html&apos;, CRLF will be replaced by LF the next time Git touches it
+
+<font color="#8BE9FD"><b>Seagate Expansion Drive-1-personal-site</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[✘»!+?⇡]</b></font> 
+<font color="#50FA7B"><b>❯</b></font> <font color="#75D7EC">git</font> <font color="#50FA7B"><b>commit</b></font> <font color="#50FA7B"><b>-m</b></font> <font color="#50FA7B"><b>&quot;complement previous commit&quot;</b></font>
+🤓📝 Storing files&apos; timestamp, CID/hash; and other files/commit&apos;s metadata...
+[DEBUG]Current file: Presentation.pptx_FILES/[Content_Types].xml
+[DEBUG]Current file: Presentation.pptx_FILES/_rels/.rels
+[DEBUG]Current file: Presentation.pptx_FILES/docProps/app.xml
+[DEBUG]Current file: Presentation.pptx_FILES/docProps/core.xml
+[DEBUG]Current file: Presentation.pptx_FILES/docProps/thumbnail.jpeg
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/_rels/presentation.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/hdphoto1.wdp
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/hdphoto2.wdp
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/hdphoto3.wdp
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/hdphoto4.wdp
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/hdphoto5.wdp
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/hdphoto6.wdp
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/hdphoto7.wdp
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image1.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image10.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image11.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image12.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image13.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image14.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image15.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image16.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image17.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image18.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image19.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image2.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image20.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image21.jpg
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image22.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image23.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image24.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image25.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image26.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image27.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image28.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image29.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image3.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image30.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image31.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image32.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image33.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image34.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image35.svg
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image36.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image37.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image38.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image39.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image4.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image40.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image41.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image42.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image43.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image44.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image45.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image46.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image47.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image48.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image49.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image5.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image50.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image51.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image52.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image6.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image7.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image8.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/media/image9.png
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/presProps.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/presentation.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout1.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout10.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout11.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout12.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout13.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout14.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout15.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout16.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout17.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout18.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout19.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout2.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout20.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout21.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout22.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout23.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout24.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout25.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout26.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout27.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout28.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout29.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout3.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout30.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout31.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout32.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout33.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout4.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout5.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout6.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout7.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout8.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout9.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout1.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout10.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout11.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout12.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout13.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout14.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout15.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout16.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout17.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout18.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout19.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout2.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout20.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout21.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout22.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout23.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout24.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout25.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout26.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout27.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout28.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout29.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout3.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout30.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout31.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout32.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout33.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout4.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout5.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout6.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout7.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout8.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideLayouts/slideLayout9.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideMasters/_rels/slideMaster1.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideMasters/_rels/slideMaster2.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideMasters/_rels/slideMaster3.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideMasters/slideMaster1.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideMasters/slideMaster2.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slideMasters/slideMaster3.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/_rels/slide1.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/_rels/slide10.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/_rels/slide11.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/_rels/slide12.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/_rels/slide13.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/_rels/slide2.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/_rels/slide3.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/_rels/slide4.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/_rels/slide5.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/_rels/slide6.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/_rels/slide7.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/_rels/slide8.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/_rels/slide9.xml.rels
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/slide1.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/slide10.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/slide11.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/slide12.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/slide13.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/slide2.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/slide3.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/slide4.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/slide5.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/slide6.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/slide7.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/slide8.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/slides/slide9.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/tableStyles.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/theme/theme1.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/theme/theme2.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/theme/theme3.xml
+[DEBUG]Current file: Presentation.pptx_FILES/ppt/viewProps.xml
+[DEBUG]Current file: css/main.css
+[DEBUG]Current file: img/header.png
+[DEBUG]Current file: img/header.png.log.html5
+[DEBUG]Current file: img/photo.png
+[DEBUG]Current file: index.html
+[DEBUG]Current file: lists/moneycrypto/index.html
+[DEBUG]Current file: personal/index.html
+[DEBUG]Current file: professional/index.html
+[DEBUG]Current file: tokens/dani/images/.etherscan.svg.weborigin
+[DEBUG]Current file: tokens/dani/images/.uniswap.png.weborigin
+[DEBUG]Current file: tokens/dani/images/coin.ico
+[DEBUG]Current file: tokens/dani/images/coin.ico.log.html5
+[DEBUG]Current file: tokens/dani/images/coin.png
+[DEBUG]Current file: tokens/dani/images/etherscan.svg
+[DEBUG]Current file: tokens/dani/images/logo.png
+[DEBUG]Current file: tokens/dani/images/presentation.png
+[DEBUG]Current file: tokens/dani/images/uniswap.png
+[DEBUG]Current file: tokens/danimesq/images/.etherscan.svg.weborigin
+[DEBUG]Current file: tokens/danimesq/images/.uniswap.png.weborigin
+[DEBUG]Current file: tokens/danimesq/images/coin.png
+[DEBUG]Current file: tokens/danimesq/images/etherscan.svg
+[DEBUG]Current file: tokens/danimesq/images/logo.png
+[DEBUG]Current file: tokens/danimesq/images/presentation.png
+[DEBUG]Current file: tokens/danimesq/images/uniswap.png
+[DEBUG]Current file: tokens/images/.etherscan.svg.weborigin
+[DEBUG]Current file: tokens/images/.uniswap.png.weborigin
+[DEBUG]Current file: tokens/images/coin.png
+[DEBUG]Current file: tokens/images/daniella-mesquitas-arts.png
+[DEBUG]Current file: tokens/images/etherscan.svg
+[DEBUG]Current file: tokens/images/logo.png
+[DEBUG]Current file: tokens/images/presentation.png
+[DEBUG]Current file: tokens/images/uniswap.png
+[01VCS] 🆔Commit ID: QmawR7kpmZypAGWTDGyHHnmZRn8N4k85jeTaBzFvM1Khmj
+💎 Found .git/hooks/.eth!
+🪄 Signing the commit QmawR7kpmZypAGWTDGyHHnmZRn8N4k85jeTaBzFvM1Khmj with your choosen ETH address 0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91...
+🔦 Verifying signature...
+Verified
+/usr/bin/find: ‘tokens/dani/images/etherscan.png’: No such file or directory
+/usr/bin/find: ‘tokens/danimesq/images/etherscan.png’: No such file or directory
+/usr/bin/find: ‘tokens/images/etherscan.png’: No such file or directory
+✅ Done. Meta has been preserved!
+🎉 Your snapshot/commit is done!
+[main 6b09de0] complement previous commit
+ 209 files changed, 1773 insertions(+), 184 deletions(-)
+ create mode 100644 Presentation.pptx_FILES/[Content_Types].xml
+ create mode 100644 Presentation.pptx_FILES/_rels/.rels
+ create mode 100644 Presentation.pptx_FILES/docProps/app.xml
+ create mode 100644 Presentation.pptx_FILES/docProps/core.xml
+ create mode 100644 Presentation.pptx_FILES/docProps/thumbnail.jpeg
+ create mode 100644 Presentation.pptx_FILES/ppt/_rels/presentation.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/media/hdphoto1.wdp
+ create mode 100644 Presentation.pptx_FILES/ppt/media/hdphoto2.wdp
+ create mode 100644 Presentation.pptx_FILES/ppt/media/hdphoto3.wdp
+ create mode 100644 Presentation.pptx_FILES/ppt/media/hdphoto4.wdp
+ create mode 100644 Presentation.pptx_FILES/ppt/media/hdphoto5.wdp
+ create mode 100644 Presentation.pptx_FILES/ppt/media/hdphoto6.wdp
+ create mode 100644 Presentation.pptx_FILES/ppt/media/hdphoto7.wdp
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image1.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image10.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image11.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image12.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image13.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image14.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image15.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image16.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image17.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image18.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image19.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image2.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image20.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image21.jpg
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image22.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image23.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image24.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image25.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image26.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image27.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image28.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image29.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image3.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image30.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image31.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image32.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image33.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image34.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image35.svg
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image36.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image37.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image38.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image39.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image4.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image40.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image41.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image42.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image43.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image44.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image45.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image46.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image47.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image48.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image49.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image5.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image50.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image51.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image52.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image6.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image7.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image8.png
+ create mode 100644 Presentation.pptx_FILES/ppt/media/image9.png
+ create mode 100644 Presentation.pptx_FILES/ppt/presProps.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/presentation.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout1.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout10.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout11.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout12.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout13.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout14.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout15.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout16.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout17.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout18.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout19.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout2.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout20.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout21.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout22.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout23.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout24.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout25.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout26.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout27.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout28.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout29.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout3.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout30.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout31.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout32.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout33.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout4.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout5.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout6.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout7.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout8.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/_rels/slideLayout9.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout1.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout10.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout11.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout12.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout13.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout14.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout15.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout16.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout17.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout18.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout19.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout2.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout20.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout21.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout22.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout23.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout24.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout25.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout26.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout27.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout28.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout29.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout3.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout30.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout31.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout32.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout33.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout4.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout5.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout6.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout7.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout8.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideLayouts/slideLayout9.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideMasters/_rels/slideMaster1.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideMasters/_rels/slideMaster2.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideMasters/_rels/slideMaster3.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slideMasters/slideMaster1.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideMasters/slideMaster2.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slideMasters/slideMaster3.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/_rels/slide1.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/_rels/slide10.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/_rels/slide11.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/_rels/slide12.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/_rels/slide13.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/_rels/slide2.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/_rels/slide3.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/_rels/slide4.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/_rels/slide5.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/_rels/slide6.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/_rels/slide7.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/_rels/slide8.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/_rels/slide9.xml.rels
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/slide1.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/slide10.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/slide11.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/slide12.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/slide13.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/slide2.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/slide3.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/slide4.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/slide5.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/slide6.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/slide7.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/slide8.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/slides/slide9.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/tableStyles.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/theme/theme1.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/theme/theme2.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/theme/theme3.xml
+ create mode 100644 Presentation.pptx_FILES/ppt/viewProps.xml
+ create mode 100644 img/header.png.log.html5
+ create mode 100644 tokens/dani/images/.etherscan.svg.weborigin
+ create mode 100644 tokens/dani/images/.uniswap.png.weborigin
+ create mode 100644 tokens/dani/images/coin.ico.log.html5
+ delete mode 100644 tokens/dani/images/etherscan.png
+ create mode 100644 tokens/dani/images/etherscan.svg
+ create mode 100644 tokens/danimesq/images/.etherscan.svg.weborigin
+ create mode 100644 tokens/danimesq/images/.uniswap.png.weborigin
+ delete mode 100644 tokens/danimesq/images/etherscan.png
+ create mode 100644 tokens/danimesq/images/etherscan.svg
+ create mode 100644 tokens/images/.etherscan.svg.weborigin
+ create mode 100644 tokens/images/.uniswap.png.weborigin
+ rename tokens/images/{daniell-mesquitas-arts.png =&gt; daniella-mesquitas-arts.png} (100%)
+ delete mode 100644 tokens/images/etherscan.png
+ create mode 100644 tokens/images/etherscan.svg
+
+<font color="#8BE9FD"><b>Seagate Expansion Drive-1-personal-site</b></font> on <font color="#FF5555"><b> main</b></font> <font color="#FF79C6"><b>[!?⇡]</b></font> took <font color="#F1FA8C"><b>22s</b></font> 
+<font color="#50FA7B"><b>❯</b></font> 
+</pre>
