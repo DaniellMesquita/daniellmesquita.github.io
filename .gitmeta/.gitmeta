@@ -1,12 +1,12 @@
-commit QmeN8ZC8snoQk5xnypPRiQEFqwnm2Enp4sxzREyKiyiNP9
+commit Qma56yJokkSEDKoHuCvxz3mXGiPVaY2NtHTB8MXhmTzTFM
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 48c6b8972c38fdc14177efd7dd18ee2c9bfbf5fffbd1b154737dce32986018c672697b97540a9e6d64033931a6fa41ff9ea1146c2a7cf1cf6a863c803e335c0100
+Signature: 8c91a75f7b57bd1d780fc24d15ecccf6ceecae83616ee8bfea446a95bdcbdcb67c31e441333e154ef5458d6753f918ddff354ed45f7061d421fdbce3b10207f600
 
 ------------------------------
 
-Commit CID if including git's SHA1: Qmbn1g7LShqB18Hf1UqrvNzcjxkJqV9JiaHCcXqRYKue6k
-Commit CID if containing only file hashes: Qmab76vyPJp3B6Vv7SKSxbFLkjEqHGH9meYAS4ZNeEfY7b
+Commit CID if including git's SHA1: QmSoX7GAAq4p8MVs2biUtoKifCVAjTvcwewpzHpd2Ntoeb
+Commit CID if containing only file hashes: 
 
 ------------------------------
 
@@ -17,51 +17,3 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'card/Maza-designDev_pen_OJVgRrx/credits.txt'
-chmod 0664 'card/Maza-designDev_pen_OJVgRrx/credits.txt'
-/usr/bin/touch -hcmd "2024-05-04 00:46:34.6250106000 -0300" 'card/Maza-designDev_pen_OJVgRrx/credits.txt'
-/usr/bin/touch -hcad "2024-06-08 01:05:35.0158820000 -0300" 'card/Maza-designDev_pen_OJVgRrx/credits.txt'
-chown -h 1000:1000 'card/Maza-designDev_pen_OJVgRrx/index-0.html'
-chmod 0664 'card/Maza-designDev_pen_OJVgRrx/index-0.html'
-/usr/bin/touch -hcmd "2024-05-04 00:45:13.1651568000 -0300" 'card/Maza-designDev_pen_OJVgRrx/index-0.html'
-/usr/bin/touch -hcad "2024-06-08 01:05:35.0168819000 -0300" 'card/Maza-designDev_pen_OJVgRrx/index-0.html'
-chown -h 1000:1000 'card/Maza-designDev_pen_OJVgRrx/index-1.html'
-chmod 0664 'card/Maza-designDev_pen_OJVgRrx/index-1.html'
-/usr/bin/touch -hcmd "2024-05-04 00:47:57.0559036000 -0300" 'card/Maza-designDev_pen_OJVgRrx/index-1.html'
-/usr/bin/touch -hcad "2024-06-08 01:05:35.0178818000 -0300" 'card/Maza-designDev_pen_OJVgRrx/index-1.html'
-chown -h 1000:1000 'card/Maza-designDev_pen_OJVgRrx/index-2.html'
-chmod 0664 'card/Maza-designDev_pen_OJVgRrx/index-2.html'
-/usr/bin/touch -hcmd "2024-05-04 00:49:53.3862052000 -0300" 'card/Maza-designDev_pen_OJVgRrx/index-2.html'
-/usr/bin/touch -hcad "2024-06-08 01:05:35.0198816000 -0300" 'card/Maza-designDev_pen_OJVgRrx/index-2.html'
-chown -h 1000:1000 'card/Maza-designDev_pen_OJVgRrx/index.html'
-chmod 0664 'card/Maza-designDev_pen_OJVgRrx/index.html'
-/usr/bin/touch -hcmd "2024-05-04 00:53:25.4166736000 -0300" 'card/Maza-designDev_pen_OJVgRrx/index.html'
-/usr/bin/touch -hcad "2024-06-08 01:05:35.0208815000 -0300" 'card/Maza-designDev_pen_OJVgRrx/index.html'
-chown -h 1000:1000 'card/Maza-designDev_pen_OJVgRrx/style-0.css'
-chmod 0664 'card/Maza-designDev_pen_OJVgRrx/style-0.css'
-/usr/bin/touch -hcmd "2024-05-04 00:49:41.4580698000 -0300" 'card/Maza-designDev_pen_OJVgRrx/style-0.css'
-/usr/bin/touch -hcad "2024-06-08 01:05:35.0218815000 -0300" 'card/Maza-designDev_pen_OJVgRrx/style-0.css'
-chown -h 1000:1000 'card/Maza-designDev_pen_OJVgRrx/style-1.css'
-chmod 0664 'card/Maza-designDev_pen_OJVgRrx/style-1.css'
-/usr/bin/touch -hcmd "2024-05-04 00:51:18.8591873000 -0300" 'card/Maza-designDev_pen_OJVgRrx/style-1.css'
-/usr/bin/touch -hcad "2024-06-08 01:05:35.0228814000 -0300" 'card/Maza-designDev_pen_OJVgRrx/style-1.css'
-chown -h 1000:1000 'card/Maza-designDev_pen_OJVgRrx/style.css'
-chmod 0664 'card/Maza-designDev_pen_OJVgRrx/style.css'
-/usr/bin/touch -hcmd "2024-05-04 00:58:04.4060499000 -0300" 'card/Maza-designDev_pen_OJVgRrx/style.css'
-/usr/bin/touch -hcad "2024-06-08 00:12:54.9110281000 -0300" 'card/Maza-designDev_pen_OJVgRrx/style.css'
-chown -h 1000:1000 'card/index-0.html'
-chmod 0755 'card/index-0.html'
-/usr/bin/touch -hcmd "2024-05-04 01:43:21.9032011000 -0300" 'card/index-0.html'
-/usr/bin/touch -hcad "2024-06-08 01:05:35.0248812000 -0300" 'card/index-0.html'
-chown -h 1000:1000 'card/index-1.html'
-chmod 0755 'card/index-1.html'
-/usr/bin/touch -hcmd "2024-06-07 00:02:45.6780775000 -0300" 'card/index-1.html'
-/usr/bin/touch -hcad "2024-06-08 01:05:35.0258811000 -0300" 'card/index-1.html'
-chown -h 1000:1000 'card/index-2.html'
-chmod 0755 'card/index-2.html'
-/usr/bin/touch -hcmd "2024-06-07 01:41:02.2454991000 -0300" 'card/index-2.html'
-/usr/bin/touch -hcad "2024-06-08 01:05:35.0268810000 -0300" 'card/index-2.html'
-chown -h 1000:1000 'card/index.html'
-chmod 0755 'card/index.html'
-/usr/bin/touch -hcmd "2024-06-08 01:02:18.6239257000 -0300" 'card/index.html'
-/usr/bin/touch -hcad "2024-06-08 01:05:35.0278810000 -0300" 'card/index.html'
