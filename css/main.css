@@ -1,5 +1,5 @@
 body {
-    background: rgba(0, 0, 0, 0) linear-gradient(to right, #55CDFC, rgb(255, 255, 255), rgb(238, 146, 186)) repeat scroll 0% 0%;
+    background: url(../img/bg.png);
     font-family: Roboto;
     margin: 0 auto;
 }
@@ -72,7 +72,7 @@ nav ul li:active {
     width: 845px;
     color: #fff;
 	margin: 0 auto;
-background: #ffffffa1;
+background: #ffffffe8;
 border-radius: 5px;
 color: #000 !important;
 }
