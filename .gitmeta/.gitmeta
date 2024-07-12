@@ -1,12 +1,12 @@
-commit QmYrRHsPy1tWxJNKYSmTTdYFYTeCSktnMghGxiTRVYeMza
+commit QmT64hj2M8ZkkNLGFBAPq3Z5jBNoJqg6Dt44hU5mKe9Fkd
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 01f394679405cccce93edda74863a8d206501b4ebbd447115ab7bfb91be3921a21706eb8ab51bb86af185884b6cfef821b03fc4d3e149ae29355004d9ca7853a01
+Signature: 2143eba2a7634b8f362ac4cd4ce4de4923d87b22d6a4d0c5f9232e6c919d07dd1f8045d6cd015748c6815db4d6c554719531f84b3bae9bf93f8f638f3de1422001
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmWBLwfUYXFph96QKGt1Ty6aDuQ45mwmXiRpwBVBCVGtRF
-Commit CID if containing only file hashes: QmcXr4tbhWte9tQwM43Xi7XR8FfBG97SffJ7z48GzHnjoA
+Commit CID if including git's SHA1: QmQ77JgEE4EaEU8sao7HacaxRkepDDthFpCvtxJ1H8HDU4
+Commit CID if containing only file hashes: QmdPnUix6j6rq7cEZV6EFv93D2wpnGEvJ6YFko1LkjQ5VC
 
 ------------------------------
 
@@ -19,53 +19,9 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 chown -h 1000:1000 'card/index.html'
 chmod 0755 'card/index.html'
-/usr/bin/touch -hcmd "2024-07-11 19:04:51.9759209000 -0300" 'card/index.html'
-/usr/bin/touch -hcad "2024-07-11 19:04:59.2792073000 -0300" 'card/index.html'
-chown -h 1000:1000 'css/main-0.css'
-chmod 0755 'css/main-0.css'
-/usr/bin/touch -hcmd "2024-07-11 16:51:02.0799600000 -0300" 'css/main-0.css'
-/usr/bin/touch -hcad "2024-07-11 17:16:31.0470770000 -0300" 'css/main-0.css'
-chown -h 1000:1000 'css/main.css'
-chmod 0755 'css/main.css'
-/usr/bin/touch -hcmd "2024-07-11 17:15:36.1693847000 -0300" 'css/main.css'
-/usr/bin/touch -hcad "2024-07-11 17:15:38.5571519000 -0300" 'css/main.css'
-chown -h 1000:1000 'img/avatar.gif'
-chmod 0755 'img/avatar.gif'
-/usr/bin/touch -hcmd "2024-06-28 02:04:56.9900000000 -0300" 'img/avatar.gif'
-/usr/bin/touch -hcad "2024-07-11 19:05:36.0266201000 -0300" 'img/avatar.gif'
-chown -h 1000:1000 'img/bg.png'
-chmod 0664 'img/bg.png'
-/usr/bin/touch -hcmd "2024-07-11 17:08:50.9292479000 -0300" 'img/bg.png'
-/usr/bin/touch -hcad "2024-07-11 17:08:53.9049015000 -0300" 'img/bg.png'
-chown -h 1000:1000 'img/bg.png.log.html5'
-chmod 0664 'img/bg.png.log.html5'
-/usr/bin/touch -hcmd "2024-07-11 17:09:11.2798911000 -0300" 'img/bg.png.log.html5'
-/usr/bin/touch -hcad "2024-07-11 17:16:25.3426247000 -0300" 'img/bg.png.log.html5'
-chown -h 1000:1000 'img/bg.svg'
-chmod 0755 'img/bg.svg'
-/usr/bin/touch -hcmd "2024-07-11 17:06:11.0198397000 -0300" 'img/bg.svg'
-/usr/bin/touch -hcad "2024-07-11 17:07:31.9406720000 -0300" 'img/bg.svg'
-chown -h 1000:1000 'img/photos/20240620_170947.jpg'
-chmod 0755 'img/photos/20240620_170947.jpg'
-/usr/bin/touch -hcmd "2024-06-20 17:09:48.0000000000 -0300" 'img/photos/20240620_170947.jpg'
-/usr/bin/touch -hcad "2024-07-11 17:27:23.5454794000 -0300" 'img/photos/20240620_170947.jpg'
+/usr/bin/touch -hcmd "2024-07-11 20:11:23.9374565000 -0300" 'card/index.html'
+/usr/bin/touch -hcad "2024-07-11 21:32:56.6211052000 -0300" 'card/index.html'
 chown -h 1000:1000 'index.html'
 chmod 0755 'index.html'
-/usr/bin/touch -hcmd "2024-07-11 19:23:51.9399084000 -0300" 'index.html'
-/usr/bin/touch -hcad "2024-07-11 19:23:59.6463956000 -0300" 'index.html'
-chown -h 1000:1000 'press/press-kit/img/signature-lined.png'
-chmod 0664 'press/press-kit/img/signature-lined.png'
-/usr/bin/touch -hcmd "2024-07-11 16:47:09.1995890000 -0300" 'press/press-kit/img/signature-lined.png'
-/usr/bin/touch -hcad "2024-07-11 16:47:11.9553028000 -0300" 'press/press-kit/img/signature-lined.png'
-chown -h 1000:1000 'press/press-kit/img/signature-lined.png.log.html5'
-chmod 0664 'press/press-kit/img/signature-lined.png.log.html5'
-/usr/bin/touch -hcmd "2024-07-11 16:41:59.9507785000 -0300" 'press/press-kit/img/signature-lined.png.log.html5'
-/usr/bin/touch -hcad "2024-07-11 16:42:08.4400251000 -0300" 'press/press-kit/img/signature-lined.png.log.html5'
-chown -h 1000:1000 'press/press-kit/img/signature-lined.svg'
-chmod 0755 'press/press-kit/img/signature-lined.svg'
-/usr/bin/touch -hcmd "2024-07-11 16:47:00.3675050000 -0300" 'press/press-kit/img/signature-lined.svg'
-/usr/bin/touch -hcad "2024-07-11 16:47:02.8482479000 -0300" 'press/press-kit/img/signature-lined.svg'
-chown -h 1000:1000 'press/press-kit/index.html'
-chmod 0755 'press/press-kit/index.html'
-/usr/bin/touch -hcmd "2024-07-11 16:43:47.5548330000 -0300" 'press/press-kit/index.html'
-/usr/bin/touch -hcad "2024-07-11 16:43:49.2376715000 -0300" 'press/press-kit/index.html'
+/usr/bin/touch -hcmd "2024-07-11 21:32:23.5805508000 -0300" 'index.html'
+/usr/bin/touch -hcad "2024-07-11 21:32:49.3328648000 -0300" 'index.html'
