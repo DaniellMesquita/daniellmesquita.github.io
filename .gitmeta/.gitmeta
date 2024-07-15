@@ -1,12 +1,12 @@
-commit QmYx5pHYQA23sLrHu9RSieCCuyoob1HoYoiSMs1CidPe3N
+commit QmNrvrvL8h25RhPyAD9gRk4jHfjdYAKmuREKZ2y6cczxnu
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 49e0f48aa2e42eebba4c9713bcf8ab68f0cd9c0e453e2ab04fc0777f0d57ec2e6504222417eda96bf720005c0a487319a68c0a4c7b0d084a4c5c037552c0f60200
+Signature: 75c64fe8503d32033d7c79bd5b729a8ef8e7b295e28d86bcd14b19929286a570569649e3e02ef33d4007d0e5365dc8d3cb1cc111a62b69c10476ac513408af9301
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmYR7NGPdfDdXLuejqgDKEZQfHvcuiduxQp233f22cJZDs
-Commit CID if containing only file hashes: QmQs1RLLaptVaotqrVgPo5Z1uUUScDcSpuLBPwHW3sQXd7
+Commit CID if including git's SHA1: QmZznY5o2jbaCTAGCHMUpSmceprDGmdNDfYfEuhyRgv91a
+Commit CID if containing only file hashes: QmS7MorVZhBM4DRzQPGsWj87JHYuqUkmCUC29uWRuDNcbm
 
 ------------------------------
 
@@ -17,11 +17,11 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'favicon.ico'
-chmod 0664 'favicon.ico'
-/usr/bin/touch -hcmd "2024-07-15 05:06:06.2342374000 -0300" 'favicon.ico'
-/usr/bin/touch -hcad "2024-07-15 05:06:59.6083481000 -0300" 'favicon.ico'
-chown -h 1000:1000 'favicon.ico.log.html5'
-chmod 0664 'favicon.ico.log.html5'
-/usr/bin/touch -hcmd "2024-07-15 05:06:39.0773044000 -0300" 'favicon.ico.log.html5'
-/usr/bin/touch -hcad "2024-07-15 05:06:59.6173481000 -0300" 'favicon.ico.log.html5'
+chown -h 1000:1000 'home/index.html'
+chmod 0755 'home/index.html'
+/usr/bin/touch -hcmd "2024-07-15 12:15:48.6994681000 -0300" 'home/index.html'
+/usr/bin/touch -hcad "2024-07-15 12:15:48.7054681000 -0300" 'home/index.html'
+chown -h 1000:1000 'home/status.json'
+chmod 0664 'home/status.json'
+/usr/bin/touch -hcmd "2024-07-15 12:15:47.8304652000 -0300" 'home/status.json'
+/usr/bin/touch -hcad "2024-07-15 12:15:47.8374653000 -0300" 'home/status.json'
