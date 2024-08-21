@@ -1,27 +1,23 @@
-commit QmVBGgvFC9KQStCNCSZbbKP5AphbXdy1ttFWqqdh2ZEcWs
+commit QmY3vLGmnidnuwzEZNamVGfPa84PLawMATRwC1UE2en7Cu
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 8996bfb51ab5f0f605a102d582cb1539996197d39ca79baf0e39155af6d3be930f44bc2e57241d3b16358a6bf7df9e628465bbf262da5f876d0282228c2d004801
+Signature: 2450451e23010ca8e5854af16c9b2270100d0083bd351d3678f29c483a2de69a17dde62638c4b96ebe62f6a02310ee425cadd63d4dc81323450bd46f4ffb645500
 
 ------------------------------
 
-Commit CID if including git's SHA1: Qmar4WbfEoD5zP8jPovPBKQRYNsVbEoRr2y4FAkoUhMTtS
-Commit CID if containing only file hashes: QmScQApSPp82MTZPrWXdyH4koeamx4vWJSq3owGtxf3rVk
+Commit CID if including git's SHA1: QmYxf91dVCnoy3pHYq392Crgi43tqkvgFs4GrL9PA95qXy
+Commit CID if containing only file hashes: QmdhT7cXfqRgd6uqGEAvkkn9CYbmBozoW83BZ4M7MRmLUX
 
 ------------------------------
 
 .gitmeta version: r8
-Local folder: /media/daniella/Windows 10 main/Users/Daniell/Desktop/CrossOSTasks/Windows/at Seagate rmv the original bc the up-to-date will be this/Seagate Expansion Drive-1-personal-site
+Local folder: /media/daniella/Ubuntu/at origin, rmv the original bc the up-to-date will be this/_home_daniella_Desktop_DesktopWindows/CrossOSTasks/Windows/at Seagate rmv the original bc the up-to-date will be this/Seagate Expansion Drive-1-personal-site
 Remote Name: 6tb-bkp
 Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/daniella/SeagateExpansionDrive/1/personal/site
 
 ------------------------------
 
-chown -h 1000:1000 'home/index.html'
-chmod 0755 'home/index.html'
-/usr/bin/touch -hcmd "2024-08-07 07:21:07.8601011000 -0300" 'home/index.html'
-/usr/bin/touch -hcad "2024-08-07 07:21:07.8661011000 -0300" 'home/index.html'
-chown -h 1000:1000 'home/status.json'
-chmod 0664 'home/status.json'
-/usr/bin/touch -hcmd "2024-08-07 07:21:07.3000982000 -0300" 'home/status.json'
-/usr/bin/touch -hcad "2024-08-07 07:21:07.3050983000 -0300" 'home/status.json'
+chown -h 1000:1000 'index.html'
+chmod 0755 'index.html'
+/usr/bin/touch -hcmd "2024-08-21 08:44:21.1028626000 -0300" 'index.html'
+/usr/bin/touch -hcad "2024-08-21 09:02:15.8619085000 -0300" 'index.html'
