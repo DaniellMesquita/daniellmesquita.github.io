@@ -1,12 +1,12 @@
-commit QmY3vLGmnidnuwzEZNamVGfPa84PLawMATRwC1UE2en7Cu
+commit QmVP6inYgoSMrJEBbmJeR71Mtpbs3AMLmbHV6AXpwLD8xA
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 2450451e23010ca8e5854af16c9b2270100d0083bd351d3678f29c483a2de69a17dde62638c4b96ebe62f6a02310ee425cadd63d4dc81323450bd46f4ffb645500
+Signature: e8fc0104b79886f7dc3436fec4d55d223339a10b902f4f72f852689be1120ad46eb4ac6253a8b4eb6bbf71494e9d3528e8a6d2333160d541250e4e81bb830cd100
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmYxf91dVCnoy3pHYq392Crgi43tqkvgFs4GrL9PA95qXy
-Commit CID if containing only file hashes: QmdhT7cXfqRgd6uqGEAvkkn9CYbmBozoW83BZ4M7MRmLUX
+Commit CID if including git's SHA1: QmRhmWcEt7JrBvi6fEqLPz8SgT4aSPivdHhgwQaDjPNUBx
+Commit CID if containing only file hashes: Qmf5E7RUS4ZEaTPjzi5zWZfSrKvo3j9EU9pMZ7iLfSoeef
 
 ------------------------------
 
@@ -17,7 +17,11 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
+chown -h 1000:1000 'img/photos/InShot_20240821_095211488.gif'
+chmod 0664 'img/photos/InShot_20240821_095211488.gif'
+/usr/bin/touch -hcmd "2024-08-21 10:01:31.5714409000 -0300" 'img/photos/InShot_20240821_095211488.gif'
+/usr/bin/touch -hcad "2024-08-21 10:01:34.3724945000 -0300" 'img/photos/InShot_20240821_095211488.gif'
 chown -h 1000:1000 'index.html'
 chmod 0755 'index.html'
-/usr/bin/touch -hcmd "2024-08-21 08:44:21.1028626000 -0300" 'index.html'
-/usr/bin/touch -hcad "2024-08-21 09:02:15.8619085000 -0300" 'index.html'
+/usr/bin/touch -hcmd "2024-08-21 16:06:25.0656334000 -0300" 'index.html'
+/usr/bin/touch -hcad "2024-08-21 16:06:27.5793934000 -0300" 'index.html'
