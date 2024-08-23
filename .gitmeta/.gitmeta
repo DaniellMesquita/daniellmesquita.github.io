@@ -1,12 +1,12 @@
-commit QmVP6inYgoSMrJEBbmJeR71Mtpbs3AMLmbHV6AXpwLD8xA
+commit QmRWLAA5jV8dmBtK7vinh6qdvpcHpwJnTSjC49QqvfmG7Y
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: e8fc0104b79886f7dc3436fec4d55d223339a10b902f4f72f852689be1120ad46eb4ac6253a8b4eb6bbf71494e9d3528e8a6d2333160d541250e4e81bb830cd100
+Signature: 5f590c5cd53aa9c00e2b6cca6b29527df5a4132141d12502f4ca50f7943c295e2ace360ccd5d979bb19932311b4b9989122761326679203c7db17a556c02dd7000
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmRhmWcEt7JrBvi6fEqLPz8SgT4aSPivdHhgwQaDjPNUBx
-Commit CID if containing only file hashes: Qmf5E7RUS4ZEaTPjzi5zWZfSrKvo3j9EU9pMZ7iLfSoeef
+Commit CID if including git's SHA1: QmcDkkrVpxRGhc78M5BUzRYqD8d3PQc4Gmc5jK3k3AZdBj
+Commit CID if containing only file hashes: QmRGmvmG9hHyw6XxRi9mLU7EJKoTfeq9YAzfwk43RFd3qa
 
 ------------------------------
 
@@ -17,11 +17,31 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'img/photos/InShot_20240821_095211488.gif'
-chmod 0664 'img/photos/InShot_20240821_095211488.gif'
-/usr/bin/touch -hcmd "2024-08-21 10:01:31.5714409000 -0300" 'img/photos/InShot_20240821_095211488.gif'
-/usr/bin/touch -hcad "2024-08-21 10:01:34.3724945000 -0300" 'img/photos/InShot_20240821_095211488.gif'
-chown -h 1000:1000 'index.html'
-chmod 0755 'index.html'
-/usr/bin/touch -hcmd "2024-08-21 16:06:25.0656334000 -0300" 'index.html'
-/usr/bin/touch -hcad "2024-08-21 16:06:27.5793934000 -0300" 'index.html'
+chown -h 1000:1000 'card/index.html'
+chmod 0755 'card/index.html'
+/usr/bin/touch -hcmd "2024-08-23 07:54:27.7411644000 -0300" 'card/index.html'
+/usr/bin/touch -hcad "2024-08-23 07:54:30.3051406000 -0300" 'card/index.html'
+chown -h 1000:1000 'img/photos/20240802_033841.jpg'
+chmod 0664 'img/photos/20240802_033841.jpg'
+/usr/bin/touch -hcmd "2024-08-23 07:44:55.8334666000 -0300" 'img/photos/20240802_033841.jpg'
+/usr/bin/touch -hcad "2024-08-23 07:45:21.7382264000 -0300" 'img/photos/20240802_033841.jpg'
+chown -h 1000:1000 'img/photos/20240815_204441.jpg'
+chmod 0664 'img/photos/20240815_204441.jpg'
+/usr/bin/touch -hcmd "2024-08-23 07:45:07.2033612000 -0300" 'img/photos/20240815_204441.jpg'
+/usr/bin/touch -hcad "2024-08-23 07:45:21.7472263000 -0300" 'img/photos/20240815_204441.jpg'
+chown -h 1000:1000 'img/photos/20240818_221804.jpg'
+chmod 0664 'img/photos/20240818_221804.jpg'
+/usr/bin/touch -hcmd "2024-08-23 07:39:18.3145957000 -0300" 'img/photos/20240818_221804.jpg'
+/usr/bin/touch -hcad "2024-08-23 07:39:33.1614581000 -0300" 'img/photos/20240818_221804.jpg'
+chown -h 1000:1000 'img/photos/20240818_222049.jpg'
+chmod 0664 'img/photos/20240818_222049.jpg'
+/usr/bin/touch -hcmd "2024-08-23 07:41:59.2361038000 -0300" 'img/photos/20240818_222049.jpg'
+/usr/bin/touch -hcad "2024-08-23 07:44:07.5079146000 -0300" 'img/photos/20240818_222049.jpg'
+chown -h 1000:1000 'img/photos/20240818_222232.jpg'
+chmod 0664 'img/photos/20240818_222232.jpg'
+/usr/bin/touch -hcmd "2024-08-23 07:42:00.2570944000 -0300" 'img/photos/20240818_222232.jpg'
+/usr/bin/touch -hcad "2024-08-23 07:44:07.4999147000 -0300" 'img/photos/20240818_222232.jpg'
+chown -h 1000:1000 'img/photos/20240818_222335.jpg'
+chmod 0664 'img/photos/20240818_222335.jpg'
+/usr/bin/touch -hcmd "2024-08-23 07:42:00.2720942000 -0300" 'img/photos/20240818_222335.jpg'
+/usr/bin/touch -hcad "2024-08-23 07:44:07.5099146000 -0300" 'img/photos/20240818_222335.jpg'
