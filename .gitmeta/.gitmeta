@@ -1,12 +1,12 @@
-commit QmXLaQqFjWDtqwzCTtpFhBjyZZrYN7Sd11BVQT8C3tKCDS
+commit QmXvKe44VWdjbsxt8rBCxQ8Qjx4zc2esxZHBCritkHdH3r
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 50ec47ed92cbfc1853039a415f65744a54681f58b34ea2086c7eb158044113487d2560da76a0040c6cbab6b8254834d5762935932b46012c473b7f1cf78a592800
+Signature: dec8f38be871b584afefb1f8d3fecd6feb5766f64c3946cb0ba5e75a50935e357f06267580cfcb38b55d11dd5e828b4c6987366d5339bffb7b4fc008a3e4605501
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmR7QKy3kRWd3WyMCzGPL3rjHjMQmhXLD3pZNWTo43oBAE
-Commit CID if containing only file hashes: QmUUcPcs3SPNrkftZcZubRJDm15KkkxGVUALRBLpUK64he
+Commit CID if including git's SHA1: QmXb6dNjbatFHjqZynQgtzMrwKXyk43HfnE9QmAL5zazt1
+Commit CID if containing only file hashes: QmNwzHyNY38qepWw6fS3jCPNAtjquoU3tgGHfKSJNzZCAC
 
 ------------------------------
 
@@ -19,17 +19,5 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 chown -h 1000:1000 'card/index.html'
 chmod 0755 'card/index.html'
-/usr/bin/touch -hcmd "2024-08-23 08:25:04.1298497000 -0300" 'card/index.html'
-/usr/bin/touch -hcad "2024-08-23 08:25:06.8068479000 -0300" 'card/index.html'
-chown -h 1000:1000 'img/photos/.folderstamp2'
-chmod 0664 'img/photos/.folderstamp2'
-/usr/bin/touch -hcmd "2024-08-23 08:19:18.0565514000 -0300" 'img/photos/.folderstamp2'
-/usr/bin/touch -hcad "2024-08-23 08:27:10.1656720000 -0300" 'img/photos/.folderstamp2'
-chown -h 1000:1000 'img/photos/20240802_034846.cropped.jpg'
-chmod 0664 'img/photos/20240802_034846.cropped.jpg'
-/usr/bin/touch -hcmd "2024-08-23 08:21:31.1068901000 -0300" 'img/photos/20240802_034846.cropped.jpg'
-/usr/bin/touch -hcad "2024-08-23 08:24:47.0968889000 -0300" 'img/photos/20240802_034846.cropped.jpg'
-chown -h 1000:1000 'img/photos/20240802_034939.cropped.jpg'
-chmod 0664 'img/photos/20240802_034939.cropped.jpg'
-/usr/bin/touch -hcmd "2024-08-23 08:23:53.5113942000 -0300" 'img/photos/20240802_034939.cropped.jpg'
-/usr/bin/touch -hcad "2024-08-23 08:24:47.0978889000 -0300" 'img/photos/20240802_034939.cropped.jpg'
+/usr/bin/touch -hcmd "2024-08-23 09:09:57.3583774000 -0300" 'card/index.html'
+/usr/bin/touch -hcad "2024-08-23 09:10:17.0248539000 -0300" 'card/index.html'
