@@ -4,14 +4,18 @@ perfection begins with P
 - Passas (sorvete uva passas)
 - Piscis (fishes)
 - Pastel
-- Pie
 - Popsicle (show Chiquinha)
+- Pan (show Miley Cyrus)
+- Princess (show Erika Hilton)
+- Perry (show Katy Perry)
+- Power (show Martin Luther King)
+- Pie
 - Pear
 - Pretzel
+- Pepperoni
 - Pine
 - Passion
 - Pallette
-- Pan (show Miley Cyrus)
 - Peace
 - Patience
 - Progress
@@ -23,8 +27,6 @@ perfection begins with P
 - Playground
 - Pomegranate
 - Pocahontas
-- Princess (show Erika Hilton)
-- Perry (show Katy Perry)
 - Painting
 - Pillow
 - Picnics
@@ -41,7 +43,6 @@ perfection begins with P
 - Polenta
 - Puffins
 - Postcards
-- Power (show Martin Luther King)
 - Protest
 - Protection
 - Participation
@@ -51,3 +52,6 @@ perfection begins with P
 - People
 - Persistence
 - Pluralism
+
+rmv-after-commit:
+<div id="message-9480" class="Message message-list-item first-in-group allow-selection last-in-group last-in-list has-views open shown" data-message-id="9480"><div class="bottom-marker" data-message-id="9480" data-should-update-views="true"></div><div class="message-select-control"></div><div class="message-content-wrapper can-select-text"><div class="message-content peer-color-2 text has-action-button web-page media has-shadow has-solid-background has-appendix has-footer" style="" dir="auto"><div class="content-inner" dir="auto"><div class="text-content clearfix" dir="auto"><a href="https://youtu.be/wA-17gZ26YE?si=RwUaxzvxtt58XWVL" title="https://youtu.be/wA-17gZ26YE?si=RwUaxzvxtt58XWVL" target="_blank" rel="noopener noreferrer" class="text-entity-link" dir="auto" data-entity-type="MessageEntityUrl">https://youtu.be/wA-17gZ26YE?si=RwUaxzvxtt58XWVL</a><br><a href="https://youtu.be/NbdRLyixJpc?si=zSUwOYYJxCTGcQBj" title="https://youtu.be/NbdRLyixJpc?si=zSUwOYYJxCTGcQBj" target="_blank" rel="noopener noreferrer" class="text-entity-link" dir="auto" data-entity-type="MessageEntityUrl">https://youtu.be/NbdRLyixJpc?si=zSUwOYYJxCTGcQBj</a></div><div class="WebPage" data-initial="Y" dir="auto"><div class="WebPage--content"><div class="media-inner interactive" style="height: 246px;"><img class="full-media" alt="" draggable="true" src="blob:https://web.telegram.org/861d054e-61b7-433f-be0f-ed75e5415486" style=""><canvas class="thumbnail opacity-transition slow not-open not-shown" width="40" height="23"></canvas></div><div class="WebPage-text"><a href="https://youtu.be/wA-17gZ26YE?si=RwUaxzvxtt58XWVL" title="https://youtu.be/wA-17gZ26YE?si=RwUaxzvxtt58XWVL" target="_blank" rel="noopener noreferrer" class="site-name" dir="auto" data-entity-type="MessageEntityUrl">YouTube</a><p class="site-title">Dead Or Alive - Brand New Lover (Live from Wogan, 1985)</p><p class="site-description">Music video by Dead Or Alive performing Brand New Lover (Live from Wogan, 1985). (C) 1985 BBC<br><br>http://vevo.ly/HA1ek6</p></div></div></div></div><span class="MessageMeta" dir="ltr" data-ignore-on-paste="true"><span class="message-views">1</span><i class="icon icon-channelviews" aria-hidden="true"></i><span class="message-time" title="Aug 24, 2024, 16:48:27">16:48</span></span><div class="message-action-buttons"><button type="button" class="Button message-action-button tiny translucent-white round" aria-label="Forward" title="Forward"><i class="icon icon-share-filled" aria-hidden="true"></i></button></div><svg width="9" height="20" class="svg-appendix"><defs><filter x="-50%" y="-14.7%" width="200%" height="141.2%" filterUnits="objectBoundingBox" id="messageAppendix"><feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset><feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur><feColorMatrix values="0 0 0 0 0.0621962482 0 0 0 0 0.138574144 0 0 0 0 0.185037364 0 0 0 0.15 0" in="shadowBlurOuter1"></feColorMatrix></filter></defs><g fill="none" fill-rule="evenodd"><path d="M3 17h6V0c-.193 2.84-.876 5.767-2.05 8.782-.904 2.325-2.446 4.485-4.625 6.48A1 1 0 003 17z" fill="#000" filter="url(#messageAppendix)"></path><path d="M3 17h6V0c-.193 2.84-.876 5.767-2.05 8.782-.904 2.325-2.446 4.485-4.625 6.48A1 1 0 003 17z" fill="FFF" class="corner"></path></g></svg></div></div></div>
