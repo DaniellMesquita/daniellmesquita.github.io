@@ -1,12 +1,12 @@
-commit QmW9FDe1ypWsjcyqf5g7SHh9Mj576uTcmKpqUKDEikaSYv
+commit QmPcrRFPFHD3km3BVpsZ7F2YBvhqUgPNgM3SJ4SRKVb9Hj
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: e3997e8e09b75cdfe8944272c0af8ba5512d5e67c9085e7a9fcaf0894aa3b5dc7de0598a05d59ff29624e170f23cc0a4c017926e0187c2cd398dc3eea821128800
+Signature: 0b470c7fc85657fdfa42a0be86e55fe1802861f1a71df406e6b9a6477a2159d949ad78ec08f421f8fd1e721b2574b58fa069dcde9381ed53ab5d92c0259e08ac00
 
 ------------------------------
 
-Commit CID if including git's SHA1: Qme9xwzyCqopvSaRKaWE9Do5ZPfJboR8LjQbAMMFsEzJFJ
-Commit CID if containing only file hashes: QmUPx1Wk3rYqTrMBfoAvVm9h9PmpvqAVpMnGhXCgGmL6AT
+Commit CID if including git's SHA1: QmRqAtpz6vtXaNjtpSn9x7zVBV1d5avqjmVvyXVVmbzCz4
+Commit CID if containing only file hashes: QmaW7rnnA49Y6o4xvHPBLq6fVQeTv6D19MZ18HTjq8AQrM
 
 ------------------------------
 
@@ -19,21 +19,17 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 chown -h 1000:1000 'card/Tasks.txt'
 chmod 0664 'card/Tasks.txt'
-/usr/bin/touch -hcmd "2024-08-25 22:27:01.1962791000 -0300" 'card/Tasks.txt'
-/usr/bin/touch -hcad "2024-08-25 22:27:06.6685227000 -0300" 'card/Tasks.txt'
-chown -h 1000:1000 'img/photos/card/.folderstamp1'
-chmod 0664 'img/photos/card/.folderstamp1'
-/usr/bin/touch -hcmd "2024-08-25 22:12:56.6652701000 -0300" 'img/photos/card/.folderstamp1'
-/usr/bin/touch -hcad "2024-08-25 22:14:54.8854989000 -0300" 'img/photos/card/.folderstamp1'
-chown -h 1000:1000 'img/photos/card/.folderstamp2'
-chmod 0664 'img/photos/card/.folderstamp2'
-/usr/bin/touch -hcmd "2024-08-25 22:14:55.0395203000 -0300" 'img/photos/card/.folderstamp2'
-/usr/bin/touch -hcad "2024-08-25 22:25:21.7675260000 -0300" 'img/photos/card/.folderstamp2'
-chown -h 1000:1000 'img/photos/card/20240805_012444.cropped.jpg'
-chmod 0755 'img/photos/card/20240805_012444.cropped.jpg'
-/usr/bin/touch -hcmd "2024-08-25 22:14:43.9299647000 -0300" 'img/photos/card/20240805_012444.cropped.jpg'
-/usr/bin/touch -hcad "2024-08-25 22:14:54.9555086000 -0300" 'img/photos/card/20240805_012444.cropped.jpg'
-chown -h 1000:1000 'img/photos/card/20240805_012517.cropped.jpg'
-chmod 0755 'img/photos/card/20240805_012517.cropped.jpg'
-/usr/bin/touch -hcmd "2024-08-25 22:13:59.8134794000 -0300" 'img/photos/card/20240805_012517.cropped.jpg'
-/usr/bin/touch -hcad "2024-08-25 22:14:55.0165171000 -0300" 'img/photos/card/20240805_012517.cropped.jpg'
+/usr/bin/touch -hcmd "2024-08-25 22:52:37.9908035000 -0300" 'card/Tasks.txt'
+/usr/bin/touch -hcad "2024-08-25 22:52:43.9796767000 -0300" 'card/Tasks.txt'
+chown -h 1000:1000 'img/photos/card/.folderstamp3'
+chmod 0664 'img/photos/card/.folderstamp3'
+/usr/bin/touch -hcmd "2024-08-25 22:25:38.1503541000 -0300" 'img/photos/card/.folderstamp3'
+/usr/bin/touch -hcad "2024-08-25 22:28:20.5926520000 -0300" 'img/photos/card/.folderstamp3'
+chown -h 1000:1000 'img/photos/card/Screenshot_20240202_040524_Chrome.cropped.jpg'
+chmod 0664 'img/photos/card/Screenshot_20240202_040524_Chrome.cropped.jpg'
+/usr/bin/touch -hcmd "2024-08-25 22:26:51.0828240000 -0300" 'img/photos/card/Screenshot_20240202_040524_Chrome.cropped.jpg'
+/usr/bin/touch -hcad "2024-08-25 22:26:53.6339394000 -0300" 'img/photos/card/Screenshot_20240202_040524_Chrome.cropped.jpg'
+chown -h 1000:1000 'img/photos/card/Screenshot_20240202_040524_Chrome.jpg'
+chmod 0664 'img/photos/card/Screenshot_20240202_040524_Chrome.jpg'
+/usr/bin/touch -hcmd "2024-08-25 22:24:50.5868966000 -0300" 'img/photos/card/Screenshot_20240202_040524_Chrome.jpg'
+/usr/bin/touch -hcad "2024-08-25 22:25:30.7099803000 -0300" 'img/photos/card/Screenshot_20240202_040524_Chrome.jpg'
