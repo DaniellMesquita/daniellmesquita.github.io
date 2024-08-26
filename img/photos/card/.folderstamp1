@@ -1,0 +1,35 @@
+This folder: /media/daniella/Ubuntu/at origin, rmv the original bc the up-to-date will be this/_home_daniella_Desktop_DesktopWindows/CrossOSTasks/Windows/at Seagate rmv the original bc the up-to-date will be this/Seagate Expansion Drive-1-personal-site/img/photos/card
+
+folderstamp version: r5
+Method: Recursive
+
+  File: ./.folderstamp
+  Size: 312       	Blocks: 8          IO Block: 4096   regular file
+Device: 8,18	Inode: 8263        Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-08-25 22:12:56.449233100 -0300
+Modify: 2024-08-25 22:12:56.474237400 -0300
+Change: 2024-08-25 22:12:56.474237400 -0300
+ Birth: 2024-08-25 22:12:56.449233100 -0300
+IPFS hash: QmRfLUPHuRP4nsFsKSnRKZJhXdKJ1T4rtdFLfPp4zekHDb
+------------------------------
+  File: ./20240805_012444.jpg
+  Size: 1365025   	Blocks: 2672       IO Block: 4096   regular file
+Device: 8,18	Inode: 8262        Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-08-25 22:04:46.334603800 -0300
+Modify: 2024-08-05 01:24:45.000000000 -0300
+Change: 2024-08-25 22:12:50.309177400 -0300
+ Birth: 2024-08-25 22:12:50.301176000 -0300
+IPFS hash: QmRqqTuPc7Upbza4csuK6nXUToeuCmxxcvjZgAo6RvW6JX
+------------------------------
+  File: ./20240805_012517.jpg
+  Size: 1452489   	Blocks: 2840       IO Block: 4096   regular file
+Device: 8,18	Inode: 7958        Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/daniella)   Gid: ( 1000/daniella)
+Access: 2024-08-25 15:51:35.185369200 -0300
+Modify: 2024-08-05 01:25:19.000000000 -0300
+Change: 2024-08-25 15:51:34.983365500 -0300
+ Birth: 2024-08-25 15:51:34.961365100 -0300
+IPFS hash: QmdHKWEEvwVmQJ1BGsD2WyoknjM7sucNStAdatUrDN8GmT
+------------------------------
