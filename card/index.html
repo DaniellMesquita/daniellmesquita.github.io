@@ -297,7 +297,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <tr>
 <td>random Curiosities about me:</td>
 <td>
-    <div id="randomText"></div>
+    <div id="randomText">Loading...</div>
     <button id="reloadButton">Reload</button>
     <button id="showAllButton">Show all</button>
     <div id="allTextsBox" style="height: 100px; overflow-y: auto; border: 1px solid #ccc; margin-top: 10px;"></div>
@@ -305,7 +305,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Array of random HTML phrases
 const texts = [
     "I have an underspoken addiction: updates.<br/>This give me a lot of pleasure to update my phone (Play Store, Samsung Store, F-Droid, Android itself) and my computer (Windows Update, apt get)",
-    "<b>🌟 Keep pushing forward!</b>",
+    "I love crystals and gems.<br/>One of the things I love about the Pokémon Terapagos is the Terastal effect, which is about colored crystals shining and bringing effects/powers/blesses!",
     "<i>🚀 Reach for the stars!</i>",
     "<u>🎯 Focus on your goals!</u>",
     "<span style='color: red;'>💡 Believe in your ideas!</span>"
@@ -380,7 +380,7 @@ window.onload = () => {
 <tr>
 <td>㉔ Favorite numbers:</td>
 <td>24, 2, 4, maybe 8 (I don't like impar numbers; <s>4̶2̶</s> 24 is the meaning of life🪐)
-<ul><li>My current phone number (hope it will be forever), which I got on 2016 in Curitiba, ends in <b>24</b>.</li>
+<ul><li>My current phone number (hope it will be forever), which I got on 2016 in Curitiba, ends in <b>24</b> <small>(+55 41 9 ****-9524 - this number also includes my birthday and the minute when I was born)</small>.</li>
 <li>The age when I became a millionare (<b>2,4</b>+ million BRL - now I'm poor again) for the first time: <b>24</b><small>yo</small>, too! (hope there's a 2nd time)</li>
 <li>The year life choose to do a further progress on my life than on 2020: 20<b>24</b> (year of my HRT, which is the best part)</li>
 <li>The day when I made this table column: <small>August</small> <b>24</b> 20<b>24</b>!</li>
@@ -391,6 +391,88 @@ window.onload = () => {
 <tr>
 <td>✊ Filiação Partidária:</td>
 <td><img height="10px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRETD_8yqX17Hd_sBaGaXroxEOCOZu_qzz8pA&s"/> PSOL <small>(algum dia no futuro vou fundar meu próprio, <a href="https://partidovelho.org" target="_blank">Velho/Unicórnio</a>, cujo número vai ser <a href="https://www.youtube.com/watch?v=_L5DVGQozbE" target="_blank">24🦌</a>)</small></td>
+</tr>
+<tr>
+<td>Habits:</td>
+<td>
+    <div id="randomHabits">Loading...</div>
+    <button id="reloadButtonHabits">Reload</button>
+    <button id="showAllButtonHabits">Show all</button>
+    <div id="allTextsBoxHabits" style="height: 100px; overflow-y: auto; border: 1px solid #ccc; margin-top: 10px;"></div>
+<script>
+// Array of random HTML phrases
+const textsHabits = [
+    "Andar pra lá e pra cá enquanto imagino momentos felizes que nunca irão acontecer, e também ideias para projetos de artisticos à tecnológicos",
+    "<i>🚀 Reach for the stars!</i>",
+    "<u>🎯 Focus on your goals!</u>",
+    "<span style='color: red;'>💡 Believe in your ideas!</span>"
+];
+
+// Function to pick and display random text (with HTML support)
+function pickRandomTextHabits() {
+    console.log("Function 'pickRandomText' called.");
+
+    const randomIndexHabits = Math.floor(Math.random() * textsHabits.length);
+    const randomHabitsElement = document.getElementById("randomHabits");
+
+    if (randomHabitsElement) {
+        console.log("Random text element found.");
+        randomHabitsElement.innerHTML = textsHabits[randomIndexHabits]; // Use innerHTML to support HTML content
+    } else {
+        console.error("Random text element not found!");
+    }
+}
+
+// Function to show all texts (with HTML support)
+function showAllTextsHabits() {
+    console.log("Function 'showAllTexts' called.");
+
+    const allTextsBoxHabits = document.getElementById("allTextsBoxHabits");
+    if (allTextsBoxHabits) {
+        allTextsBoxHabits.innerHTML = ""; // Clear the box first
+        textsHabits.forEach((text) => {
+            const paragraph = document.createElement("p");
+            paragraph.innerHTML = text; // Use innerHTML to render HTML content
+            allTextsBoxHabits.appendChild(paragraph);
+        });
+    } else {
+        console.error("All texts box not found!");
+    }
+}
+
+// Log when the script is running and event listeners are added
+console.log("Script loaded, adding event listeners...");
+
+// Event listener for page load
+window.onload = () => {
+    console.log("Window loaded.");
+    pickRandomTextHabits(); // Call random text function on page load
+
+    // Attach event listeners after DOM is fully loaded
+    const reloadButtonHabits = document.getElementById("reloadButtonHabits");
+    const showAllButtonHabits = document.getElementById("showAllButtonHabits");
+
+    if (reloadButtonHabits) {
+        reloadButtonHabits.addEventListener("click", () => {
+            console.log("Reload button clicked.");
+            pickRandomTextHabits(); // Reload random text when clicked
+        });
+    } else {
+        console.error("Reload button not found!");
+    }
+
+    if (showAllButtonHabits) {
+        showAllButtonHabits.addEventListener("click", () => {
+            console.log("Show all button clicked.");
+            showAllTextsHabits(); // Show all texts when clicked
+        });
+    } else {
+        console.error("Show all button not found!");
+    }
+};
+
+</script>
+</td>
 </tr>
 <tr>
 <td>🧬 My Brazillian State:</td>
@@ -1341,7 +1423,7 @@ Não precisa preencher todos esses quesitos - é praticamente impossível, à me
 
 </div>
 <nav class="footer"><center><h1>✨ Site created in Thu Dec 28 2017</h1>
-<h4>🗘 Last update in Sun Sep 08 14:04 2024 -0300.</h4>
+<h4>🗘 Last update in Sun Sep 08 14:56 2024 -0300.</h4>
 <br/>
 <ul>
 <img width="32px" src="./img/icns/www.svg" title="Icon made by https://www.flaticon.com/authors/freepik"/><br/> On Web 2.0:
