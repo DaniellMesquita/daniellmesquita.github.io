@@ -475,6 +475,88 @@ window.onload = () => {
 </td>
 </tr>
 <tr>
+<td>O que me deixa <b>comfy</b>🥰❤️‍🔥</td>
+<td>
+    <div id="randomComfy">Loading...</div>
+    <button id="reloadButtonComfy">Reload</button>
+    <button id="showAllButtonComfy">Show all</button>
+    <div id="allTextsBoxComfy" style="height: 100px; overflow-y: auto; border: 1px solid #ccc; margin-top: 10px;"></div>
+<script>
+// Array of random HTML phrases
+const textsComfy = [
+    "Saber que tem doce ou outros snacks me esperando no armário ou em uma bolsa/sacola - em bolsa é ainda mais comfy",
+    "Assistir Pokémon, principalmente o Horizons",
+    "<u>🎯 Focus on your goals!</u>",
+    "<span style='color: red;'>💡 Believe in your ideas!</span>"
+];
+
+// Function to pick and display random text (with HTML support)
+function pickRandomTextComfy() {
+    console.log("Function 'pickRandomText' called.");
+
+    const randomIndexComfy = Math.floor(Math.random() * textsComfy.length);
+    const randomComfyElement = document.getElementById("randomComfy");
+
+    if (randomComfyElement) {
+        console.log("Random text element found.");
+        randomComfyElement.innerHTML = textsComfy[randomIndexComfy]; // Use innerHTML to support HTML content
+    } else {
+        console.error("Random text element not found!");
+    }
+}
+
+// Function to show all texts (with HTML support)
+function showAllTextsComfy() {
+    console.log("Function 'showAllTexts' called.");
+
+    const allTextsBoxComfy = document.getElementById("allTextsBoxComfy");
+    if (allTextsBoxComfy) {
+        allTextsBoxComfy.innerHTML = ""; // Clear the box first
+        textsComfy.forEach((text) => {
+            const paragraph = document.createElement("p");
+            paragraph.innerHTML = text; // Use innerHTML to render HTML content
+            allTextsBoxComfy.appendChild(paragraph);
+        });
+    } else {
+        console.error("All texts box not found!");
+    }
+}
+
+// Log when the script is running and event listeners are added
+console.log("Script loaded, adding event listeners...");
+
+// Event listener for page load
+window.onload = () => {
+    console.log("Window loaded.");
+    pickRandomTextComfy(); // Call random text function on page load
+
+    // Attach event listeners after DOM is fully loaded
+    const reloadButtonComfy = document.getElementById("reloadButtonComfy");
+    const showAllButtonComfy = document.getElementById("showAllButtonComfy");
+
+    if (reloadButtonComfy) {
+        reloadButtonComfy.addEventListener("click", () => {
+            console.log("Reload button clicked.");
+            pickRandomTextComfy(); // Reload random text when clicked
+        });
+    } else {
+        console.error("Reload button not found!");
+    }
+
+    if (showAllButtonComfy) {
+        showAllButtonComfy.addEventListener("click", () => {
+            console.log("Show all button clicked.");
+            showAllTextsComfy(); // Show all texts when clicked
+        });
+    } else {
+        console.error("Show all button not found!");
+    }
+};
+
+</script>
+</td>
+</tr>
+<tr>
 <td>🧬 My Brazillian State:</td>
 <td><p>Meu DNA é 75% Catarinense, 25% Paranaense.</p>
 Cálculo:
@@ -1423,7 +1505,7 @@ Não precisa preencher todos esses quesitos - é praticamente impossível, à me
 
 </div>
 <nav class="footer"><center><h1>✨ Site created in Thu Dec 28 2017</h1>
-<h4>🗘 Last update in Sun Sep 08 14:56 2024 -0300.</h4>
+<h4>🗘 Last update in Sun Sep 08 15:02 2024 -0300.</h4>
 <br/>
 <ul>
 <img width="32px" src="./img/icns/www.svg" title="Icon made by https://www.flaticon.com/authors/freepik"/><br/> On Web 2.0:
