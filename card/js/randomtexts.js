@@ -1,17 +1,17 @@
 // Arrays of random HTML phrases for different categories
 const textCollections = {
     curiosities: [
-        "I have an underspoken addiction: updates.<br/>This gives me a lot of pleasure to update my phone (Play Store, Samsung Store, F-Droid, Android itself) and my computer (Windows Update, apt get)",
+        //"I have an underspoken addiction: updates.<br/>This gives me a lot of pleasure to update my phone (Play Store, Samsung Store, F-Droid, Android itself) and my computer (Windows Update, apt get)",
         "I love crystals and gems.<br/>One of the things I love about the Pokémon Terapagos is the Terastal effect, which is about colored crystals shining and bringing effects/powers/blesses!",
         "Em 2011, meu apelido era 'come-mosca': porque eu passava o recreio na frente das lixeiras recicláveis, como uma forma de dizer 'sou lixo também'",
         "Em 2005, meu apelido era 'troca-letras': porque eu falava 'alaçá' invés de 'araçá' e 'zonatan' invés de 'jonatan'"
     ],
     habits: [
         "Andar pra lá e pra cá enquanto imagino momentos felizes que nunca irão acontecer, e também ideias para projetos de artísticos à tecnológicos",
-        "Roer as unhas: com as próprias unhas, e os cantinhos envolta das laterais das unhas"
+        //"Roer as unhas: com as próprias unhas, e os cantinhos envolta das laterais das unhas"
     ],
     comfy: [
-        "Saber que tem doce ou outros snacks me esperando no armário <a href='https://www.instagram.com/idanimesq/p/C_Goy7qyt0f/' target='_blank'>ou em uma bolsa/sacola - em bolsa</a> é ainda mais comfy",
+        "Saber que tem doce ou outros snacks me esperando no armário <a href='https://www.instagram.com/idanimesq/p/C_Goy7qyt0f/' target='_blank'>ou em uma bolsa/sacola</a> - em bolsa é ainda mais comfy🥰",
         "Assistir Pokémon, principalmente o Horizons"
     ]
 };
