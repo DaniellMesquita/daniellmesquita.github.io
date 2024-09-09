@@ -34,8 +34,9 @@ function scrollFunction() {
 <h1>Info Index</h1>
 <ul>
 <li><a href="./card#PhotoMosaics">Photo Mosaics</a></li>
-<li><a href="./card#generalinfo">General Info</a> (Weight, Birth data, Age, Height, Time of my HRT, Sexual orientation, Crush Gender Ratio, Favorite numbers, Party affiliation, Favorite Pokémon)</li>
+<li><a href="./card#generalinfo">General Info</a> (Weight, Birth data, Age, Height, Time of my HRT, Sexual orientation, Crush Gender Ratio, Favorite numbers, Party affiliation, what makes me feel comfy, habits, random curiosities, etc)</li>
 <li><a href="./card#WaifusHusbandus">Waifus & Husbandus</a></li>
+<li><a href="./card#favcharacters">Favorite Characters (Pokémon, El Chavo)</a></li>
 <li><a href="./card#favletter">Favorite Letter and why</a></li>
 <li><a href="./card#crushesfamous">Crushes (famous)</a></li>
 </ul>
@@ -66,7 +67,7 @@ function scrollFunction() {
     </div>
   </main>
   
-<p>(No <a href="https://en.wikipedia.org/wiki/Gender-affirming_hormone_therapy" target="_blank">HRT</a>, 2022-early2024. The photos in orange shirt I made me a make-up)</p>
+<p>(No <a href="https://en.wikipedia.org/wiki/Gender-affirming_hormone_therapy" target="_blank">HRT</a>, 2022-early2024. The photos in orange shirt I made me a make-up, also on the eyebrows)</p>
 
 <main class="container">
     <div class="item-5">
@@ -204,6 +205,64 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 </script>
+<!--
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // 🌈 Function to calculate precise years, months, days, hours, and minutes passed
+    function timePassed(sinceDate) {
+        const currentDate = new Date(); // Get the current date
+        const givenDate = new Date(sinceDate); // Convert the given date string to a Date object
+
+        // Calculate the difference in components (years, months, days, hours, minutes)
+        let yearsPassed = currentDate.getFullYear() - givenDate.getFullYear();
+        let monthsPassed = currentDate.getMonth() - givenDate.getMonth();
+        let daysPassed = currentDate.getDate() - givenDate.getDate();
+        let hoursPassed = currentDate.getHours() - givenDate.getHours();
+        let minutesPassed = currentDate.getMinutes() - givenDate.getMinutes();
+
+        // Adjust the calculation if the current day is less than the birth day
+        if (daysPassed < 0) {
+            monthsPassed--;
+            const previousMonth = new Date(currentDate.getFullYear(), currentDate.getMonth(), 0).getDate();
+            daysPassed += previousMonth; // Add days from the previous month
+        }
+
+        // Adjust for negative months
+        if (monthsPassed < 0) {
+            yearsPassed--;
+            monthsPassed += 12; // Wrap around the months
+        }
+
+        // Adjust if hours or minutes are negative
+        if (hoursPassed < 0) {
+            daysPassed--;
+            hoursPassed += 24; // Wrap around the hours
+        }
+        if (minutesPassed < 0) {
+            hoursPassed--;
+            minutesPassed += 60; // Wrap around the minutes
+        }
+
+        // Return the time passed as an object
+        return {
+            years: yearsPassed,
+            months: monthsPassed,
+            days: daysPassed,
+            hours: hoursPassed,
+            minutes: minutesPassed
+        };
+    }
+
+    // 🌈 Display the result in an element with the ID 'birthdayPassed'
+    const birthday = '1997-04-09T21:05:00-03:00'; // Date and time of birth in ISO format
+    const result = timePassed(birthday);
+
+    document.getElementById('birthdayPassed').innerText = 
+        `${result.years} years, ${result.months} months, ${result.days} days, ${result.hours} hours, and ${result.minutes} minutes`;
+});
+
+</script>
+-->
 <div id="birthdayPassed"></div> <small>(updated automatically)</small></td>
 </tr>
 <tr>
@@ -223,7 +282,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </tr>
 <tr>
 <td>🪽 Weight <small>(range)</small>:</td>
-<td>58-65 <small>kg</small> (up-to-date info: <a href="./home" target="_blank">HomeServer</a>) <small>My wish is to reach 74kg to feel me hot🚀</small></td>
+<td>58-65 <small>kg</small> (up-to-date info: <a href="./home" target="_blank">HomeServer</a>) <small>My wish is to reach 74kg to feel me hot🚀🥵</small></td>
 </tr>
 <tr>
 <td>⚧️ Gender identity:</td>
@@ -238,40 +297,55 @@ document.addEventListener('DOMContentLoaded', function() {
 <td>She/Her</td>
 </tr>
 <tr>
+<td>⚧️ Desired full name:</td>
+<td>Daniella Cristalina Prisma Mesquita</td>
+</tr>
+<tr>
 <td>🏳️‍⚧️ Time of my HRT:</td>
 <td><script>
 document.addEventListener('DOMContentLoaded', function() {
-    // 🌈 Function to calculate years, months, days, hours, and minutes passed since the given date
+    // 🌈 Function to calculate precise years, months, days, hours, and minutes passed
     function timePassed(sinceDate) {
         const currentDate = new Date(); // Get the current date
         const givenDate = new Date(sinceDate); // Convert the given date string to a Date object
 
-        // Calculate the difference in time
-        const timeDifference = currentDate - givenDate;
+        // Calculate the difference in components (years, months, days, hours, minutes)
+        let yearsPassed = currentDate.getFullYear() - givenDate.getFullYear();
+        let monthsPassed = currentDate.getMonth() - givenDate.getMonth();
+        let daysPassed = currentDate.getDate() - givenDate.getDate();
+        let hoursPassed = currentDate.getHours() - givenDate.getHours();
+        let minutesPassed = currentDate.getMinutes() - givenDate.getMinutes();
 
-        // Convert time difference to days, hours, and minutes
-        const millisecondsInMinute = 60 * 1000;
-        const millisecondsInHour = 60 * 60 * 1000;
-        const millisecondsInDay = 24 * 60 * 60 * 1000;
-
-        const totalDaysPassed = Math.floor(timeDifference / millisecondsInDay);
-        const totalHoursPassed = Math.floor(timeDifference / millisecondsInHour) % 24;
-        const totalMinutesPassed = Math.floor(timeDifference / millisecondsInMinute) % 60;
-
-        // Calculate years and months from the total days
-        let yearsPassed = Math.floor(totalDaysPassed / 365);
-        let monthsPassed = Math.floor((totalDaysPassed % 365) / 30);
-        let daysPassed = totalDaysPassed % 30;
-
-        // Format the result based on whether a year has passed or not
-        let resultText;
-        if (yearsPassed > 0) {
-            resultText = `${yearsPassed} years, ${monthsPassed} months, ${daysPassed} days, ${totalHoursPassed} hours, and ${totalMinutesPassed} minutes`;
-        } else {
-            resultText = `${monthsPassed} months, ${daysPassed} days, ${totalHoursPassed} hours, and ${totalMinutesPassed} minutes`;
+        // Adjust the calculation if the current day is less than the start day
+        if (daysPassed < 0) {
+            monthsPassed--;
+            const previousMonth = new Date(currentDate.getFullYear(), currentDate.getMonth(), 0).getDate();
+            daysPassed += previousMonth; // Add days from the previous month
         }
 
-        // Return the result text
+        // Adjust for negative months
+        if (monthsPassed < 0) {
+            yearsPassed--;
+            monthsPassed += 12; // Wrap around the months
+        }
+
+        // Adjust if hours or minutes are negative
+        if (hoursPassed < 0) {
+            daysPassed--;
+            hoursPassed += 24; // Wrap around the hours
+        }
+        if (minutesPassed < 0) {
+            hoursPassed--;
+            minutesPassed += 60; // Wrap around the minutes
+        }
+
+        // Format the result
+        let resultText = `${monthsPassed} months, ${daysPassed} days, ${hoursPassed} hours, and ${minutesPassed} minutes`;
+
+        if (yearsPassed > 0) {
+            resultText = `${yearsPassed} years, ${resultText}`;
+        }
+
         return resultText;
     }
 
@@ -279,8 +353,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const hrtStartDate = '2024-06-10T21:30:00-03:00'; // Date and time of HRT start
     const result = timePassed(hrtStartDate);
 
-    document.getElementById('hrtTimePassed').innerText = 
-        `${result}`;
+    document.getElementById('hrtTimePassed').innerText = result;
 });
 
 </script>
@@ -292,95 +365,22 @@ document.addEventListener('DOMContentLoaded', function() {
 <td>⚧️ <a href="https://dictionary.cambridge.org/dictionary/english/have-a-crush-on" target="_blank">Crush</a> Gender Ratio:</td>
 <td>Gender ratio I consider I had for the <a href="https://dictionary.cambridge.org/dictionary/english/have-a-crush-on" target="_blank">crushes</a> on my real life (presentially):
 <br/>~70% for woman, ~30% for man (not counting non-binary people ; should never be 50%/having fixed rates; we are just humans)
-<br/>(in photos/videos men are better, overall trustworthier, than <a href="https://dictionary.cambridge.org/dictionary/english/irl" target="_blank">IRL</a> sorry)</td>
+<br/><small>This is about the present to the past, not a static metric for the present to the future. No bisexual, no pansexual have a 50%/50% rate; again: we are just humans</small>
+<br/>(men being the minority: in photos/videos men are better, overall trustworthier, than <a href="https://dictionary.cambridge.org/dictionary/english/irl" target="_blank">IRL</a> sorry)</td>
 </tr>
 <tr>
 <td>random Curiosities about me:</td>
 <td>
-    <div id="randomText">Loading...</div>
-    <button id="reloadButton">Reload</button>
-    <button id="showAllButton">Show all</button>
-    <div id="allTextsBox" style="height: 100px; overflow-y: auto; border: 1px solid #ccc; margin-top: 10px;"></div>
-<script>
-// Array of random HTML phrases
-const texts = [
-    "I have an underspoken addiction: updates.<br/>This give me a lot of pleasure to update my phone (Play Store, Samsung Store, F-Droid, Android itself) and my computer (Windows Update, apt get)",
-    "I love crystals and gems.<br/>One of the things I love about the Pokémon Terapagos is the Terastal effect, which is about colored crystals shining and bringing effects/powers/blesses!",
-    "<i>🚀 Reach for the stars!</i>",
-    "<u>🎯 Focus on your goals!</u>",
-    "<span style='color: red;'>💡 Believe in your ideas!</span>"
-];
-
-// Function to pick and display random text (with HTML support)
-function pickRandomText() {
-    console.log("Function 'pickRandomText' called.");
-
-    const randomIndex = Math.floor(Math.random() * texts.length);
-    const randomTextElement = document.getElementById("randomText");
-
-    if (randomTextElement) {
-        console.log("Random text element found.");
-        randomTextElement.innerHTML = texts[randomIndex]; // Use innerHTML to support HTML content
-    } else {
-        console.error("Random text element not found!");
-    }
-}
-
-// Function to show all texts (with HTML support)
-function showAllTexts() {
-    console.log("Function 'showAllTexts' called.");
-
-    const allTextsBox = document.getElementById("allTextsBox");
-    if (allTextsBox) {
-        allTextsBox.innerHTML = ""; // Clear the box first
-        texts.forEach((text) => {
-            const paragraph = document.createElement("p");
-            paragraph.innerHTML = text; // Use innerHTML to render HTML content
-            allTextsBox.appendChild(paragraph);
-        });
-    } else {
-        console.error("All texts box not found!");
-    }
-}
-
-// Log when the script is running and event listeners are added
-console.log("Script loaded, adding event listeners...");
-
-// Event listener for page load
-window.onload = () => {
-    console.log("Window loaded.");
-    pickRandomText(); // Call random text function on page load
-
-    // Attach event listeners after DOM is fully loaded
-    const reloadButton = document.getElementById("reloadButton");
-    const showAllButton = document.getElementById("showAllButton");
-
-    if (reloadButton) {
-        reloadButton.addEventListener("click", () => {
-            console.log("Reload button clicked.");
-            pickRandomText(); // Reload random text when clicked
-        });
-    } else {
-        console.error("Reload button not found!");
-    }
-
-    if (showAllButton) {
-        showAllButton.addEventListener("click", () => {
-            console.log("Show all button clicked.");
-            showAllTexts(); // Show all texts when clicked
-        });
-    } else {
-        console.error("Show all button not found!");
-    }
-};
-
-</script>
+        <div id="randomCuriosities">Loading...</div>
+        <button id="reloadButtonCuriosities">Reload</button>
+        <button id="showAllButtonCuriosities">Show all</button>
+        <div id="allTextsBoxCuriosities" style="height: 100px; overflow-y: auto; border: 1px solid #ccc; margin-top: 10px;"></div>
 </td>
 </tr>
 <tr>
 <td>㉔ Favorite numbers:</td>
 <td>24, 2, 4, maybe 8 (I don't like impar numbers; <s>4̶2̶</s> 24 is the meaning of life🪐)
-<ul><li>My current phone number (hope it will be forever), which I got on 2016 in Curitiba, ends in <b>24</b> <small>(+55 41 9 ****-9524 - this number also includes my birthday and the minute when I was born)</small>.</li>
+<ul><li>My current phone number (hope it will be forever), which I got on 2016 in Curitiba, ends in <b>24</b> <small>(+55 9 ****-9524 - this number also includes my birthday and the minute when I was born)</small>.</li>
 <li>The age when I became a millionare (<b>2,4</b>+ million BRL - now I'm poor again) for the first time: <b>24</b><small>yo</small>, too! (hope there's a 2nd time)</li>
 <li>The year life choose to do a further progress on my life than on 2020: 20<b>24</b> (year of my HRT, which is the best part)</li>
 <li>The day when I made this table column: <small>August</small> <b>24</b> 20<b>24</b>!</li>
@@ -399,161 +399,105 @@ window.onload = () => {
     <button id="reloadButtonHabits">Reload</button>
     <button id="showAllButtonHabits">Show all</button>
     <div id="allTextsBoxHabits" style="height: 100px; overflow-y: auto; border: 1px solid #ccc; margin-top: 10px;"></div>
-<script>
-// Array of random HTML phrases
-const textsHabits = [
-    "Andar pra lá e pra cá enquanto imagino momentos felizes que nunca irão acontecer, e também ideias para projetos de artisticos à tecnológicos",
-    "<i>🚀 Reach for the stars!</i>",
-    "<u>🎯 Focus on your goals!</u>",
-    "<span style='color: red;'>💡 Believe in your ideas!</span>"
-];
-
-// Function to pick and display random text (with HTML support)
-function pickRandomTextHabits() {
-    console.log("Function 'pickRandomText' called.");
-
-    const randomIndexHabits = Math.floor(Math.random() * textsHabits.length);
-    const randomHabitsElement = document.getElementById("randomHabits");
-
-    if (randomHabitsElement) {
-        console.log("Random text element found.");
-        randomHabitsElement.innerHTML = textsHabits[randomIndexHabits]; // Use innerHTML to support HTML content
-    } else {
-        console.error("Random text element not found!");
-    }
-}
-
-// Function to show all texts (with HTML support)
-function showAllTextsHabits() {
-    console.log("Function 'showAllTexts' called.");
-
-    const allTextsBoxHabits = document.getElementById("allTextsBoxHabits");
-    if (allTextsBoxHabits) {
-        allTextsBoxHabits.innerHTML = ""; // Clear the box first
-        textsHabits.forEach((text) => {
-            const paragraph = document.createElement("p");
-            paragraph.innerHTML = text; // Use innerHTML to render HTML content
-            allTextsBoxHabits.appendChild(paragraph);
-        });
-    } else {
-        console.error("All texts box not found!");
-    }
-}
-
-// Log when the script is running and event listeners are added
-console.log("Script loaded, adding event listeners...");
-
-// Event listener for page load
-window.onload = () => {
-    console.log("Window loaded.");
-    pickRandomTextHabits(); // Call random text function on page load
-
-    // Attach event listeners after DOM is fully loaded
-    const reloadButtonHabits = document.getElementById("reloadButtonHabits");
-    const showAllButtonHabits = document.getElementById("showAllButtonHabits");
-
-    if (reloadButtonHabits) {
-        reloadButtonHabits.addEventListener("click", () => {
-            console.log("Reload button clicked.");
-            pickRandomTextHabits(); // Reload random text when clicked
-        });
-    } else {
-        console.error("Reload button not found!");
-    }
-
-    if (showAllButtonHabits) {
-        showAllButtonHabits.addEventListener("click", () => {
-            console.log("Show all button clicked.");
-            showAllTextsHabits(); // Show all texts when clicked
-        });
-    } else {
-        console.error("Show all button not found!");
-    }
-};
-
-</script>
 </td>
 </tr>
 <tr>
-<td>O que me deixa <b>comfy</b>🥰❤️‍🔥</td>
+<td>O que me deixa <a href="https://dictionary.cambridge.org/dictionary/english/comfy" target="_blank"><b>comfy</b></a>🥰❤️‍🔥</td>
 <td>
     <div id="randomComfy">Loading...</div>
     <button id="reloadButtonComfy">Reload</button>
     <button id="showAllButtonComfy">Show all</button>
     <div id="allTextsBoxComfy" style="height: 100px; overflow-y: auto; border: 1px solid #ccc; margin-top: 10px;"></div>
+
 <script>
-// Array of random HTML phrases
-const textsComfy = [
-    "Saber que tem doce ou outros snacks me esperando no armário ou em uma bolsa/sacola - em bolsa é ainda mais comfy",
-    "Assistir Pokémon, principalmente o Horizons",
-    "<u>🎯 Focus on your goals!</u>",
-    "<span style='color: red;'>💡 Believe in your ideas!</span>"
-];
+// Arrays of random HTML phrases for different categories
+const textCollections = {
+    curiosities: [
+        "I have an underspoken addiction: updates.<br/>This gives me a lot of pleasure to update my phone (Play Store, Samsung Store, F-Droid, Android itself) and my computer (Windows Update, apt get)",
+        "I love crystals and gems.<br/>One of the things I love about the Pokémon Terapagos is the Terastal effect, which is about colored crystals shining and bringing effects/powers/blesses!"
+    ],
+    habits: [
+        "Andar pra lá e pra cá enquanto imagino momentos felizes que nunca irão acontecer, e também ideias para projetos de artísticos à tecnológicos",
+        "Roer as unhas: com as próprias unhas, e os cantinhos envolta das laterais das unhas"
+    ],
+    comfy: [
+        "Saber que tem doce ou outros snacks me esperando no armário <a href='https://www.instagram.com/idanimesq/p/C_Goy7qyt0f/' target='_blank'>ou em uma bolsa/sacola - em bolsa</a> é ainda mais comfy",
+        "Assistir Pokémon, principalmente o Horizons"
+    ]
+};
 
-// Function to pick and display random text (with HTML support)
-function pickRandomTextComfy() {
-    console.log("Function 'pickRandomText' called.");
+// Function to pick and display random text for a specific category
+function pickRandomText(category) {
+    console.log(`Function 'pickRandomText' called for category: ${category}`);
 
-    const randomIndexComfy = Math.floor(Math.random() * textsComfy.length);
-    const randomComfyElement = document.getElementById("randomComfy");
+    const randomIndex = Math.floor(Math.random() * textCollections[category].length);
+    const randomTextElement = document.getElementById(`random${capitalize(category)}`);
 
-    if (randomComfyElement) {
-        console.log("Random text element found.");
-        randomComfyElement.innerHTML = textsComfy[randomIndexComfy]; // Use innerHTML to support HTML content
+    if (randomTextElement) {
+        console.log(`Random text element found for category: ${category}`);
+        randomTextElement.innerHTML = textCollections[category][randomIndex];
     } else {
-        console.error("Random text element not found!");
+        console.error(`Random text element not found for category: ${category}`);
     }
 }
 
-// Function to show all texts (with HTML support)
-function showAllTextsComfy() {
-    console.log("Function 'showAllTexts' called.");
+// Function to show all texts for a specific category
+function showAllTexts(category) {
+    console.log(`Function 'showAllTexts' called for category: ${category}`);
 
-    const allTextsBoxComfy = document.getElementById("allTextsBoxComfy");
-    if (allTextsBoxComfy) {
-        allTextsBoxComfy.innerHTML = ""; // Clear the box first
-        textsComfy.forEach((text) => {
+    const allTextsBox = document.getElementById(`allTextsBox${capitalize(category)}`);
+    if (allTextsBox) {
+        allTextsBox.innerHTML = ""; // Clear the box first
+        textCollections[category].forEach((text) => {
             const paragraph = document.createElement("p");
-            paragraph.innerHTML = text; // Use innerHTML to render HTML content
-            allTextsBoxComfy.appendChild(paragraph);
+            paragraph.innerHTML = text;
+            allTextsBox.appendChild(paragraph);
         });
     } else {
-        console.error("All texts box not found!");
+        console.error(`All texts box not found for category: ${category}`);
     }
 }
 
-// Log when the script is running and event listeners are added
-console.log("Script loaded, adding event listeners...");
+// Utility function to capitalize the first letter
+function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
 
-// Event listener for page load
+// Attach event listeners dynamically
+function attachListeners(category) {
+    const reloadButton = document.getElementById(`reloadButton${capitalize(category)}`);
+    const showAllButton = document.getElementById(`showAllButton${capitalize(category)}`);
+
+    if (reloadButton) {
+        reloadButton.addEventListener("click", () => {
+            console.log(`Reload button clicked for category: ${category}`);
+            pickRandomText(category);
+        });
+    } else {
+        console.error(`Reload button not found for category: ${category}`);
+    }
+
+    if (showAllButton) {
+        showAllButton.addEventListener("click", () => {
+            console.log(`Show all button clicked for category: ${category}`);
+            showAllTexts(category);
+        });
+    } else {
+        console.error(`Show all button not found for category: ${category}`);
+    }
+}
+
+// Initialize the script on page load
 window.onload = () => {
-    console.log("Window loaded.");
-    pickRandomTextComfy(); // Call random text function on page load
-
-    // Attach event listeners after DOM is fully loaded
-    const reloadButtonComfy = document.getElementById("reloadButtonComfy");
-    const showAllButtonComfy = document.getElementById("showAllButtonComfy");
-
-    if (reloadButtonComfy) {
-        reloadButtonComfy.addEventListener("click", () => {
-            console.log("Reload button clicked.");
-            pickRandomTextComfy(); // Reload random text when clicked
-        });
-    } else {
-        console.error("Reload button not found!");
-    }
-
-    if (showAllButtonComfy) {
-        showAllButtonComfy.addEventListener("click", () => {
-            console.log("Show all button clicked.");
-            showAllTextsComfy(); // Show all texts when clicked
-        });
-    } else {
-        console.error("Show all button not found!");
-    }
+    console.log("Window loaded, initializing categories.");
+    ["curiosities", "habits", "comfy"].forEach((category) => {
+        pickRandomText(category); // Display random text on load
+        attachListeners(category); // Attach button event listeners
+    });
 };
 
 </script>
+
 </td>
 </tr>
 <tr>
@@ -569,24 +513,10 @@ Cálculo:
 <br/>Fazer de Itajaí SC minha casa (já odiei morar ali quando abruptamente saímos de Cascavel onde morei por 17 anos - maior parte da minha vida), é como posso estar mais próxima do Nordeste no momento (tentei em São Paulo, mas não dá, oh lugar inóspito senhor)</p></td>
 </tr>
 <tr>
-<td>🔴 Favorite Pokémon:</td>
-<td><b>Mew</b>, <b>Terapagos</b> (both are playful - coincidently both play with crystals - and overall matches my personality and characteristics: for example Mew can do and be everything, so as I do with my creativity in areas ranging from art to tech (and on overall life ranging from finance - such as Ethereum/DeFi - to social justice to tech too). Also both Mew and Terapagos are always unbothered and sometimes unconsequent. No matter how many time passes, they continue acting childish: <a href="https://www.youtube.com/watch?v=VdQY7BusJNU" target="_blank">time after time</a>, they'll forever <a href="https://www.youtube.com/watch?v=PIb6AZdTr-A" target="_blank">have fun</a>). Impossible not relate to them in the most ways possible
-<br/><a href="https://tenor.com/pt-BR/view/bubble-pokemon-mew-ash-bounce-gif-21167391" target="_blank"><img width="150px" src="https://c.tenor.com/KPk5oI8hIKMAAAAd/tenor.gif"/></a> <a href="https://tenor.com/pt-BR/view/pokemon-horizons-pokemon-pokemon-anime-charcadet-terapagos-gif-12065347847698878028" target="_blank"><img width="150px" src="https://c.tenor.com/p3C58UmdjkwAAAAC/tenor.gif"/></a><br/>
-<a href="http://web.archive.org/web/20240823104750/https://x.com/yonkoluffyszn/status/1826730725564973169?mx=2" target="_blank"><img src="https://archive.is/s1qwc/1fb1c226068322415b49320e28615b806e5dcde6.jpg"/></a>
-<p>Honor mentions to other of my fave Pokés:</p>
-<a href="https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon)" target="_blank"><img alt="Slowpoke" title="Slowpoke" src="data:image/webp;base64,UklGRvIBAABXRUJQVlA4TOUBAAAvn8AnEG9gJJKUl1giXBX6UQlJBOxHoYaZ2jZehP+jKG9UxWikASMBkDABo9HoDas3/UblgfMfAv5/OtyewYy5pRDUYkbn2ktEocgArba1LBMVqPBUsIIVqGAFKkwFK1DhqfBUMA2Izgfv3zk3ov8TkP79/xcHfDRx7CpHTMXtx7BLhRgmAgpoGM4nEAUINIQCOAxUCF+fFwLdFgKPAl4khuHri8INgJehl0lfHFGAjmEMDsUEvrbrzHt56hySzeDRLytLxwOT/AlRgABWlG1GkgZ6pCjjYDlXlmqTuuPM4ihySUgz4g6c9dRNUlPhzJI4JAP1IwmhO/CltMp22yLLJB2SQvNFSNKdbCGtbrMtD9+Y7STZOmybr93ZvRrdva3ja1ObUCWf8TN8GVirm9RuRNPxuhs+IVtHzdbqNgFdvBPgCwq7KlgbfFWgHQq9Ssd6VKz21iogdQ7EK26aXEYUMGpv0CrIOVSAR4F5mfC0Ci9IMipc+QKco9w+sl2FO1uHxgYVMKS34srSXhhZWgY+ivOSAcEhqdNDu7Kkcx95WgiOpDjBEteZ9+6xQerOgZO+9+8BN7gggbLOmHPrE1jWCZcB6fv/nmkDfAJL95bPy0g//+8Zug09Tdup9Hv/npeNT+df7QA="/></a> <a href="https://bulbapedia.bulbagarden.net/wiki/Clefairy_(Pok%C3%A9mon)" target="_blank"><img alt="Clefairy" title="Clefairy" src="data:image/webp;base64,UklGRsoBAABXRUJQVlA4TL4BAAAvn8AnEHdgJAASJmA0Go0Md4tXjDRvGAmAhAtEJhC9YnSw1StGm0YCICESpWkkOtw9XvGB8x8A/P+gME852dJHt6YAq6WCUNC2s6aGQlq17XnbiEIovBRMIRRGIRRKwRRMQRREYRRGoSQk5eO00t899/tE9H8Cyv+ifkn7cdieSA2kzfAjTx82oDbWyP0O3B95OlNSm6sgyf1hry6cfYNnkAB0OjPzWN79kWogekldFYAyM++xPD/UQANVEBgEoMz7sQGphlAFDCDmetyPKIsj7DYUU9UZcewATOrIz5wBZQc8QLWzPDmJzUCqlmwmAZT1EbR5lWwz3wCpOweVG0NTJw7K6pqkaL0gRtHQrCAt7F+2XvqAJJS5rttgXEWOErmzBHDzush85oOZZV3hrCN/G/gjxU2vpFdG1L49qW8lYPkJbrEyghckiRftKEuDwF9PIPGiHcuDaO+3g2sH/DYpdO2B/R7bcQliC+zX3G8C6mw/4fkuxOSNugRRNoZdQLav9+giyg6EbV+8JtgFwr00kQZcEGUnbHrJQ10EZRMIZ9qUPrAzDVB+7u9D/JUo05BE+eG/DwHlyYCyHf99DA=="/></a> <a href="https://bulbapedia.bulbagarden.net/wiki/Ogerpon_(Pok%C3%A9mon)" target="_blank"><img height="160px" alt="Ogerpon" title="Ogerpon" src="https://archive.is/UhTGK/74d2b53cd22844cfe75b8d37b8177150eee5f3b9.png"/></a> <a href="https://bulbapedia.bulbagarden.net/wiki/Floragato_(Pok%C3%A9mon)" target="_blank"><img alt="Floragato" title="Floragato" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRZPCpKxCqamC0FS4vx5fS8X5-BPHawPQeaQ&s"/></a>
-</td>
-</tr>
-<tr>
-<td>🟩 Fav ElChavo:</td>
-<td><b>Pela luta</b> <small>(não me refiro ao <a href="https://github.com/danimesq/StreetChaves" target="_blank">Street Chaves</a> kkk)</small>: Sr.Barriga <small>(paciência e bondade, além de sofrer com gordofobia)</small>, Dona Clotilde <small>(sofre injustiças e preconceito - machismo, etarismo)</small>, Carteiro Jaiminho <small>(bondade - como todo o "centi", preguiça)</small>, Chaves <small>(apesar de sofrer aporofobia, consegue ser feliz com o que mal cabe na palma da mão)</small><br/>
-<b>Pelo engraçado</b>: Quico, Seu Madruga, Nhonho, Chiquinha <small>(como dizia minha irmã lá por 2010-2013: "Engraçado é o Quico. O Chaves não é engraçado, ele vive situações engraçadas - é diferente")</small>.</td>
-</tr>
-<tr>
 <td>Waifus & Husbandus:</td>
 <td>
 <h1 id="WaifusHusbandus">Waifus & Husbandus:</h1>
-<p>Waifus, Husbandus = a <a href="https://dictionary.cambridge.org/dictionary/english/have-a-crush-on" target="_blank">crush</a> for life, but only existing on fiction (mostly animes)</p>
+<p>Waifus, Husbandus = a "<a href="https://dictionary.cambridge.org/dictionary/english/have-a-crush-on" target="_blank">crush</a>" for life, but only existing on fiction (mostly animes)</p>
 <div class="row">
   <div class="col-sm-3"><a href="https://twitter.com/i/communities/1519751834965057544" target="_blank"><div class="card bg-dark text-white">
   <img class="card-img" src="https://www.serebii.net/pokemonmasters/syncpairs/icons/nemona-sygna.png" alt="Card image">
@@ -664,7 +594,22 @@ Cálculo:
 </div>
 </div>
 
-</div></td>
+</div>
+<h1 id="favcharacter">Favorite characters:</h1></td>
+</tr>
+<tr>
+<td>🔴 Favorite Pokémon:</td>
+<td><b>Mew</b>, <b>Terapagos</b> (both are playful - coincidently both play with crystals - and overall matches my personality and characteristics: for example Mew can do and be everything, so as I do with my creativity in areas ranging from art to tech (and on overall life ranging from finance - such as Ethereum/DeFi - to social justice to tech too). Also both Mew and Terapagos are always unbothered and sometimes unconsequent. No matter how many time passes, they continue acting childish: <a href="https://www.youtube.com/watch?v=VdQY7BusJNU" target="_blank">time after time</a>, they'll forever <a href="https://www.youtube.com/watch?v=PIb6AZdTr-A" target="_blank">have fun</a>). Impossible not relate to them in the most ways possible
+<br/><a href="https://tenor.com/pt-BR/view/bubble-pokemon-mew-ash-bounce-gif-21167391" target="_blank"><img width="150px" src="https://c.tenor.com/KPk5oI8hIKMAAAAd/tenor.gif"/></a> <a href="https://tenor.com/pt-BR/view/pokemon-horizons-pokemon-pokemon-anime-charcadet-terapagos-gif-12065347847698878028" target="_blank"><img width="150px" src="https://c.tenor.com/p3C58UmdjkwAAAAC/tenor.gif"/></a><br/>
+<a href="http://web.archive.org/web/20240823104750/https://x.com/yonkoluffyszn/status/1826730725564973169?mx=2" target="_blank"><img src="https://archive.is/s1qwc/1fb1c226068322415b49320e28615b806e5dcde6.jpg"/></a>
+<p>Honor mentions to other of my fave Pokés:</p>
+<a href="https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon)" target="_blank"><img alt="Slowpoke" title="Slowpoke" src="data:image/webp;base64,UklGRvIBAABXRUJQVlA4TOUBAAAvn8AnEG9gJJKUl1giXBX6UQlJBOxHoYaZ2jZehP+jKG9UxWikASMBkDABo9HoDas3/UblgfMfAv5/OtyewYy5pRDUYkbn2ktEocgArba1LBMVqPBUsIIVqGAFKkwFK1DhqfBUMA2Izgfv3zk3ov8TkP79/xcHfDRx7CpHTMXtx7BLhRgmAgpoGM4nEAUINIQCOAxUCF+fFwLdFgKPAl4khuHri8INgJehl0lfHFGAjmEMDsUEvrbrzHt56hySzeDRLytLxwOT/AlRgABWlG1GkgZ6pCjjYDlXlmqTuuPM4ihySUgz4g6c9dRNUlPhzJI4JAP1IwmhO/CltMp22yLLJB2SQvNFSNKdbCGtbrMtD9+Y7STZOmybr93ZvRrdva3ja1ObUCWf8TN8GVirm9RuRNPxuhs+IVtHzdbqNgFdvBPgCwq7KlgbfFWgHQq9Ssd6VKz21iogdQ7EK26aXEYUMGpv0CrIOVSAR4F5mfC0Ci9IMipc+QKco9w+sl2FO1uHxgYVMKS34srSXhhZWgY+ivOSAcEhqdNDu7Kkcx95WgiOpDjBEteZ9+6xQerOgZO+9+8BN7gggbLOmHPrE1jWCZcB6fv/nmkDfAJL95bPy0g//+8Zug09Tdup9Hv/npeNT+df7QA="/></a> <a href="https://bulbapedia.bulbagarden.net/wiki/Clefairy_(Pok%C3%A9mon)" target="_blank"><img alt="Clefairy" title="Clefairy" src="data:image/webp;base64,UklGRsoBAABXRUJQVlA4TL4BAAAvn8AnEHdgJAASJmA0Go0Md4tXjDRvGAmAhAtEJhC9YnSw1StGm0YCICESpWkkOtw9XvGB8x8A/P+gME852dJHt6YAq6WCUNC2s6aGQlq17XnbiEIovBRMIRRGIRRKwRRMQRREYRRGoSQk5eO00t899/tE9H8Cyv+ifkn7cdieSA2kzfAjTx82oDbWyP0O3B95OlNSm6sgyf1hry6cfYNnkAB0OjPzWN79kWogekldFYAyM++xPD/UQANVEBgEoMz7sQGphlAFDCDmetyPKIsj7DYUU9UZcewATOrIz5wBZQc8QLWzPDmJzUCqlmwmAZT1EbR5lWwz3wCpOweVG0NTJw7K6pqkaL0gRtHQrCAt7F+2XvqAJJS5rttgXEWOErmzBHDzush85oOZZV3hrCN/G/gjxU2vpFdG1L49qW8lYPkJbrEyghckiRftKEuDwF9PIPGiHcuDaO+3g2sH/DYpdO2B/R7bcQliC+zX3G8C6mw/4fkuxOSNugRRNoZdQLav9+giyg6EbV+8JtgFwr00kQZcEGUnbHrJQ10EZRMIZ9qUPrAzDVB+7u9D/JUo05BE+eG/DwHlyYCyHf99DA=="/></a> <a href="https://bulbapedia.bulbagarden.net/wiki/Ogerpon_(Pok%C3%A9mon)" target="_blank"><img height="160px" alt="Ogerpon" title="Ogerpon" src="https://archive.is/UhTGK/74d2b53cd22844cfe75b8d37b8177150eee5f3b9.png"/></a> <a href="https://bulbapedia.bulbagarden.net/wiki/Floragato_(Pok%C3%A9mon)" target="_blank"><img alt="Floragato" title="Floragato" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRZPCpKxCqamC0FS4vx5fS8X5-BPHawPQeaQ&s"/></a>
+</td>
+</tr>
+<tr>
+<td>🟩 Fav ElChavo:</td>
+<td><b>Pela luta</b> <small>(não me refiro ao <a href="https://github.com/danimesq/StreetChaves" target="_blank">Street Chaves</a> kkk)</small>: Sr.Barriga <small>(paciência e bondade, além de sofrer com gordofobia)</small>, Dona Clotilde <small>(sofre injustiças e preconceito - machismo, etarismo)</small>, Carteiro Jaiminho <small>(bondade - como todo o "centi", preguiça)</small>, Chaves <small>(apesar de sofrer aporofobia, consegue ser feliz com o que mal cabe na palma da mão)</small><br/>
+<b>Pelo engraçado</b>: Quico, Seu Madruga, Nhonho, Chiquinha <small>(como dizia minha irmã lá por 2010-2013: "Engraçado é o Quico. O Chaves não é engraçado, ele vive situações engraçadas - é diferente")</small>.</td>
 </tr>
 <tr>
 <td>My fave/lucky letter is "P":</td>
@@ -1505,7 +1450,7 @@ Não precisa preencher todos esses quesitos - é praticamente impossível, à me
 
 </div>
 <nav class="footer"><center><h1>✨ Site created in Thu Dec 28 2017</h1>
-<h4>🗘 Last update in Sun Sep 08 15:02 2024 -0300.</h4>
+<h4>🗘 Last update in Mon Sep 09 13:18 2024 -0300.</h4>
 <br/>
 <ul>
 <img width="32px" src="./img/icns/www.svg" title="Icon made by https://www.flaticon.com/authors/freepik"/><br/> On Web 2.0:
