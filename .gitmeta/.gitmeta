@@ -1,12 +1,12 @@
-commit QmTbq2B8Fr3ZNigpvmC8gGSAfqJ8jozbsBJDXC72CWUZgz
+commit QmWopDvwuVCNU7tF8FCh89j3bTziNCCkJ2G78UdCgn9txa
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 4520bc0b6d14f467e226401191607c188871ce51c132821a688e0aead2b91fe20075bfe51e1eebf04a7b3c831a7bf238746720c67fa7c64bac9e934f2a45514600
+Signature: f042776d9d0ec2e14419608c435e99966c79a80fa68d383a299a8a652c1c07c95f8374d3d233e7d8eaee01a5a3b944a0022f5dabb81b9b7e8e0138f5f7ec061b01
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmdkKAe8SemXKcr8ADveMkn3u1FSZrdUbibhgNPWChFH5V
-Commit CID if containing only file hashes: QmYncFZN3VqtJ5DfU2AN8g7J1yDDyUkT1NdYDxDmKWGWzx
+Commit CID if including git's SHA1: QmSU48W2uEpxSn8rnAx8wuBV3v79NH2AXfr2E1bDAeKzVb
+Commit CID if containing only file hashes: QmVJmoQ3npJWY3gCdRHcvJVN5YkMvWzRwX3VVcK6A1jqUW
 
 ------------------------------
 
@@ -17,7 +17,19 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'index.html'
-chmod 0755 'index.html'
-/usr/bin/touch -hcmd "2024-08-28 10:23:41.8387496000 -0300" 'index.html'
-/usr/bin/touch -hcad "2024-09-09 13:37:41.9109649000 -0300" 'index.html'
+chown -h 1000:1000 'card/index.html'
+chmod 0755 'card/index.html'
+/usr/bin/touch -hcmd "2024-09-09 18:49:00.8308986000 -0300" 'card/index.html'
+/usr/bin/touch -hcad "2024-09-09 18:49:06.6188301000 -0300" 'card/index.html'
+chown -h 1000:1000 'card/js/birthtime.js'
+chmod 0664 'card/js/birthtime.js'
+/usr/bin/touch -hcmd "2024-09-09 13:47:38.2278870000 -0300" 'card/js/birthtime.js'
+/usr/bin/touch -hcad "2024-09-09 13:47:49.2647741000 -0300" 'card/js/birthtime.js'
+chown -h 1000:1000 'card/js/hrt-time.js'
+chmod 0664 'card/js/hrt-time.js'
+/usr/bin/touch -hcmd "2024-09-09 13:48:36.8262970000 -0300" 'card/js/hrt-time.js'
+/usr/bin/touch -hcad "2024-09-09 13:48:43.8402279000 -0300" 'card/js/hrt-time.js'
+chown -h 1000:1000 'card/js/randomtexts.js'
+chmod 0664 'card/js/randomtexts.js'
+/usr/bin/touch -hcmd "2024-09-09 13:49:46.0306284000 -0300" 'card/js/randomtexts.js'
+/usr/bin/touch -hcad "2024-09-09 13:50:25.6412580000 -0300" 'card/js/randomtexts.js'
