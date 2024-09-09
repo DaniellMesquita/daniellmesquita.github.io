@@ -1,12 +1,12 @@
-commit QmPgyJNNvkmPDBULVjDAzL3EUMUCY8nEZnJhWCumJiTZjE
+commit QmTbq2B8Fr3ZNigpvmC8gGSAfqJ8jozbsBJDXC72CWUZgz
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 7fa3fd0d119a638cd516e48ba84412d947293db1c6535dd74d6f1324284d67e803c503ca9826a908a1b4c2f04918ca1f9d0b41f850bc3b6bb9018b393d044d0300
+Signature: 4520bc0b6d14f467e226401191607c188871ce51c132821a688e0aead2b91fe20075bfe51e1eebf04a7b3c831a7bf238746720c67fa7c64bac9e934f2a45514600
 
 ------------------------------
 
-Commit CID if including git's SHA1: Qmej4JhDvkYmG5PcahjxZE9oMaFivzFCpSeG1jA1YE4uDZ
-Commit CID if containing only file hashes: QmbKe4NhiiW1jcQxGGhx9R2wV4JKy2pGZsWYwoq9KbptzU
+Commit CID if including git's SHA1: QmdkKAe8SemXKcr8ADveMkn3u1FSZrdUbibhgNPWChFH5V
+Commit CID if containing only file hashes: QmYncFZN3VqtJ5DfU2AN8g7J1yDDyUkT1NdYDxDmKWGWzx
 
 ------------------------------
 
@@ -17,35 +17,7 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'card/Random Text Display Script (09_09_2024 13_28_28)/.folderstamp1'
-chmod 0664 'card/Random Text Display Script (09_09_2024 13_28_28)/.folderstamp1'
-/usr/bin/touch -hcmd "2024-09-09 13:35:22.3947719000 -0300" 'card/Random Text Display Script (09_09_2024 13_28_28)/.folderstamp1'
-/usr/bin/touch -hcad "2024-09-09 13:35:48.1292144000 -0300" 'card/Random Text Display Script (09_09_2024 13_28_28)/.folderstamp1'
-chown -h 1000:1000 'card/Random Text Display Script (09_09_2024 13_28_28)/.folderstamp2'
-chmod 0664 'card/Random Text Display Script (09_09_2024 13_28_28)/.folderstamp2'
-/usr/bin/touch -hcmd "2024-09-09 13:35:49.9631754000 -0300" 'card/Random Text Display Script (09_09_2024 13_28_28)/.folderstamp2'
-/usr/bin/touch -hcad "2024-09-09 13:36:13.2676882000 -0300" 'card/Random Text Display Script (09_09_2024 13_28_28)/.folderstamp2'
-chown -h 1000:1000 'card/Random Text Display Script (09_09_2024 13_28_28)/.folderstamp3'
-chmod 0664 'card/Random Text Display Script (09_09_2024 13_28_28)/.folderstamp3'
-/usr/bin/touch -hcmd "2024-09-09 13:36:14.1076709000 -0300" 'card/Random Text Display Script (09_09_2024 13_28_28)/.folderstamp3'
-/usr/bin/touch -hcad "2024-09-09 13:38:35.6010111000 -0300" 'card/Random Text Display Script (09_09_2024 13_28_28)/.folderstamp3'
-chown -h 1000:1000 'card/Random Text Display Script (09_09_2024 13_28_28)/images/2.webp'
-chmod 0664 'card/Random Text Display Script (09_09_2024 13_28_28)/images/2.webp'
-/usr/bin/touch -hcmd "2024-09-09 13:28:30.5060000000 -0300" 'card/Random Text Display Script (09_09_2024 13_28_28)/images/2.webp'
-/usr/bin/touch -hcad "2024-09-09 13:35:48.2892110000 -0300" 'card/Random Text Display Script (09_09_2024 13_28_28)/images/2.webp'
-chown -h 1000:1000 'card/Random Text Display Script (09_09_2024 13_28_28)/images/5.jpg'
-chmod 0664 'card/Random Text Display Script (09_09_2024 13_28_28)/images/5.jpg'
-/usr/bin/touch -hcmd "2024-09-09 13:28:30.5060000000 -0300" 'card/Random Text Display Script (09_09_2024 13_28_28)/images/5.jpg'
-/usr/bin/touch -hcad "2024-09-09 13:35:48.7752007000 -0300" 'card/Random Text Display Script (09_09_2024 13_28_28)/images/5.jpg'
-chown -h 1000:1000 'card/Random Text Display Script (09_09_2024 13_28_28)/manifest.json'
-chmod 0664 'card/Random Text Display Script (09_09_2024 13_28_28)/manifest.json'
-/usr/bin/touch -hcmd "2024-09-09 13:28:30.5060000000 -0300" 'card/Random Text Display Script (09_09_2024 13_28_28)/manifest.json'
-/usr/bin/touch -hcad "2024-09-09 13:35:49.0871940000 -0300" 'card/Random Text Display Script (09_09_2024 13_28_28)/manifest.json'
-chown -h 1000:1000 'card/Random Text Display Script (09_09_2024 13_28_28)/stylesheet_3.css'
-chmod 0664 'card/Random Text Display Script (09_09_2024 13_28_28)/stylesheet_3.css'
-/usr/bin/touch -hcmd "2024-09-09 13:28:30.5060000000 -0300" 'card/Random Text Display Script (09_09_2024 13_28_28)/stylesheet_3.css'
-/usr/bin/touch -hcad "2024-09-09 13:35:49.9461758000 -0300" 'card/Random Text Display Script (09_09_2024 13_28_28)/stylesheet_3.css'
-chown -h 1000:1000 'card/index.html'
-chmod 0755 'card/index.html'
-/usr/bin/touch -hcmd "2024-09-09 13:18:47.2162111000 -0300" 'card/index.html'
-/usr/bin/touch -hcad "2024-09-09 13:26:23.7370720000 -0300" 'card/index.html'
+chown -h 1000:1000 'index.html'
+chmod 0755 'index.html'
+/usr/bin/touch -hcmd "2024-08-28 10:23:41.8387496000 -0300" 'index.html'
+/usr/bin/touch -hcad "2024-09-09 13:37:41.9109649000 -0300" 'index.html'
