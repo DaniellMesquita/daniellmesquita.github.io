@@ -13,6 +13,9 @@ const textCollections = {
     comfy: [
         "Saber que tem doce ou outros snacks me esperando no armário <a href='https://www.instagram.com/idanimesq/p/C_Goy7qyt0f/' target='_blank'>ou em uma bolsa/sacola</a> - em bolsa é ainda mais comfy🥰",
         "Assistir Pokémon, principalmente o Horizons"
+    ],
+    happenings: [
+        "Em 2017, de tanto viajar entre Curitiba e Itajaí/Blumenau (subindo e descendo serra, ficando com falta de ar e formigamento), hoje em dia sinto dificuldade de saber de qual direção um som vem"
     ]
 };
 
@@ -80,7 +83,7 @@ function attachListeners(category) {
 // Initialize the script on page load
 window.onload = () => {
     console.log("Window loaded, initializing categories.");
-    ["curiosities", "habits", "comfy"].forEach((category) => {
+    ["curiosities", "habits", "comfy", "happenings"].forEach((category) => {
         pickRandomText(category); // Display random text on load
         attachListeners(category); // Attach button event listeners
     });
