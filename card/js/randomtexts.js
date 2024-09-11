@@ -12,7 +12,8 @@ const textCollections = {
     ],
     comfy: [
         "Saber que tem doce ou outros snacks me esperando no armário <a href='https://www.instagram.com/idanimesq/p/C_Goy7qyt0f/' target='_blank'>ou em uma bolsa/sacola</a> - em bolsa é ainda mais comfy🥰",
-        "Assistir Pokémon, principalmente o Horizons"
+        "Assistir Pokémon, principalmente o Horizons",
+        "Escovar meus cabelos com os próprios dedos"
     ],
     happenings: [
         "Em 2017, de tanto viajar entre Curitiba e Itajaí/Blumenau (subindo e descendo serra, ficando com falta de ar e formigamento), hoje em dia sinto dificuldade de saber de qual direção um som vem"
