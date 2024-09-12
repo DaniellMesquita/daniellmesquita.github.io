@@ -1,12 +1,12 @@
-commit QmWHMrkXTMBQTY4a3iWRg9MSBVAJWvREWNeQGQT6JSzpuR
+commit QmQTRiX88PhNTKpUDPKKA8Q37rjs7vS4jBXAKfRkKDCGq3
 Branch: main
-Signed-off by:  (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 4c8c687042752c03f3554396f481a7ed17826b104cf70fc27a7eaaa4d7df2b2202809f879071dbed5d180d0c8f4a52257a096d5fdae4392823af5b6cbf83a0d800
+Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
+Signature: c455707b1a48c0867727d81a4376880b86f63a7b2ed0a9ef47b0818fedc4f4a81de289e11adf7647cdf8bb36edf0ebd259e5c73d563a60d31d42d9f733ed1a5e00
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmU1owuowDUnbf2Vkfq2N3hy5cuU1FMUxxHWTUdjivRHsF
-Commit CID if containing only file hashes: QmSB3jyib9RcifmPoHLvyiraa8WNGUNG6YBqPC6NtVND2z
+Commit CID if including git's SHA1: QmUu178rEZgrnocxPwC8LqCiK3z28kSeNTx9ZV6yd4SSU9
+Commit CID if containing only file hashes: Qme9CNGR1jFqnsWdZrtj1UPvDDzJPicpJ8N1hqR5Zcmc8K
 
 ------------------------------
 
@@ -17,7 +17,19 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
-chown -h 1000:1000 'card/Tasks.txt'
-chmod 0664 'card/Tasks.txt'
-/usr/bin/touch -hcmd "2024-09-11 20:31:17.3065534000 -0300" 'card/Tasks.txt'
-/usr/bin/touch -hcad "2024-09-11 20:31:24.8344532000 -0300" 'card/Tasks.txt'
+chown -h 1000:1000 'card/index.html'
+chmod 0755 'card/index.html'
+/usr/bin/touch -hcmd "2024-09-11 21:46:09.0761552000 -0300" 'card/index.html'
+/usr/bin/touch -hcad "2024-09-11 21:48:11.6077352000 -0300" 'card/index.html'
+chown -h 1000:1000 'personal/index.html'
+chmod 0755 'personal/index.html'
+/usr/bin/touch -hcmd "2024-09-11 21:46:45.8273425000 -0300" 'personal/index.html'
+/usr/bin/touch -hcad "2024-09-11 21:46:58.0884024000 -0300" 'personal/index.html'
+chown -h 1000:1000 'press/press-kit/index.html'
+chmod 0755 'press/press-kit/index.html'
+/usr/bin/touch -hcmd "2024-09-11 21:47:30.6525551000 -0300" 'press/press-kit/index.html'
+/usr/bin/touch -hcad "2024-09-11 21:48:23.4207848000 -0300" 'press/press-kit/index.html'
+chown -h 1000:1000 'professional/index.html'
+chmod 0755 'professional/index.html'
+/usr/bin/touch -hcmd "2024-09-11 21:47:55.0876641000 -0300" 'professional/index.html'
+/usr/bin/touch -hcad "2024-09-11 21:48:11.9687368000 -0300" 'professional/index.html'
