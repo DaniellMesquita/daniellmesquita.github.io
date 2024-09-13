@@ -1,12 +1,12 @@
-commit QmQTRiX88PhNTKpUDPKKA8Q37rjs7vS4jBXAKfRkKDCGq3
+commit QmV8cShvi3SYbQSfzguzSW8nJhEVgdRRPejA3cfGSzNFwL
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: c455707b1a48c0867727d81a4376880b86f63a7b2ed0a9ef47b0818fedc4f4a81de289e11adf7647cdf8bb36edf0ebd259e5c73d563a60d31d42d9f733ed1a5e00
+Signature: e84aaa18fb6d3cf0c84655f59745ecb04bc2e51d6b70b0f6490fb1caa38209af0e71d318daa72d00ee3b789976e43ece4bd71aff111f124c8fb655997c0c173000
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmUu178rEZgrnocxPwC8LqCiK3z28kSeNTx9ZV6yd4SSU9
-Commit CID if containing only file hashes: Qme9CNGR1jFqnsWdZrtj1UPvDDzJPicpJ8N1hqR5Zcmc8K
+Commit CID if including git's SHA1: QmQjZ8Q14LfgfcY89y88dtVQ16XABksivB9YRUwShzUTFz
+Commit CID if containing only file hashes: QmfMsaZtBRW4q9p6rcHLKs7CBkh5a1XKJGaHhhtiJPGLUN
 
 ------------------------------
 
@@ -19,17 +19,25 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 chown -h 1000:1000 'card/index.html'
 chmod 0755 'card/index.html'
-/usr/bin/touch -hcmd "2024-09-11 21:46:09.0761552000 -0300" 'card/index.html'
-/usr/bin/touch -hcad "2024-09-11 21:48:11.6077352000 -0300" 'card/index.html'
+/usr/bin/touch -hcmd "2024-09-12 21:00:59.2447161000 -0300" 'card/index.html'
+/usr/bin/touch -hcad "2024-09-12 21:28:02.8439747000 -0300" 'card/index.html'
+chown -h 1000:1000 'card/js/randomtexts.js'
+chmod 0664 'card/js/randomtexts.js'
+/usr/bin/touch -hcmd "2024-09-11 21:53:08.0217222000 -0300" 'card/js/randomtexts.js'
+/usr/bin/touch -hcad "2024-09-12 13:03:12.7463999000 -0300" 'card/js/randomtexts.js'
+chown -h 1000:1000 'home/index.html'
+chmod 0755 'home/index.html'
+/usr/bin/touch -hcmd "2024-09-12 21:00:27.3611259000 -0300" 'home/index.html'
+/usr/bin/touch -hcad "2024-09-12 21:28:03.1799328000 -0300" 'home/index.html'
 chown -h 1000:1000 'personal/index.html'
 chmod 0755 'personal/index.html'
-/usr/bin/touch -hcmd "2024-09-11 21:46:45.8273425000 -0300" 'personal/index.html'
-/usr/bin/touch -hcad "2024-09-11 21:46:58.0884024000 -0300" 'personal/index.html'
+/usr/bin/touch -hcmd "2024-09-12 21:19:08.8926095000 -0300" 'personal/index.html'
+/usr/bin/touch -hcad "2024-09-12 21:28:03.1839323000 -0300" 'personal/index.html'
 chown -h 1000:1000 'press/press-kit/index.html'
 chmod 0755 'press/press-kit/index.html'
-/usr/bin/touch -hcmd "2024-09-11 21:47:30.6525551000 -0300" 'press/press-kit/index.html'
-/usr/bin/touch -hcad "2024-09-11 21:48:23.4207848000 -0300" 'press/press-kit/index.html'
+/usr/bin/touch -hcmd "2024-09-12 20:58:48.1545253000 -0300" 'press/press-kit/index.html'
+/usr/bin/touch -hcad "2024-09-12 21:28:03.2079293000 -0300" 'press/press-kit/index.html'
 chown -h 1000:1000 'professional/index.html'
 chmod 0755 'professional/index.html'
-/usr/bin/touch -hcmd "2024-09-11 21:47:55.0876641000 -0300" 'professional/index.html'
-/usr/bin/touch -hcad "2024-09-11 21:48:11.9687368000 -0300" 'professional/index.html'
+/usr/bin/touch -hcmd "2024-09-12 21:27:23.8209791000 -0300" 'professional/index.html'
+/usr/bin/touch -hcad "2024-09-12 21:28:03.2259271000 -0300" 'professional/index.html'
