@@ -6,7 +6,9 @@ const textCollections = {
         "Em 2011, meu apelido era 'come-mosca': porque eu passava o recreio na frente das lixeiras recicláveis, como uma forma de dizer 'sou lixo também'",
         "Em 2005, meu apelido era 'troca-letras': porque eu falava 'alaçá' invés de 'araçá' e 'zonatan' invés de 'jonatan'",
         "Frequente que eu misturo a Língua Portuguesa com a Inglesa, como se ambas fizessem parte de um único idioma nativo pra mim",
-        "Época do ano favorita: Natal"
+        "Época do ano favorita: Natal (pelas reuniões, pelo clima, pelas festas, pela comida, pelas luzes, pelas músicas de harpa humildes simples e alegres",
+        "I always smile without opening the mouth, and I have **reasons** for that lol",
+        "Meu gosto pelo sono é um paradoxo: quando estou em uma época triste, não vejo a hora de ir dormir; e quando estou em época feliz, não gosto de dormir pq é a sensação como se eu fosse ir deixar de existir mesmo que por umas horas"
     ],
     habits: [
         "Andar pra lá e pra cá enquanto imagino momentos felizes que nunca irão acontecer, e também ideias para projetos de artísticos à tecnológicos",
@@ -28,7 +30,7 @@ const textCollections = {
         "Adoro alimentos suculentos e de sabor suave",
         "Minha parte favorita da melância: a verde",
         "Amo sorvete (minha sobremesa favorita), meus favoritos sendo os verdes: menta, abacate, pistache (até mesmo meu pote de sorvete, comprado em 2021, é verde💚",
-        "Meus salgados favoritos: lasanha, pastel de camarão com catupiry, pizza, risóles"
+        "Meus salgados favoritos: lasanha, hotdog, x-egg-dog, pastel de camarão com catupiry, pizza, risóles"
     ]
 };
 
