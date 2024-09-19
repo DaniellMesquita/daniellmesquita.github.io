@@ -5,7 +5,8 @@ const textCollections = {
         "I love <a href='https://www.instagram.com/p/CuSQ-t-urM4/' target='_blank'>crystals</a> and gems.<br/>One of the things I love about the Pokémon Terapagos is the Terastal effect, which is about colored crystals shining and bringing effects/powers/blesses!",
         "Em 2011, meu apelido era 'come-mosca': porque eu passava o recreio na frente das lixeiras recicláveis, como uma forma de dizer 'sou lixo também'",
         "Em 2005, meu apelido era 'troca-letras': porque eu falava 'alaçá' invés de 'araçá' e 'zonatan' invés de 'jonatan'",
-        "Frequente que eu misturo a Língua Portuguesa com a Inglesa, como se ambas fizessem parte de um único idioma nativo pra mim"
+        "Frequente que eu misturo a Língua Portuguesa com a Inglesa, como se ambas fizessem parte de um único idioma nativo pra mim",
+        "Época do ano favorita: Natal"
     ],
     habits: [
         "Andar pra lá e pra cá enquanto imagino momentos felizes que nunca irão acontecer, e também ideias para projetos de artísticos à tecnológicos",
@@ -14,11 +15,20 @@ const textCollections = {
     comfy: [
         "Saber que tem doce ou outros snacks me esperando no armário <a href='https://www.instagram.com/idanimesq/p/C_Goy7qyt0f/' target='_blank'>ou em uma bolsa/sacola</a> - em bolsa é ainda mais comfy🥰",
         "Assistir Pokémon, principalmente o Horizons",
-        "Escovar meus cabelos com os próprios dedos"
+        "Escovar meus cabelos com os próprios dedos💆🏻‍♀️🌷͙֒"
     ],
     happenings: [
         "Em 2017, de tanto viajar entre Curitiba e Itajaí/Blumenau (subindo e descendo serra, ficando com falta de ar e formigamento), hoje em dia sinto dificuldade de saber de qual direção um som mais ou menos distante vem",
         "Às vezes tenho uns resets, do tipo: 2022 voltei a precisar comer muitos doces igual em 2016; 2022 voltei à desenhar muitos Tamiguchos/Phonemons lindos igual em 2013; 2023+2024 voltei à ter muitas, mas muitas ideias pro Peepz/Peeper e pra Plasmmer igual em 2013-2014"
+    ],
+    food: [
+        "Não gosto de pão com banana, gosto de banana só pura",
+        "Não gosto de misturar alimentos, por exemplo miojo com carne",
+        "Prefiro feijão carioca do que os outros, mas prefiro feijão vermelho do que o carioca",
+        "Adoro alimentos suculentos e de sabor suave",
+        "Minha parte favorita da melância: a verde",
+        "Amo sorvete (minha sobremesa favorita), meus favoritos sendo os verdes: menta, abacate, pistache (até mesmo meu pote de sorvete, comprado em 2021, é verde💚",
+        "Meus salgados favoritos: lasanha, pastel de camarão com catupiry, pizza, risóles"
     ]
 };
 
@@ -86,7 +96,7 @@ function attachListeners(category) {
 // Initialize the script on page load
 window.onload = () => {
     console.log("Window loaded, initializing categories.");
-    ["curiosities", "habits", "comfy", "happenings"].forEach((category) => {
+    ["curiosities", "habits", "comfy", "happenings", "food"].forEach((category) => {
         pickRandomText(category); // Display random text on load
         attachListeners(category); // Attach button event listeners
     });
