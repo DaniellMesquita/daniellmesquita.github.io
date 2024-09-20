@@ -1,12 +1,12 @@
-commit QmbZKz2uTFG3epVjom8pr4pLFj9UrHScPFjiVF9xvY7nix
+commit QmQFyzdMnfukinwhAPmvxZBuPBnsTAtetXZH6q1PfNZx1A
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 225b0abde2c5adccd8964d715526f8dfde57695da7d21b96d4718410ea6ab5e0395a212a41e9a405d5ab0a0a881839381c3e29d087f553b311e3fdc263de55fa00
+Signature: 344de63e21f70bde8e7af0036a0f954ba8113b6499b9ad3dd269993322a98ed110bcd4f6c36dc7a58696cd1901c3a503624337e2412bddd3043875fd375a532000
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmWn6T3Kdefiew7mLdg17o2gymRmun77jDN7BhPrKVtPag
-Commit CID if containing only file hashes: QmRZC3qyyxTDJFpkF6nxiFPbiPzmibzWaxqtw98VhTro8b
+Commit CID if including git's SHA1: QmcEHyj4WHUaqQj56wkcc2ubbYbr58ZAfS8LjGSk1NKZbq
+Commit CID if containing only file hashes: QmXrQjmd66eT6nzLP4VvTH2bactopXpBHXezhRaTM6J3NW
 
 ------------------------------
 
@@ -19,5 +19,13 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 chown -h 1000:1000 'card/js/randomtexts.js'
 chmod 0664 'card/js/randomtexts.js'
-/usr/bin/touch -hcmd "2024-09-20 15:46:11.4127263000 -0300" 'card/js/randomtexts.js'
-/usr/bin/touch -hcad "2024-09-20 15:46:26.6634045000 -0300" 'card/js/randomtexts.js'
+/usr/bin/touch -hcmd "2024-09-20 17:35:18.1155200000 -0300" 'card/js/randomtexts.js'
+/usr/bin/touch -hcad "2024-09-20 17:47:59.0106145000 -0300" 'card/js/randomtexts.js'
+chown -h 1000:1000 'personal/index.html'
+chmod 0755 'personal/index.html'
+/usr/bin/touch -hcmd "2024-09-20 17:47:14.6171865000 -0300" 'personal/index.html'
+/usr/bin/touch -hcad "2024-09-20 17:47:48.6972942000 -0300" 'personal/index.html'
+chown -h 1000:1000 'professional/index.html'
+chmod 0755 'professional/index.html'
+/usr/bin/touch -hcmd "2024-09-20 17:46:20.6862685000 -0300" 'professional/index.html'
+/usr/bin/touch -hcad "2024-09-20 17:47:43.5131306000 -0300" 'professional/index.html'

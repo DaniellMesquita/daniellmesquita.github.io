@@ -27,7 +27,8 @@ const textCollections = {
         "Temperatura igual ou acima de 28/30C até de noite/madrugada (claro que tem limite né, não vou querer 40C, mas amo 35C - menos quem tá causando esses aumentos de temperatura e 4 estações no mesmo dia)",
         "Dormir com som de ventilador ou de chuva🥰",
         "A <a href='https://www.instagram.com/idanimesq/p/C-8yrFSus20/' target='_blank'>cor rosa</a>, me faz lembrar doces",
-        "Ter coisinhas <a href='https://www.instagram.com/idanimesq/p/C595KeUuxXt/' target='_blank'>fofas, infantis</a> e que <a href='https://www.instagram.com/idanimesq/p/C_v-Bo5Sq7s/' target='_blank'>tenham animaizinhos</a>"
+        "Ter coisinhas <a href='https://www.instagram.com/idanimesq/p/C595KeUuxXt/' target='_blank'>fofas, infantis</a> e que <a href='https://www.instagram.com/idanimesq/p/C_v-Bo5Sq7s/' target='_blank'>tenham animaizinhos</a>",
+        "Taking a bath in the dark 💦😴🌙"
     ],
     happenings: [
         "Em 2017, de tanto viajar entre Curitiba e Itajaí/Blumenau (subindo e descendo serra, ficando com falta de ar e formigamento), hoje em dia sinto dificuldade de saber de qual direção um som mais ou menos distante vem",
