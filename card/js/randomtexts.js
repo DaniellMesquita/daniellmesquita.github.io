@@ -33,10 +33,11 @@ const textCollections = {
         "Taking a bath in the dark 💦😴🌙",
         "Saber que tem Climene e Ciproterona guardadinho na minha bolsa",
         "Brisa e calor de cidade litorânea (te amo Itajaí - te detestava em 2015, te amo Matinhos)",
-        "Saber que tem salgadinho no armário, como Fandangos e Cheetos"
+        "Saber que tem salgadinho no armário, como Fandangos e Cheetos",
+        "Ventinho fresco entrando pela janela (infelizmente com essas queimadas sendo causadas pelo Brasil, mais um sonho meu - e agora do país todo junto - foi frustrado"
     ],
     happenings: [
-        "Em 2017, de tanto viajar entre Curitiba e Itajaí/Blumenau (subindo e descendo serra, ficando com falta de ar e formigamento), hoje em dia sinto dificuldade de saber de qual direção um som mais ou menos distante vem",
+        "Em 2017, de tanto viajar entre Curitiba e Itajaí/Blumenau (subindo e descendo serra, ficando com falta de ar e formigamento), hoje em dia sinto dificuldade de saber de qual direção um som mais ou menos distante vem (piorou em 2023/2024, acho que com contribuição da DTM)",
         "Às vezes tenho uns resets, do tipo: 2022 voltei a precisar comer muitos doces igual em 2016 pra baixo; 2022 voltei à desenhar muitos 'Pokémons'/Tamiguchos/Phonemons lindos igual em 2013; 2023+2024 voltei à ter muitas, mas muitas ideias pro Peepz/Peeper e pra Plasmmer igual em 2013-2014",
         "2018 em diante nunca mais me veio choro mesmo eu estando em situação de chorar, chorando só por dentro; em 2024 isso mudou, e eu agradeço à minha TH por agr eu poder voltar à desabafar/desintoxicar o psicológico/organismo🎁",
         "Última vez quue eu me apaixonei foi em 2018"
@@ -81,8 +82,9 @@ const textCollections = {
         "Amo aqueles amendoins doce rosa de Páscoa, e tudo que é doce que deriva de amendoim",
         "Melhor ovo de Páscoa que já comi até hoje, foi em 2022: de KitKat",
         "Se tem algo em uma cozinha que me aterroriza é Wasabi, pq em 2017 num shopping de Blumenau eu taquei no meu prato sem saber o que era e tive um faniquito quando comi tive que correr assoar foi o caos rebosteio dos plumão, entao eu nunca mais quis saber mesmo sabendo que dessa vez da forma certa/moderada a experiência poderia ser diferente",
-        "Meus miojos favoritos são: galinha caipira, seafood e de pimenta (não gosto de miojo com carne nem com ovo, o único miojo misturado que aprendi a gostar é o CupNoodles Seafood)",
-        "Adoro ovo com a gema vermelhinha cremosinha quase líquida"
+        "Meus miojos favoritos são: galinha caipira, seafood e de pimenta (não gosto de miojo com carne nem com ovo - ao contrário da minha irmã, o único miojo misturado que aprendi a gostar é o CupNoodles Seafood)",
+        "Adoro ovo com a gema vermelhinha cremosinha quase líquida",
+        "Um alimento nostálgico que nunca mais vou ver: uma bolacha Passatempo que eu comia quando chegava da pré-escola Kurumin lá por 2002, tinha uns relevos/bordas pratas e uns desenhos tipo Mickey e eu comia junto com Chocomilk enquanto eu assistia desenho na TV à cabo (era Cartoon Network ou Discovery Kids). Eu sinto o gosto dessa época mds 😭 acho até q foi aí que encasquetei que preciso de líquido pra comer bolacha :P"
     ]
 };
 
