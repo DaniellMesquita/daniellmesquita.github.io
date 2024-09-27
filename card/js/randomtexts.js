@@ -3,19 +3,17 @@ const textCollections = {
     curiosities: [
         "I have an underspoken addiction: updates.<br/>This pleases me to update my phone (Play Store, Samsung Store, F-Droid, Android itself) and my computer (Windows Update, apt get) on a daily basis",
         "I love <a href='https://www.instagram.com/p/CuSQ-t-urM4/' target='_blank'>crystals</a> and gems.<br/>One of the things I love about the Pokémon Terapagos is the Terastal effect, which is about colored crystals shining and bringing effects/powers/blesses!",
-        "Em 2011, meu apelido era 'come-mosca': porque eu passava o recreio na frente das lixeiras recicláveis, literalmente me sentindo lixo",
         "Em 2005, meu apelido era 'troca-letras': porque eu falava 'alaçá' invés de 'araçá' e 'zonatan' invés de 'jonatan'",
         "Frequente que eu misturo a Língua Portuguesa com a Inglesa, como se ambas fizessem parte de um único idioma nativo pra mim",
         "Época do ano favorita: Natal (pelas reuniões, pelo clima, pelas festas, pela comida, pelas luzes, pelas músicas de harpa humildes simples e alegres). Pra mim o verdadeiro Natal é dia 24 (sera que so brasileires q sao assim?), dia 25 sendo só uma sobra das festas do dia anterior",
         "Meu gosto pelo sono é um paradoxo: quando estou em uma época triste, não vejo a hora de ir dormir; e quando estou em época feliz, não gosto de dormir pq é a sensação como se eu fosse ir deixar de existir mesmo que por umas horas",
         "Prefiro calor do que frio, aliás detesto frio, é como se a energia dos meus átomos sumisse",
         "Since 2010, I love to draw 'Pokémons' and <a href='https://www.instagram.com/idanimesq/p/C1yalHTO78P/' target='_blank'>never stopped</a> since then",
-        "Sou virgem (escrevi isso em 21/09/2024, e acho que vai valer pra 2025) - eu não tô me referindo à signo tá kkkkk eu tb sou BVL (perdi meu BV lá por 2004, eu tinha 6/7 anos e a maiara tinha 9 - mas o BVL nunca aconteceu)",
-        "Nunca fumei, nem ao menos cigarro (e não pretendo pq amo meus plumão e quero viver tanto quanto um <a href='https://www.pokemon.com/br/pokedex/terapagos' target='_blank'>Terapagos</a>)! Sim, as 💩 q já fiz tds fui eu mesma",
         "Sou 2 dias (**DIAS**) mais velha que a apresentadora Ana Clara da Globo (nasci 9 de Abril de 1997 e ela 11 de Abril). <small>Não contem nada sobre esses dias (9, 11) de nascimento pro <a href='https://www.tiktok.com/@shottz.editzx/video/7277723958072380678' target='_blank'>Celso Portiolli</a></small>!",
         "Nasci 4 dias após entrar no ar o Planeta Xuxa",
         "Antes de ser feito ultrassom, minha família queria que viesse uma menina, e minha mãe queria chamar de Débora então Dandara (pra letra D combinar com os 2 irmãos já nascidos)",
-        "Quando eu era criança e via propagandas da Tecnomania na TV, era meu sonho que meu pai algum dia comprasse uma câmera para eu poder me filmar e apresentar programas. Isso fez eu sonhar até mesmo em ter uma podreira de Tecpix (já sonhei na infância 2 vezes que eu estava com uma câmera, e uma delas foi uma Tecpix)"
+        "Quando eu era criança e via propagandas da Tecnomania na TV, era meu sonho que meu pai algum dia comprasse uma câmera para eu poder me filmar e apresentar programas. Isso fez eu sonhar em ter até mesmo uma podreira de Tecpix (já sonhei na infância 2 vezes que eu estava com uma câmera, e uma delas foi uma Tecpix)",
+        "Eu nasci no mesmo ano em que minha cidade natal Cascavel ganhou seu maior símbolo: em 1997, as <a href='https://www.tiktok.com/@shottz.editzx/video/7277723958072380678' target='_blank'>torres</a> gêmeas do <a href='https://centralparkcascavel.com.br' target='_blank'>Central Park</a>"
     ],
     habits: [
         "Andar pra lá e pra cá enquanto imagino momentos felizes que nunca irão acontecer, e também ideias para projetos de artísticos à tecnológicos",
@@ -39,7 +37,8 @@ const textCollections = {
         "Brisa e calor de cidade litorânea (te amo Itajaí - te detestava em 2015, te amo Matinhos)",
         "Saber que tem salgadinho no armário, como Fandangos e Cheetos",
         "Ventinho fresco entrando pela janela (infelizmente com essas queimadas sendo causadas pelo Brasil, mais um sonho meu - e agora do país todo junto - foi frustrado",
-        "Tirar futinha 📸 bonita dps de sair do banho e pentear meu cabelo🥰"
+        "Tirar futinha 📸 bonita dps de sair do banho e pentear meu cabelo🥰",
+        "Morar em casa de madeira, quentinha e bem ventilada"
     ],
     happenings: [
         "Em 2017, de tanto viajar entre Curitiba e Itajaí/Blumenau (subindo e descendo serra, ficando com falta de ar e formigamento), hoje em dia sinto dificuldade de saber de qual direção um som mais ou menos distante vem (piorou em 2023/2024, acho que com contribuição da DTM)",
@@ -89,7 +88,16 @@ const textCollections = {
         "Se tem algo em uma cozinha que me aterroriza é Wasabi, pq em 2017 num shopping de Blumenau eu taquei no meu prato sem saber o que era e tive um faniquito quando comi tive que correr assoar foi o caos rebosteio dos plumão, entao eu nunca mais quis saber mesmo sabendo que dessa vez da forma certa/moderada a experiência poderia ser diferente",
         "Meus miojos favoritos são: galinha caipira, seafood e de pimenta (não gosto de miojo com carne nem com ovo - ao contrário da minha irmã; o único miojo misturado que aprendi a gostar é o CupNoodles Seafood)",
         "Adoro ovo com a gema vermelhinha cremosinha quase líquida",
-        "Um alimento nostálgico que nunca mais vou ver: uma bolacha Passatempo que eu comia quando chegava da pré-escola Kurumin lá por 2002 (as datas batem porque naquela época eu via passando o Mundo da Imaginação na Globo), tinha uns relevos/bordas pratas e uns desenhos tipo Mickey e eu comia junto com Chocomilk enquanto eu assistia desenho na TV à cabo (era Cartoon Network ou Discovery Kids). Eu sinto o gosto dessa época mds 😭 acho até q foi aí que encasquetei que preciso de líquido pra comer bolacha :P"
+        "Um alimento nostálgico que nunca mais vou ver: uma bolacha Passatempo que eu comia quando chegava da pré-escola Kurumin lá por 2002 (as datas batem porque naquela época eu via passando o Mundo da Imaginação na Globo), era redonda/circular, tinha uns desenhos tipo Mickey em relevos/bordas pratas e eu comia junto com Chocomilk enquanto eu assistia desenho na TV à cabo (era Cartoon Network ou Discovery Kids). Eu sinto o gosto dessa época mds 😭 acho até q foi aí que encasquetei que preciso de líquido pra comer bolacha :P",
+        "Eu adorava a salada de alface e farofa de ovos que meu pai fazia. São os únicos alimentos que lembro dele fazendo, mas esse pouco que ele fazia, fazia bem! Acho que eu gostava tanto por ele gostar de colocar muito sal 😬",
+        "Não ligo muito se um alimento tem pouco sal (à menos se for salada de alface)",
+        "Pra mim é tranquilo comer alimento frio (mas salgadinho prefiro quente)"
+    ],
+    curiositiesEmbarassing: [
+        "Em 2011, meu apelido era 'come-mosca': porque eu passava o recreio na frente das lixeiras recicláveis, literalmente me sentindo lixo",
+        "Sou virgem (escrevi isso em 21/09/2024, e acho que vai valer pra 2025) - eu não tô me referindo à signo tá kkkkk eu tb sou BVL (perdi meu BV lá por 2004, eu tinha 6/7 anos e a maiara tinha 9 - mas o BVL nunca aconteceu)",
+        "Nunca fumei, nem ao menos cigarro (e não pretendo pq amo meus plumão e quero viver tanto quanto um <a href='https://www.pokemon.com/br/pokedex/terapagos' target='_blank'>Terapagos</a>)! Sim, as 💩 q já fiz tds fui eu mesma",
+        "De todos os crush que tive na minha vida, nunca aconteceu de eu 'me tocar' pensando nessa pessoa. Acho que porque o que me atraiu nunca foi o físico"
     ]
 };
 
@@ -157,7 +165,7 @@ function attachListeners(category) {
 // Initialize the script on page load
 window.onload = () => {
     console.log("Window loaded, initializing categories.");
-    ["curiosities", "habits", "comfy", "happenings", "food"].forEach((category) => {
+    ["curiosities", "habits", "comfy", "happenings", "food", "curiositiesEmbarassing"].forEach((category) => {
         pickRandomText(category); // Display random text on load
         attachListeners(category); // Attach button event listeners
     });

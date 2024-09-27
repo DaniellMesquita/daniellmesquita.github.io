@@ -1,0 +1,3 @@
+migrate my site to React, after Tami Factory is fully done: to make it intuitive (for example /card will show the index links right on the header, in a beautiful way) and multi-language. GitHub->Vercel/Fleek; keep backup.danimesq.com being on GH Pages
+
+/card: move HRT mosaics to own section, making the mosaic something more generalized

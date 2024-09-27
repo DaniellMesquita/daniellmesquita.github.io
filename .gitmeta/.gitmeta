@@ -1,12 +1,12 @@
-commit QmWUrdodh3pz4eAAmi6itkwExinwNKxhHmiQn5oFLYNaed
+commit QmPaqGsFo2FovjU2vcevr7VhZQ9pGi1eKidtZaVHLuUkwH
 Branch: main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: ff9403458f8c1137b73de142d1fa9208c5759d25318ce2a025a72de27e0474b76bb0c2f9be3704476ce29993ea2377b4ae700b954f67d91c4ca40306090fdd3d00
+Signature: 620fd876a345862a549675f195054f44c87f46fed0bc1d53248369ad32278d5d5ec663e7592fbe6108476d97bec7c1d099a08e9c18a3584afb089fcac195000301
 
 ------------------------------
 
-Commit CID if including git's SHA1: Qmf6HLTPffMerJ4wjWx3QyaLHuHCCBXvnpasMNfXiKbevd
-Commit CID if containing only file hashes: QmX6y2PWevkxMgttTDCmEhHT74L1zE2DiMRYK8DnbnMswg
+Commit CID if including git's SHA1: QmWdRVJQH4KDvE5pe4whnaADWv1USzoxaa3YvYFZxYVgby
+Commit CID if containing only file hashes: QmQak3A5oG6qJrmYrb5W5mujVr5cCszq1nf5z8CTbuMkv3
 
 ------------------------------
 
@@ -17,55 +17,31 @@ Remote URL: /media/daniella/44281591-5347-4eba-89a4-559db4e045c0/ConstantBackup/
 
 ------------------------------
 
+chown -h 1000:1000 'TasksReact.txt'
+chmod 0664 'TasksReact.txt'
+/usr/bin/touch -hcmd "2024-09-26 21:44:19.8588723000 -0300" 'TasksReact.txt'
+/usr/bin/touch -hcad "2024-09-26 21:45:10.2411044000 -0300" 'TasksReact.txt'
+chown -h 1000:1000 'card/Tasks.txt'
+chmod 0664 'card/Tasks.txt'
+/usr/bin/touch -hcmd "2024-09-26 21:42:52.5096254000 -0300" 'card/Tasks.txt'
+/usr/bin/touch -hcad "2024-09-26 21:45:35.3691642000 -0300" 'card/Tasks.txt'
 chown -h 1000:1000 'card/index.html'
 chmod 0755 'card/index.html'
-/usr/bin/touch -hcmd "2024-09-24 01:04:14.4062390000 -0300" 'card/index.html'
-/usr/bin/touch -hcad "2024-09-24 01:04:17.4324195000 -0300" 'card/index.html'
+/usr/bin/touch -hcmd "2024-09-26 21:38:38.7557563000 -0300" 'card/index.html'
+/usr/bin/touch -hcad "2024-09-26 21:38:40.1928645000 -0300" 'card/index.html'
 chown -h 1000:1000 'card/js/randomtexts.js'
 chmod 0664 'card/js/randomtexts.js'
-/usr/bin/touch -hcmd "2024-09-23 01:00:20.1586003000 -0300" 'card/js/randomtexts.js'
-/usr/bin/touch -hcad "2024-09-24 00:28:44.1044585000 -0300" 'card/js/randomtexts.js'
-chown -h 1000:1000 'img/photos/.folderstamp3'
-chmod 0755 'img/photos/.folderstamp3'
-/usr/bin/touch -hcmd "2024-09-24 00:09:58.7100000000 -0300" 'img/photos/.folderstamp3'
-/usr/bin/touch -hcad "2024-09-24 01:02:09.9448010000 -0300" 'img/photos/.folderstamp3'
-chown -h 1000:1000 'img/photos/.folderstamp3.log.html5'
-chmod 0755 'img/photos/.folderstamp3.log.html5'
-/usr/bin/touch -hcmd "2024-09-24 00:10:26.9500000000 -0300" 'img/photos/.folderstamp3.log.html5'
-/usr/bin/touch -hcad "2024-09-24 01:02:09.9888044000 -0300" 'img/photos/.folderstamp3.log.html5'
-chown -h 1000:1000 'img/photos/.folderstamp4'
-chmod 0755 'img/photos/.folderstamp4'
-/usr/bin/touch -hcmd "2024-09-24 00:12:32.9400000000 -0300" 'img/photos/.folderstamp4'
-/usr/bin/touch -hcad "2024-09-24 01:02:10.0058057000 -0300" 'img/photos/.folderstamp4'
-chown -h 1000:1000 'img/photos/.folderstamp4.log.html5'
-chmod 0755 'img/photos/.folderstamp4.log.html5'
-/usr/bin/touch -hcmd "2024-09-24 00:13:23.8100000000 -0300" 'img/photos/.folderstamp4.log.html5'
-/usr/bin/touch -hcad "2024-09-24 01:02:10.0288075000 -0300" 'img/photos/.folderstamp4.log.html5'
-chown -h 1000:1000 'img/photos/20240828_005100.jpg'
-chmod 0755 'img/photos/20240828_005100.jpg'
-/usr/bin/touch -hcmd "2024-08-28 00:51:03.0000000000 -0300" 'img/photos/20240828_005100.jpg'
-/usr/bin/touch -hcad "2024-09-24 00:12:40.5059036000 -0300" 'img/photos/20240828_005100.jpg'
-chown -h 1000:1000 'img/photos/20240912_201333.jpg'
-chmod 0755 'img/photos/20240912_201333.jpg'
-/usr/bin/touch -hcmd "2024-09-12 20:13:35.0000000000 -0300" 'img/photos/20240912_201333.jpg'
-/usr/bin/touch -hcad "2024-09-24 00:12:40.5369036000 -0300" 'img/photos/20240912_201333.jpg'
-chown -h 1000:1000 'img/photos/20240922_220753.jpg'
-chmod 0755 'img/photos/20240922_220753.jpg'
-/usr/bin/touch -hcmd "2024-09-22 22:07:55.0000000000 -0300" 'img/photos/20240922_220753.jpg'
-/usr/bin/touch -hcad "2024-09-24 00:12:40.5219036000 -0300" 'img/photos/20240922_220753.jpg'
-chown -h 1000:1000 'img/photos/20240922_221401.jpg'
-chmod 0755 'img/photos/20240922_221401.jpg'
-/usr/bin/touch -hcmd "2024-09-22 22:14:02.0000000000 -0300" 'img/photos/20240922_221401.jpg'
-/usr/bin/touch -hcad "2024-09-24 00:12:40.5539036000 -0300" 'img/photos/20240922_221401.jpg'
-chown -h 1000:1000 'img/photos/20240922_222755.jpg'
-chmod 0755 'img/photos/20240922_222755.jpg'
-/usr/bin/touch -hcmd "2024-09-22 22:27:56.0000000000 -0300" 'img/photos/20240922_222755.jpg'
-/usr/bin/touch -hcad "2024-09-24 00:12:40.8109035000 -0300" 'img/photos/20240922_222755.jpg'
-chown -h 1000:1000 'img/photos/IMG_20240922_014642_949.jpg'
-chmod 0755 'img/photos/IMG_20240922_014642_949.jpg'
-/usr/bin/touch -hcmd "2024-09-22 01:46:43.0000000000 -0300" 'img/photos/IMG_20240922_014642_949.jpg'
-/usr/bin/touch -hcad "2024-09-24 00:14:25.3998822000 -0300" 'img/photos/IMG_20240922_014642_949.jpg'
-chown -h 1000:1000 'img/photos/IMG_20240922_015227_137.jpg'
-chmod 0755 'img/photos/IMG_20240922_015227_137.jpg'
-/usr/bin/touch -hcmd "2024-09-22 01:52:27.0000000000 -0300" 'img/photos/IMG_20240922_015227_137.jpg'
-/usr/bin/touch -hcad "2024-09-24 00:14:25.6498821000 -0300" 'img/photos/IMG_20240922_015227_137.jpg'
+/usr/bin/touch -hcmd "2024-09-26 21:33:03.7234902000 -0300" 'card/js/randomtexts.js'
+/usr/bin/touch -hcad "2024-09-26 21:33:33.0285776000 -0300" 'card/js/randomtexts.js'
+chown -h 1000:1000 'home/index.html'
+chmod 0755 'home/index.html'
+/usr/bin/touch -hcmd "2024-09-26 20:04:13.5125723000 -0300" 'home/index.html'
+/usr/bin/touch -hcad "2024-09-26 20:04:26.3225900000 -0300" 'home/index.html'
+chown -h 1000:1000 'img/social/bluesky.svg'
+chmod 0664 'img/social/bluesky.svg'
+/usr/bin/touch -hcmd "2024-09-22 11:18:08.8067405000 -0300" 'img/social/bluesky.svg'
+/usr/bin/touch -hcad "2024-09-26 20:04:26.7715908000 -0300" 'img/social/bluesky.svg'
+chown -h 1000:1000 'personal/index.html'
+chmod 0755 'personal/index.html'
+/usr/bin/touch -hcmd "2024-09-26 21:41:19.5654954000 -0300" 'personal/index.html'
+/usr/bin/touch -hcad "2024-09-26 21:41:23.8487473000 -0300" 'personal/index.html'
